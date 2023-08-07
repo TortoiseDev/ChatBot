@@ -1,0 +1,18 @@
+{
+    "messages": [
+        {
+            "Question": "How are you doing today?",
+            "Answers": {
+                "Answer0": "Doing great!!",
+                "Answer1": "I am swell, thanks for asking.",
+                "Answer2": "Amazing now that you are talking to me.",
+                "Answer3": "Wonderful!! it's a great day to be alive!"
+            },
+            "Friendly": 9,
+            "Hateful": 0,
+            "Positive": 9,
+            "Negative": 0,
+            "Context": 0
+        }
+    ]
+}
