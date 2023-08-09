@@ -13,6 +13,18 @@
             "Positive": 9,
             "Negative": 0,
             "Context": 0
+        },
+        {
+            "Question": "How is the weather?",
+            "Answers": {
+                "Answer0": "It's pretty good.",
+                "Answer1": "Kinda hot but nothing too bad."
+            },
+            "Friendly": 8,
+            "Hateful": 0,
+            "Positive": 7,
+            "Negative": 1,
+            "Context": 1
         }
     ]
 }

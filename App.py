@@ -55,7 +55,21 @@ def subjectAction(subject : str, verb : str, object :str) -> str:
 def getAttributes(message : str) -> dict:
     pass
 
+def createDataSet()->None:
+    with open("Data/dialogs.txt","r") as f:
+        text :str = f.read()
+        textLines :list = text.split("\n")
+    data : list= []
+    jsonFile = open("Data/trainingData.json","r")
+    jsonData = json.load(jsonFile)
+    for pair in textLines:
+        lines : list = pair.split("\t")
+        if len(lines) == 2:
+            jsonData["Messages"].append({"Question":lines[0],"Answer":lines[1]})
 
+    with open("Data/trainingData.json","w") as f:
+        json.dump(jsonData,f,indent=4)
+    print("Done")
     
 MODE : str = input("'Train' the chat or Have a 'fun' chat? \n")
 
