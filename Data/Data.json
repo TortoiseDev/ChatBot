@@ -25,6 +25,24 @@
             "Positive": 7,
             "Negative": 1,
             "Context": 1
+        },
+        {
+            "Question": "hi, how are you doing?",
+            "Answers": "i'm fine. how about yourself?",
+            "Friendly": 9,
+            "Hateful": 0,
+            "Positive": 8,
+            "Negative": 0,
+            "Context": 0
+        },
+        {
+            "Question": "i'm fine. how about yourself?",
+            "Answers": "i'm pretty good. thanks for asking.",
+            "Friendly": 9,
+            "Hateful": 0,
+            "Positive": 8,
+            "Negative": 0,
+            "Context": 0
         }
     ]
 }

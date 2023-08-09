@@ -1,4 +1,5 @@
-import json 
+import json
+from math import sqrt 
 
 def Train() -> None:
     while True:
@@ -22,7 +23,7 @@ def Train() -> None:
 
         if "!!end" in msg_USER_INPUT:
             return
-        print("Rate the message from Friendly, Vulgar, Loving, Boring, Positive, Negative:")
+        print("Rate the message from Friendly, Vulgar, Positive, Negative:")
         val_FRIENDLY = int(input("Friendly: "))
         val_VULGAR = int(input("Vulgar: "))
         val_POSITIVE = int(input("Positive: "))
@@ -42,6 +43,38 @@ def Train() -> None:
             json.dump(data,f,indent=4)
         print("Message Written!")    
 
+def TrainFromDataSet()->None:
+    jsonFile = open("Data/Data.json","r")
+    trainingFile = open("Data/trainingData.json","r")
+    data : dict = json.load(jsonFile)
+    trainingData : list = json.load(trainingFile)["Messages"]
+    val_FRIENDLY : int = 0
+    val_VULGAR : int = 0
+    val_POSITIVE : int = 0
+    val_NEGATIVE : int = 0
+    val_CONTEXT : int = 0
+
+    for pair in trainingData:
+        print(pair["Question"])
+        print("Rate the message from Friendly, Vulgar, Positive, Negative:")
+        val_FRIENDLY = int(input("Friendly: "))
+        val_VULGAR = int(input("Vulgar: "))
+        val_POSITIVE = int(input("Positive: "))
+        val_NEGATIVE = int(input("Negative: "))
+        val_CONTEXT = int(input("Context: "))
+        messRate: dict= {
+            "Question": pair["Question"],
+            "Answers":pair["Answer"],
+            "Friendly":val_FRIENDLY,
+            "Hateful":val_VULGAR,
+            "Positive":val_POSITIVE,
+            "Negative":val_NEGATIVE,
+            "Context" : val_CONTEXT
+        }
+        data["messages"].append(messRate)
+        with open("Data/Data.json","w") as f:
+            json.dump(data,f,indent=4)
+        print("Message Written!")    
 
 def getData() -> any:
     pass       
@@ -54,6 +87,18 @@ def subjectAction(subject : str, verb : str, object :str) -> str:
 
 def getAttributes(message : str) -> dict:
     pass
+
+def membership(messageValues : dict) -> str:
+    clusterFile = open("Data/clusters.json","r")
+    distances : dict = {}
+    for cluster in json.load(clusterFile)["Clusters"]:
+        distance : float= sqrt((cluster["Friendly"]-messageValues["Friendly"])**2 +(cluster["Vulgar"]-messageValues["Vulgar"])**2+(cluster["Positive"]-messageValues["Positive"])**2+(cluster["Negative"]-messageValues["Negative"])**2+(cluster["Context"]-messageValues["Context"])**2)
+        distances.update({distance : cluster["ID"]})
+    leastDistance : float= float("inf")
+    for distance in distances:
+        if distance < leastDistance:
+            leastDistance = distance
+    return distances.get(leastDistance)
 
 def createDataSet()->None:
     with open("Data/dialogs.txt","r") as f:
@@ -75,7 +120,7 @@ MODE : str = input("'Train' the chat or Have a 'fun' chat? \n")
 
 if MODE == "Train":
     print("Training Mode on")
-    Train()
+    TrainFromDataSet()
 
 elif MODE == "fun":
     print("Chat mode selected")
