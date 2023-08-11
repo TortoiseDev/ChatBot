@@ -1,5 +1,6 @@
 import json
 from math import sqrt 
+import difflib
 
 def Train() -> None:
     while True:
@@ -88,9 +89,50 @@ def subjectAction(subject : str, verb : str, object :str) -> str:
     pass
 
 def getAttributes(message : str) -> dict:
-    pass
+    with open("Data/Data.json" ,"r") as f:
+        data : list = json.load(f)["messages"]
+        prompts : dict = {}
+        for promptData in data:
+            prompt : str = promptData["Question"]
+            promptDict : dict = {
+                "Friendly":promptData['Friendly'],
+                "Hateful":promptData['Hateful'],
+                "Positive":promptData['Positive'],
+                "Negative":promptData['Negative'],
+                "Context" : promptData['Context']
+            }
+            prompts.update({prompt:promptDict})
+    matches : list = difflib.get_close_matches(message,prompts.keys(),n=int(len(data)*1/2.9),cutoff=0.5)
+    matchesSim : dict = {}
+    for match in matches:
+        similarity = difflib.SequenceMatcher(None,message,match).ratio()
+        matchesSim.update({match:similarity})
 
-def membership(messageValues : dict) -> str:
+    def getValues(prompts:dict,matchesSim : dict) -> dict:
+        totalDenum : float = 0
+        friendlyTotal : float = 0
+        hatefulTotal : float = 0
+        positiveTotal : float = 0
+        negativeTotal : float = 0
+        contextTotal : float = 0
+        for message,sim in matchesSim.items():
+            friendlyTotal += prompts[message]["Friendly"]*sim
+            hatefulTotal += prompts[message]["Hateful"]*sim
+            positiveTotal += prompts[message]["Positive"]*sim
+            negativeTotal += prompts[message]["Negative"]*sim
+            contextTotal += prompts[message]["Context"]*sim
+            totalDenum += sim
+        return{
+            "Friendly":friendlyTotal/totalDenum,
+            "Hateful":hatefulTotal/totalDenum,
+            "Positive":positiveTotal/totalDenum,
+            "Negative":negativeTotal/totalDenum,
+            "Context": contextTotal/totalDenum 
+        }
+    return getValues(prompts,matchesSim)
+        
+
+def membership(messageValues : dict) -> float:
     trainedDataFile = open("Data/Data.json","r")
     distances : dict = {}
     for cluster in json.load(trainedDataFile)["messages"]:
@@ -137,7 +179,6 @@ def createDataSet()->None:
     with open("Data/dialogs.txt","r") as f:
         text :str = f.read()
         textLines :list = text.split("\n")
-    data : list= []
     jsonFile = open("Data/trainingData.json","r")
     jsonData = json.load(jsonFile)
     for pair in textLines:
@@ -169,4 +210,5 @@ elif MODE == "fun":
             "Context" : 2
         
     }
-    membership(testData)
+    # membership(testData)
+    print(getAttributes("Hiii, how are you"))
