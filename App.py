@@ -1,6 +1,5 @@
 import json
 from math import sqrt 
-import difflib
 import random
 from ngram import NGram
 
@@ -155,14 +154,20 @@ def getAttributes(message : str) -> dict:
     return values
         
 def getMatches(text: str, possibilities: list, n: int, cutoff : float= 0.6 ):
-    ngram = NGram(n=3)
-    textGram = set(ngram.ngrams(text))
+    ngram3 = NGram(n=2)
+    ngram4 = NGram(n=4)
+    textGram = set(ngram3.ngrams(text))
+    textGram4 = set(ngram4.ngrams(text))
     similarText : dict = {}
     for possiblity in possibilities:
-        possibleNgram = set(ngram.ngrams(possiblity))
+        possibleNgram = set(ngram3.ngrams(possiblity))
+        possibleNgram4 = set(ngram4.ngrams(possiblity))
         intersection = textGram.intersection(possibleNgram)
+        intersection4 = textGram4.intersection(possibleNgram4)
         similarity = len(intersection) / len(textGram)
-        similarText.update({similarity:possiblity})
+        similarity4 = len(intersection4) / len(textGram4)
+        finalSim = (0.7*similarity) + (0.3*similarity4)
+        similarText.update({finalSim:possiblity})
 
     similarities : list = sorted(similarText.keys())
     similarities.reverse()
