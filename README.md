@@ -1,8 +1,8 @@
 # ChatBot
 This an intro to AI project where we use fuzzy logic and KNN to build a simple chatbot
 ## To-Do
-- [x] Make fuzzy context identifier
-- [x] Make KNN based on F,V,P,N
+- [X] Make fuzzy context identifier
+- [X] Make KNN based on F,V,P,N
 - [ ] Make a facts part where the bot can ask about defined facts
 - [ ] Make functions to fetch and process facts
 - [ ] Make a genetic algorithm that generates responses from already given responses
