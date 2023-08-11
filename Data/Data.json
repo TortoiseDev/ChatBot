@@ -8,10 +8,10 @@
                 "Answer2": "Amazing now that you are talking to me.",
                 "Answer3": "Wonderful!! it's a great day to be alive!"
             },
-            "Friendly": 9,
-            "Hateful": 0,
-            "Positive": 9,
-            "Negative": 0,
+            "Friendly": 0.9,
+            "Hateful": 0.0,
+            "Positive": 0.9,
+            "Negative": 0.0,
             "Context": 0
         },
         {
@@ -20,27 +20,45 @@
                 "Answer0": "It's pretty good.",
                 "Answer1": "Kinda hot but nothing too bad."
             },
-            "Friendly": 8,
+            "Friendly": 0.8,
             "Hateful": 0,
-            "Positive": 7,
-            "Negative": 1,
-            "Context": 1
+            "Positive": 0.7,
+            "Negative": 0.1,
+            "Context": 10
         },
         {
             "Question": "hi, how are you doing?",
             "Answers": "i'm fine. how about yourself?",
-            "Friendly": 9,
+            "Friendly": 0.9,
             "Hateful": 0,
-            "Positive": 8,
+            "Positive": 0.8,
             "Negative": 0,
             "Context": 0
         },
         {
             "Question": "i'm fine. how about yourself?",
             "Answers": "i'm pretty good. thanks for asking.",
-            "Friendly": 9,
+            "Friendly": 0.9,
             "Hateful": 0,
-            "Positive": 8,
+            "Positive": 0.8,
+            "Negative": 0,
+            "Context": 0
+        },
+        {
+            "Question": "i'm pretty good. thanks for asking.",
+            "Answers": "no problem. so how have you been?",
+            "Friendly": 0.8,
+            "Hateful": 0,
+            "Positive": 0.9,
+            "Negative": 0,
+            "Context": 0
+        },
+        {
+            "Question": "no problem. so how have you been?",
+            "Answers": "i've been great. what about you?",
+            "Friendly": 0.9,
+            "Hateful": 0,
+            "Positive": 0.6,
             "Negative": 0,
             "Context": 0
         }

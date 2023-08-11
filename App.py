@@ -53,9 +53,9 @@ def TrainFromDataSet()->None:
     val_POSITIVE : int = 0
     val_NEGATIVE : int = 0
     val_CONTEXT : int = 0
-
-    for pair in trainingData:
-        print(pair["Question"])
+    index = int(open("Data/dataIndex.txt","r").read())
+    for i in range(index,len(trainingData)):
+        print(trainingData[i]["Question"])
         print("Rate the message from Friendly, Vulgar, Positive, Negative:")
         val_FRIENDLY = int(input("Friendly: "))
         val_VULGAR = int(input("Vulgar: "))
@@ -63,17 +63,19 @@ def TrainFromDataSet()->None:
         val_NEGATIVE = int(input("Negative: "))
         val_CONTEXT = int(input("Context: "))
         messRate: dict= {
-            "Question": pair["Question"],
-            "Answers":pair["Answer"],
-            "Friendly":val_FRIENDLY,
-            "Hateful":val_VULGAR,
-            "Positive":val_POSITIVE,
-            "Negative":val_NEGATIVE,
+            "Question": trainingData[i]["Question"],
+            "Answers":trainingData[i]["Answer"],
+            "Friendly":val_FRIENDLY/10,
+            "Hateful":val_VULGAR/10,
+            "Positive":val_POSITIVE/10,
+            "Negative":val_NEGATIVE/10,
             "Context" : val_CONTEXT
         }
         data["messages"].append(messRate)
         with open("Data/Data.json","w") as f:
             json.dump(data,f,indent=4)
+        with open("Data/dataIndex.txt","w") as f:
+            f.write(str(int(i+1)))
         print("Message Written!")    
 
 def getData() -> any:
@@ -89,16 +91,47 @@ def getAttributes(message : str) -> dict:
     pass
 
 def membership(messageValues : dict) -> str:
-    clusterFile = open("Data/clusters.json","r")
+    trainedDataFile = open("Data/Data.json","r")
     distances : dict = {}
-    for cluster in json.load(clusterFile)["Clusters"]:
-        distance : float= sqrt((cluster["Friendly"]-messageValues["Friendly"])**2 +(cluster["Vulgar"]-messageValues["Vulgar"])**2+(cluster["Positive"]-messageValues["Positive"])**2+(cluster["Negative"]-messageValues["Negative"])**2+(cluster["Context"]-messageValues["Context"])**2)
-        distances.update({distance : cluster["ID"]})
-    leastDistance : float= float("inf")
-    for distance in distances:
-        if distance < leastDistance:
-            leastDistance = distance
-    return distances.get(leastDistance)
+    for cluster in json.load(trainedDataFile)["messages"]:
+        distance : float= sqrt((cluster["Friendly"]-messageValues["Friendly"])**2 +(cluster["Hateful"]-messageValues["Hateful"])**2+(cluster["Positive"]-messageValues["Positive"])**2+(cluster["Negative"]-messageValues["Negative"])**2+(cluster["Context"]-messageValues["Context"])**2)
+        distances.update({distance : cluster["Context"]})
+    distancesSorted : list = sorted(distances.keys())
+    totalItems : int = len(distances)
+    k : int = int(totalItems*1/3)
+    leastDistances : list = []
+    totalDistance : float= 0
+    for i in range(0,len(distancesSorted)):
+        if i < k:
+            leastDistances.append(distancesSorted[i])
+        totalDistance += distancesSorted[i]
+
+    def getMostRepeatedCluster(leastDistances : list, distancesAndClusters : dict) -> float:
+        clustersAndRepetion : dict = {}
+        for distance in leastDistances:
+            cluster = distancesAndClusters.get(distance)
+            if cluster not in clustersAndRepetion:
+                clustersAndRepetion.update({cluster:1})
+            else:
+                num : int = clustersAndRepetion.get(cluster) + 1
+                clustersAndRepetion.update({cluster: num})
+        mostReapeated : float = 0
+        mostCluster : float = 0
+        for cluster,rep in clustersAndRepetion.items():
+            if rep > mostReapeated:
+                mostReapeated = rep
+                mostCluster = cluster
+        return mostCluster
+    
+    cluster = getMostRepeatedCluster(leastDistances,distances)
+    thisClusterDistance : int = 0
+    for distance,c in distances.items():
+        if c == cluster:
+            thisClusterDistance += distance
+
+    membership = 1-(thisClusterDistance/totalDistance)
+    print(f"Belongs to cluster {cluster} by membership of {membership}")
+    return cluster
 
 def createDataSet()->None:
     with open("Data/dialogs.txt","r") as f:
@@ -116,6 +149,7 @@ def createDataSet()->None:
         json.dump(jsonData,f,indent=4)
     print("Done")
     
+
 MODE : str = input("'Train' the chat or Have a 'fun' chat? \n")
 
 if MODE == "Train":
@@ -124,3 +158,15 @@ if MODE == "Train":
 
 elif MODE == "fun":
     print("Chat mode selected")
+    testData = {
+        
+            "Question": 0,
+            "Answers":0,
+            "Friendly":0.7,
+            "Hateful":0.0,
+            "Positive":0.7,
+            "Negative":0.0,
+            "Context" : 2
+        
+    }
+    membership(testData)
