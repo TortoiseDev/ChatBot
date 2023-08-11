@@ -1,7 +1,27 @@
 import json
 from math import sqrt 
 import difflib
+import random
+from ngram import NGram
 
+starterData : dict = {
+    "Friendly":0,
+    "Hateful":0,
+    "Positive":0,
+    "Negative":0,
+    "Context" : 0
+}
+starterChat : dict = {
+    "Friendly":0,
+    "Hateful":0,
+    "Positive":0,
+    "Negative":0,
+    "Context" : 0
+}
+botHasSpoken : int = 0
+userHasSpoken : int = 0
+totalChatMessages : int = 0
+totalMessages : int = 0
 def Train() -> None:
     while True:
         jsonFile = open("Data/Data.json","r")
@@ -88,12 +108,13 @@ def selfAction(verb : str,object: str ) -> str:
 def subjectAction(subject : str, verb : str, object :str) -> str:
     pass
 
+
 def getAttributes(message : str) -> dict:
     with open("Data/Data.json" ,"r") as f:
         data : list = json.load(f)["messages"]
         prompts : dict = {}
         for promptData in data:
-            prompt : str = promptData["Question"]
+            prompt : str = promptData["Question"].lower()
             promptDict : dict = {
                 "Friendly":promptData['Friendly'],
                 "Hateful":promptData['Hateful'],
@@ -102,25 +123,26 @@ def getAttributes(message : str) -> dict:
                 "Context" : promptData['Context']
             }
             prompts.update({prompt:promptDict})
-    matches : list = difflib.get_close_matches(message,prompts.keys(),n=int(len(data)*1/2.9),cutoff=0.5)
+    matches = getMatches(message,prompts.keys(),5,0.5)
+    if len(matches) == 0:
+        return starterData
     matchesSim : dict = {}
     for match in matches:
-        similarity = difflib.SequenceMatcher(None,message,match).ratio()
-        matchesSim.update({match:similarity})
-
+        similarity = match[0]
+        matchesSim.update({match[1]:similarity})
     def getValues(prompts:dict,matchesSim : dict) -> dict:
-        totalDenum : float = 0
-        friendlyTotal : float = 0
-        hatefulTotal : float = 0
-        positiveTotal : float = 0
-        negativeTotal : float = 0
-        contextTotal : float = 0
+        totalDenum : float = botHasSpoken*0.25 + userHasSpoken*0.25
+        friendlyTotal : float = starterData["Friendly"]*0.25 + starterChat["Friendly"]*0.25
+        hatefulTotal : float = starterData["Hateful"]*0.25 + starterChat["Hateful"]*0.25
+        positiveTotal : float = starterData["Positive"]*0.25 + starterChat["Positive"]*0.25
+        negativeTotal : float = starterData["Negative"]*0.25 + starterChat["Negative"]*0.25
+        contextTotal : float = starterData["Context"]*0.25 + starterChat["Context"]*0.25
         for message,sim in matchesSim.items():
             friendlyTotal += prompts[message]["Friendly"]*sim
             hatefulTotal += prompts[message]["Hateful"]*sim
             positiveTotal += prompts[message]["Positive"]*sim
             negativeTotal += prompts[message]["Negative"]*sim
-            contextTotal += prompts[message]["Context"]*sim
+            contextTotal += (prompts[message]["Context"]*sim)
             totalDenum += sim
         return{
             "Friendly":friendlyTotal/totalDenum,
@@ -129,9 +151,29 @@ def getAttributes(message : str) -> dict:
             "Negative":negativeTotal/totalDenum,
             "Context": contextTotal/totalDenum 
         }
-    return getValues(prompts,matchesSim)
+    values : dict = getValues(prompts,matchesSim)
+    return values
         
+def getMatches(text: str, possibilities: list, n: int, cutoff : float= 0.6 ):
+    ngram = NGram(n=3)
+    textGram = set(ngram.ngrams(text))
+    similarText : dict = {}
+    for possiblity in possibilities:
+        possibleNgram = set(ngram.ngrams(possiblity))
+        intersection = textGram.intersection(possibleNgram)
+        similarity = len(intersection) / len(textGram)
+        similarText.update({similarity:possiblity})
 
+    similarities : list = sorted(similarText.keys())
+    similarities.reverse()
+    results : list = []
+    for i in range(0,len(similarities)):
+        if i >= n:
+            break
+        if similarities[i] < cutoff:
+            break
+        results.append((similarities[i],similarText[similarities[i]]))
+    return results 
 def membership(messageValues : dict) -> float:
     trainedDataFile = open("Data/Data.json","r")
     distances : dict = {}
@@ -190,7 +232,33 @@ def createDataSet()->None:
         json.dump(jsonData,f,indent=4)
     print("Done")
     
+def updateVariables(chatVariables : dict, messageVariables : dict, totalMessages : int) -> None:
+    for var in chatVariables:
+        chatVariables[var] = (chatVariables[var] + messageVariables[var]) / totalMessages
 
+def getBestAnswer(userMessage : str) -> str:
+    messageAttributes : dict = getAttributes(userMessage)
+    messageContext : float = membership(messageAttributes)
+
+    with open("Data/Data.json",'r') as f:
+        trainedData : list = json.load(f)["messages"]
+    messagesInthisContext : dict = {}
+    for message in  trainedData:
+        if message["Context"] == messageContext:
+            messagesInthisContext.update({message['Question'].lower():message})
+    closestInThisContext : list = getMatches(userMessage,messagesInthisContext.keys(),n=2,cutoff=0.5)
+    global totalChatMessages, botHasSpoken
+    botHasSpoken = 1
+    totalChatMessages += 1
+    if len(closestInThisContext) == 0:
+        return "Sorry, I didn't quite understand that"
+    bestMessage : str = closestInThisContext[0][1]
+    updateVariables(starterChat,messagesInthisContext[bestMessage],totalChatMessages)
+    if type(messagesInthisContext[bestMessage]['Answers']) == dict:
+        return random.choice(list(messagesInthisContext[bestMessage]["Answers"].values()))
+    
+    return messagesInthisContext[bestMessage]["Answers"]
+    
 MODE : str = input("'Train' the chat or Have a 'fun' chat? \n")
 
 if MODE == "Train":
@@ -198,6 +266,7 @@ if MODE == "Train":
     TrainFromDataSet()
 
 elif MODE == "fun":
+    print(getBestAnswer(input("Enter message: ")))
     print("Chat mode selected")
     testData = {
         
@@ -210,5 +279,4 @@ elif MODE == "fun":
             "Context" : 2
         
     }
-    # membership(testData)
-    print(getAttributes("Hiii, how are you"))
+    # membership(getAttributes("hi,how is school, is the campus nice"))

@@ -4,10 +4,10 @@ import difflib
 # This will require a tuple of dict and percentage of similarity
 
 def calc(a,b,c)-> None:
-    print(((a*60/100) + (b*45/100) + (c*80/100))/(10*(60/100 + 45/100 + 80/100))*10)
+    print(((a*60/100) + (b*45/100) + (c*80/100))/((60/100 + 45/100 + 80/100)))
 
 def getValues(prompt : str, messages : list) -> dict:
     pass    
 
 
-calc(0.9,0.7,0.3)
+calc(10,10,10)

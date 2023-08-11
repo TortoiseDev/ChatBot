@@ -27,6 +27,30 @@
             "Context": 10
         },
         {
+            "Question": "How is the weather like these days?",
+            "Answers": {
+                "Answer0": "It's pretty good, keeps changing but oh well.",
+                "Answer1": "Kinda hot but nothing I can't handle."
+            },
+            "Friendly": 0.8,
+            "Hateful": 0,
+            "Positive": 0.7,
+            "Negative": 0.1,
+            "Context": 10
+        },
+        {
+            "Question": "How is the weather looking like today?",
+            "Answers": {
+                "Answer0": "It's getting more tolerable thankfully.",
+                "Answer1": "Kinda hot but nothing too bad."
+            },
+            "Friendly": 0.8,
+            "Hateful": 0,
+            "Positive": 0.7,
+            "Negative": 0.1,
+            "Context": 10
+        },
+        {
             "Question": "hi, how are you doing?",
             "Answers": "i'm fine. how about yourself?",
             "Friendly": 0.9,
@@ -61,6 +85,69 @@
             "Positive": 0.6,
             "Negative": 0,
             "Context": 0
+        },
+        {
+            "Question": "i've been great. what about you?",
+            "Answers": "i've been good. i'm in school right now.",
+            "Friendly": 0.8,
+            "Hateful": 0.0,
+            "Positive": 0.7,
+            "Negative": 0.0,
+            "Context": 0
+        },
+        {
+            "Question": "i've been good. i'm in school right now.",
+            "Answers": "what school do you go to?",
+            "Friendly": 0.7,
+            "Hateful": 0.0,
+            "Positive": 0.7,
+            "Negative": 0.0,
+            "Context": 3
+        },
+        {
+            "Question": "what school do you go to?",
+            "Answers": "i go to pcc.",
+            "Friendly": 0.7,
+            "Hateful": 0.0,
+            "Positive": 0.6,
+            "Negative": 0.0,
+            "Context": 3
+        },
+        {
+            "Question": "i go to pcc.",
+            "Answers": "do you like it there?",
+            "Friendly": 0.7,
+            "Hateful": 0.0,
+            "Positive": 0.6,
+            "Negative": 0.2,
+            "Context": 3
+        },
+        {
+            "Question": "do you like it there?",
+            "Answers": "it's okay. it's a really big campus.",
+            "Friendly": 0.7,
+            "Hateful": 0.0,
+            "Positive": 0.7,
+            "Negative": 0.1,
+            "Context": 3
+        },
+        {
+            "Question": "it's okay. it's a really big campus.",
+            "Answers": "good luck with school.",
+            "Friendly": 0.7,
+            "Hateful": 0.0,
+            "Positive": 0.8,
+            "Negative": 0.2,
+            "Context": 3
+        },
+        {
+            "Question": "good luck with school.",
+            "Answers": "thank you very much.",
+            "Friendly": 0.9,
+            "Hateful": 0.0,
+            "Positive": 0.8,
+            "Negative": 0.0,
+            "Context": 3
         }
     ]
 }
