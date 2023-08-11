@@ -20,10 +20,10 @@
                 "Answer0": "It's pretty good.",
                 "Answer1": "Kinda hot but nothing too bad."
             },
-            "Friendly": 0.8,
+            "Friendly": 0.9,
             "Hateful": 0,
             "Positive": 0.7,
-            "Negative": 0.1,
+            "Negative": 0.0,
             "Context": 10
         },
         {
@@ -44,10 +44,10 @@
                 "Answer0": "It's getting more tolerable thankfully.",
                 "Answer1": "Kinda hot but nothing too bad."
             },
-            "Friendly": 0.8,
+            "Friendly": 0.7,
             "Hateful": 0,
-            "Positive": 0.7,
-            "Negative": 0.1,
+            "Positive": 0.8,
+            "Negative": 0.0,
             "Context": 10
         },
         {
@@ -147,6 +147,69 @@
             "Hateful": 0.0,
             "Positive": 0.8,
             "Negative": 0.0,
+            "Context": 3
+        },
+        {
+            "Question": "how's it going?",
+            "Answers": "i'm doing well. how about you?",
+            "Friendly": 0.9,
+            "Hateful": 0.0,
+            "Positive": 0.7,
+            "Negative": 0.0,
+            "Context": 0
+        },
+        {
+            "Question": "i'm doing well. how about you?",
+            "Answers": "never better, thanks.",
+            "Friendly": 0.9,
+            "Hateful": 0.0,
+            "Positive": 0.9,
+            "Negative": 0.0,
+            "Context": 0
+        },
+        {
+            "Question": "never better, thanks.",
+            "Answers": "so how have you been lately?",
+            "Friendly": 0.9,
+            "Hateful": 0.0,
+            "Positive": 0.9,
+            "Negative": 0.0,
+            "Context": 0
+        },
+        {
+            "Question": "so how have you been lately?",
+            "Answers": "i've actually been pretty good. you?",
+            "Friendly": 0.9,
+            "Hateful": 0.0,
+            "Positive": 1.0,
+            "Negative": 0.0,
+            "Context": 0
+        },
+        {
+            "Question": "i've actually been pretty good. you?",
+            "Answers": "i'm actually in school right now.",
+            "Friendly": 0.8,
+            "Hateful": 0.0,
+            "Positive": 0.6,
+            "Negative": 0.2,
+            "Context": 0
+        },
+        {
+            "Question": "i'm actually in school right now.",
+            "Answers": "which school do you attend?",
+            "Friendly": 0.9,
+            "Hateful": 0.0,
+            "Positive": 0.7,
+            "Negative": 0.0,
+            "Context": 3
+        },
+        {
+            "Question": "which school do you attend?",
+            "Answers": "i'm attending pcc right now.",
+            "Friendly": 0.8,
+            "Hateful": 0.0,
+            "Positive": 0.6,
+            "Negative": 0.2,
             "Context": 3
         }
     ]

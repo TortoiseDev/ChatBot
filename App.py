@@ -76,6 +76,7 @@ def TrainFromDataSet()->None:
     index = int(open("Data/dataIndex.txt","r").read())
     for i in range(index,len(trainingData)):
         print(trainingData[i]["Question"])
+        print(trainingData[i]["Answer"])
         print("Rate the message from Friendly, Vulgar, Positive, Negative:")
         val_FRIENDLY = int(input("Friendly: "))
         val_VULGAR = int(input("Vulgar: "))
@@ -130,12 +131,12 @@ def getAttributes(message : str) -> dict:
         similarity = match[0]
         matchesSim.update({match[1]:similarity})
     def getValues(prompts:dict,matchesSim : dict) -> dict:
-        totalDenum : float = botHasSpoken*0.25 + userHasSpoken*0.25
-        friendlyTotal : float = starterData["Friendly"]*0.25 + starterChat["Friendly"]*0.25
-        hatefulTotal : float = starterData["Hateful"]*0.25 + starterChat["Hateful"]*0.25
-        positiveTotal : float = starterData["Positive"]*0.25 + starterChat["Positive"]*0.25
-        negativeTotal : float = starterData["Negative"]*0.25 + starterChat["Negative"]*0.25
-        contextTotal : float = starterData["Context"]*0.25 + starterChat["Context"]*0.25
+        totalDenum : float = 0
+        friendlyTotal : float = 0
+        hatefulTotal : float = 0
+        positiveTotal : float = 0
+        negativeTotal : float = 0
+        contextTotal : float = 0
         for message,sim in matchesSim.items():
             friendlyTotal += prompts[message]["Friendly"]*sim
             hatefulTotal += prompts[message]["Hateful"]*sim
@@ -152,10 +153,18 @@ def getAttributes(message : str) -> dict:
         }
     values : dict = getValues(prompts,matchesSim)
     return values
-        
-def getMatches(text: str, possibilities: list, n: int, cutoff : float= 0.6 ):
+def removeCommonWords(message : str) -> str:
+    commonWords : set = {"an","a","i","he","she","they","it","them","his","her","them","its",'hers','and','but','were','am','is','are','must','can','in','was','were'}
+    allWords : list = message.split(' ')
+    filteredList : list = [word for word in allWords if word.lower() not in commonWords] 
+    return ' '.join(filteredList)
+
+def getMatches(text: str, possibilities: list, n:float = float("inf"), cutoff : float= 0.6 ):
+    text = removeCommonWords(text)
     ngram3 = NGram(n=2)
     ngram4 = NGram(n=4)
+    weightOf2 : float = 0.7
+    weightOf4 : float = 0.3
     textGram = set(ngram3.ngrams(text))
     textGram4 = set(ngram4.ngrams(text))
     similarText : dict = {}
@@ -166,7 +175,7 @@ def getMatches(text: str, possibilities: list, n: int, cutoff : float= 0.6 ):
         intersection4 = textGram4.intersection(possibleNgram4)
         similarity = len(intersection) / len(textGram)
         similarity4 = len(intersection4) / len(textGram4)
-        finalSim = (0.7*similarity) + (0.3*similarity4)
+        finalSim = (weightOf2*similarity) + (weightOf4*similarity4)
         similarText.update({finalSim:possiblity})
 
     similarities : list = sorted(similarText.keys())
@@ -251,7 +260,7 @@ def getBestAnswer(userMessage : str) -> str:
     for message in  trainedData:
         if message["Context"] == messageContext:
             messagesInthisContext.update({message['Question'].lower():message})
-    closestInThisContext : list = getMatches(userMessage,messagesInthisContext.keys(),n=2,cutoff=0.5)
+    closestInThisContext : list = getMatches(userMessage,messagesInthisContext.keys(),cutoff=0.3)
     global totalChatMessages, botHasSpoken
     botHasSpoken = 1
     totalChatMessages += 1
@@ -266,22 +275,10 @@ def getBestAnswer(userMessage : str) -> str:
     
 MODE : str = input("'Train' the chat or Have a 'fun' chat? \n")
 
-if MODE == "Train":
+if MODE.lower() == "train":
     print("Training Mode on")
     TrainFromDataSet()
 
 elif MODE == "fun":
-    print(getBestAnswer(input("Enter message: ")))
-    print("Chat mode selected")
-    testData = {
-        
-            "Question": 0,
-            "Answers":0,
-            "Friendly":0.7,
-            "Hateful":0.0,
-            "Positive":0.7,
-            "Negative":0.0,
-            "Context" : 2
-        
-    }
-    # membership(getAttributes("hi,how is school, is the campus nice"))
+    while True:
+        print(getBestAnswer(input("Enter message: ")))
