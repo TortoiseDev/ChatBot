@@ -8,6 +8,7 @@ starterData : dict = {
     "Hateful":0,
     "Positive":0,
     "Negative":0,
+    "Sentiment":0,
     "Context" : 0
 }
 starterChat : dict = {
@@ -15,6 +16,7 @@ starterChat : dict = {
     "Hateful":0,
     "Positive":0,
     "Negative":0,
+    "Sentiment":0,
     "Context" : 0
 }
 botHasSpoken : int = 0
@@ -48,14 +50,16 @@ def Train() -> None:
         val_VULGAR = int(input("Vulgar: "))
         val_POSITIVE = int(input("Positive: "))
         val_NEGATIVE = int(input("Negative: "))
+        val_SENTIMENT = int(input("Sentiment: "))
         val_CONTEXT = int(input("Context: "))
         messRate: dict= {
             "Question":msg_USER_INPUT,
             "Answers":answers,
-            "Friendly":val_FRIENDLY,
-            "Hateful":val_VULGAR,
-            "Positive":val_POSITIVE,
-            "Negative":val_NEGATIVE,
+            "Friendly":val_FRIENDLY/10,
+            "Hateful":val_VULGAR/10,
+            "Positive":val_POSITIVE/10,
+            "Negative":val_NEGATIVE/10,
+            "Sentiment":val_SENTIMENT/10,
             "Context" : val_CONTEXT
         }
         data["messages"].append(messRate)
@@ -82,6 +86,7 @@ def TrainFromDataSet()->None:
         val_VULGAR = int(input("Vulgar: "))
         val_POSITIVE = int(input("Positive: "))
         val_NEGATIVE = int(input("Negative: "))
+        val_SENTIMENT = int(input("Sentiment: "))
         val_CONTEXT = int(input("Context: "))
         messRate: dict= {
             "Question": trainingData[i]["Question"],
@@ -90,6 +95,7 @@ def TrainFromDataSet()->None:
             "Hateful":val_VULGAR/10,
             "Positive":val_POSITIVE/10,
             "Negative":val_NEGATIVE/10,
+            "Sentiment":val_SENTIMENT/10,
             "Context" : val_CONTEXT
         }
         data["messages"].append(messRate)
@@ -120,10 +126,11 @@ def getAttributes(message : str) -> dict:
                 "Hateful":promptData['Hateful'],
                 "Positive":promptData['Positive'],
                 "Negative":promptData['Negative'],
+                "Sentiment":promptData['Sentiment'],
                 "Context" : promptData['Context']
             }
             prompts.update({prompt:promptDict})
-    matches = getMatches(message,prompts.keys(),5,0.5)
+    matches = getMatches(message,prompts.keys(),5,0.6)
     if len(matches) == 0:
         return starterData
     matchesSim : dict = {}
@@ -136,11 +143,13 @@ def getAttributes(message : str) -> dict:
         hatefulTotal : float = 0
         positiveTotal : float = 0
         negativeTotal : float = 0
+        sentimentTotal : float = 0
         contextTotal : float = 0
         for message,sim in matchesSim.items():
             friendlyTotal += prompts[message]["Friendly"]*sim
             hatefulTotal += prompts[message]["Hateful"]*sim
             positiveTotal += prompts[message]["Positive"]*sim
+            sentimentTotal += prompts[message]["Sentiment"]*sim
             negativeTotal += prompts[message]["Negative"]*sim
             contextTotal += (prompts[message]["Context"]*sim)
             totalDenum += sim
@@ -149,7 +158,8 @@ def getAttributes(message : str) -> dict:
             "Hateful":hatefulTotal/totalDenum,
             "Positive":positiveTotal/totalDenum,
             "Negative":negativeTotal/totalDenum,
-            "Context": contextTotal/totalDenum 
+            "Sentiment":sentimentTotal/totalDenum,
+            "Context": round(contextTotal/totalDenum) 
         }
     values : dict = getValues(prompts,matchesSim)
     return values
@@ -163,8 +173,8 @@ def getMatches(text: str, possibilities: list, n:float = float("inf"), cutoff : 
     text = removeCommonWords(text)
     ngram3 = NGram(n=2)
     ngram4 = NGram(n=4)
-    weightOf2 : float = 0.7
-    weightOf4 : float = 0.3
+    weightOf2 : float = 0.6
+    weightOf4 : float = 0.4
     textGram = set(ngram3.ngrams(text))
     textGram4 = set(ngram4.ngrams(text))
     similarText : dict = {}
@@ -192,7 +202,7 @@ def membership(messageValues : dict) -> float:
     trainedDataFile = open("Data/Data.json","r")
     distances : dict = {}
     for cluster in json.load(trainedDataFile)["messages"]:
-        distance : float= sqrt((cluster["Friendly"]-messageValues["Friendly"])**2 +(cluster["Hateful"]-messageValues["Hateful"])**2+(cluster["Positive"]-messageValues["Positive"])**2+(cluster["Negative"]-messageValues["Negative"])**2+(cluster["Context"]-messageValues["Context"])**2)
+        distance : float= sqrt((cluster["Friendly"]-messageValues["Friendly"])**2 +(cluster["Hateful"]-messageValues["Hateful"])**2+(cluster["Positive"]-messageValues["Positive"])**2+(cluster["Negative"]-messageValues["Negative"])**2+(cluster["Context"]-messageValues["Context"])**2+(cluster["Sentiment"]-messageValues["Sentiment"])**2)
         distances.update({distance : cluster["Context"]})
     distancesSorted : list = sorted(distances.keys())
     totalItems : int = len(distances)
@@ -272,13 +282,31 @@ def getBestAnswer(userMessage : str) -> str:
         return random.choice(list(messagesInthisContext[bestMessage]["Answers"].values()))
     
     return messagesInthisContext[bestMessage]["Answers"]
-    
+def selfTrain()-> None:
+    with open("Data/trainingData.json","r") as f:
+        trainingData : list = json.load(f)["Messages"]
+    with open("Data/Data.json","r") as f:
+        Data : list = json.load(f)
+    for message in trainingData:
+        messData : dict = {}
+        variables = getAttributes(message["Question"])
+        messData.update({"Question" : message["Question"]})
+        messData.update({"Answers" : message["Answer"]})
+        messData.update(variables)
+        Data["messages"].append(messData)
+        with open('Data/Data.json',"w") as f:
+            json.dump(Data,f,indent=4)
+        
 MODE : str = input("'Train' the chat or Have a 'fun' chat? \n")
 
 if MODE.lower() == "train":
     print("Training Mode on")
-    TrainFromDataSet()
-
+    # selfTrain()
+    trainMode = input("(Train) or Train from (Dataset)")
+    if trainMode.lower() == "dataset":
+        TrainFromDataSet()
+    else:
+        Train()
 elif MODE == "fun":
     while True:
         print(getBestAnswer(input("Enter message: ")))
