@@ -1,326 +1,518 @@
 {
-"messages":[
-    {
-        "Question": "How are you doing today?",
-        "Answers": {
-            "Answer0": "Doing great!!",
-            "Answer1": "I am swell, thanks for asking.",
-            "Answer2": "Amazing now that you are talking to me.",
-            "Answer3": "Wonderful!! it's a great day to be alive!"
+    "messages": [
+        {
+            "Question": "How are you doing today?",
+            "Answers": {
+                "Answer0": "Doing great!!",
+                "Answer1": "I am swell, thanks for asking.",
+                "Answer2": "Amazing now that you are talking to me.",
+                "Answer3": "Wonderful!! it's a great day to be alive!"
+            },
+            "Friendly": 0.9,
+            "Hateful": 0.0,
+            "Positive": 0.9,
+            "Negative": 0.0,
+            "Sentiment": 0.7,
+            "Context": 0
         },
-        "Friendly": 0.9,
-        "Hateful": 0.0,
-        "Positive": 0.9,
-        "Negative": 0.0,
-        "Sentiment": 0.7,
-        "Context": 0
-    },
-    {
-        "Question": "How is the weather?",
-        "Answers": {
-            "Answer0": "It's pretty good.",
-            "Answer1": "Kinda hot but nothing too bad."
+        {
+            "Question": "How is the weather?",
+            "Answers": {
+                "Answer0": "It's pretty good.",
+                "Answer1": "Kinda hot but nothing too bad."
+            },
+            "Friendly": 0.9,
+            "Hateful": 0,
+            "Positive": 0.7,
+            "Negative": 0.0,
+            "Sentiment": 0.6,
+            "Context": 10
         },
-        "Friendly": 0.9,
-        "Hateful": 0,
-        "Positive": 0.7,
-        "Negative": 0.0,
-        "Sentiment": 0.6,
-        "Context": 10
-    },
-    {
-        "Question": "How is the weather like these days?",
-        "Answers": {
-            "Answer0": "It's pretty good, keeps changing but oh well.",
-            "Answer1": "Kinda hot but nothing I can't handle."
+        {
+            "Question": "How is the weather like these days?",
+            "Answers": {
+                "Answer0": "It's pretty good, keeps changing but oh well.",
+                "Answer1": "Kinda hot but nothing I can't handle."
+            },
+            "Friendly": 0.8,
+            "Hateful": 0,
+            "Positive": 0.7,
+            "Negative": 0.1,
+            "Sentiment": 0.7,
+            "Context": 10
         },
-        "Friendly": 0.8,
-        "Hateful": 0,
-        "Positive": 0.7,
-        "Negative": 0.1,
-        "Sentiment": 0.7,
-        "Context": 10
-    },
-    {
-        "Question": "How is the weather looking like today?",
-        "Answers": {
-            "Answer0": "It's getting more tolerable thankfully.",
-            "Answer1": "Kinda hot but nothing too bad."
+        {
+            "Question": "How is the weather looking like today?",
+            "Answers": {
+                "Answer0": "It's getting more tolerable thankfully.",
+                "Answer1": "Kinda hot but nothing too bad."
+            },
+            "Friendly": 0.7,
+            "Hateful": 0,
+            "Positive": 0.8,
+            "Negative": 0.0,
+            "Sentiment": 0.5,
+            "Context": 10
         },
-        "Friendly": 0.7,
-        "Hateful": 0,
-        "Positive": 0.8,
-        "Negative": 0.0,
-        "Sentiment": 0.5,
-        "Context": 10
-    },
-    {
-        "Question": "hi, how are you doing?",
-        "Answers": "i'm fine. how about yourself?",
-        "Friendly": 0.9,
-        "Hateful": 0,
-        "Positive": 0.8,
-        "Negative": 0,
-        "Sentiment": 0.6,
-        "Context": 0
-    },
-    {
-        "Question": "i'm fine. how about yourself?",
-        "Answers": "i'm pretty good. thanks for asking.",
-        "Friendly": 0.9,
-        "Hateful": 0,
-        "Positive": 0.8,
-        "Negative": 0,
-        "Sentiment": 0.6,
-        "Context": 0
-    },
-    {
-        "Question": "i'm pretty good. thanks for asking.",
-        "Answers": "no problem. so how have you been?",
-        "Friendly": 0.8,
-        "Hateful": 0,
-        "Positive": 0.9,
-        "Negative": 0,
-        "Sentiment": 0.7,
-        "Context": 0
-    },
-    {
-        "Question": "no problem. so how have you been?",
-        "Answers": "i've been great. what about you?",
-        "Friendly": 0.9,
-        "Hateful": 0,
-        "Positive": 0.6,
-        "Negative": 0,
-        "Sentiment": 0.7,
-        "Context": 0
-    },
-    {
-        "Question": "i've been great. what about you?",
-        "Answers": "i've been good. i'm in school right now.",
-        "Friendly": 0.8,
-        "Hateful": 0.0,
-        "Positive": 0.7,
-        "Negative": 0.0,
-        "Sentiment": 0.6,
-        "Context": 0
-    },
-    {
-        "Question": "i've been good. i'm in school right now.",
-        "Answers": "what school do you go to?",
-        "Friendly": 0.7,
-        "Hateful": 0.0,
-        "Positive": 0.7,
-        "Negative": 0.0,
-        "Sentiment": 0.4,
-        "Context": 3
-    },
-    {
-        "Question": "what school do you go to?",
-        "Answers": "i go to pcc.",
-        "Friendly": 0.7,
-        "Hateful": 0.0,
-        "Positive": 0.6,
-        "Negative": 0.0,
-        "Sentiment": 0.5,
-        "Context": 3
-    },
-    {
-        "Question": "i go to pcc.",
-        "Answers": "do you like it there?",
-        "Friendly": 0.7,
-        "Hateful": 0.0,
-        "Positive": 0.6,
-        "Negative": 0.2,
-        "Sentiment": 0.6,
-        "Context": 3
-    },
-    {
-        "Question": "do you like it there?",
-        "Answers": "it's okay. it's a really big campus.",
-        "Friendly": 0.7,
-        "Hateful": 0.0,
-        "Positive": 0.7,
-        "Negative": 0.1,
-        "Sentiment": 0.5,
-        "Context": 3
-    },
-    {
-        "Question": "it's okay. it's a really big campus.",
-        "Answers": "good luck with school.",
-        "Friendly": 0.7,
-        "Hateful": 0.0,
-        "Positive": 0.8,
-        "Negative": 0.2,
-        "Sentiment": 0.5,
-        "Context": 3
-    },
-    {
-        "Question": "good luck with school.",
-        "Answers": "thank you very much.",
-        "Friendly": 0.9,
-        "Hateful": 0.0,
-        "Positive": 0.8,
-        "Negative": 0.0,
-        "Sentiment": 0.5,
-        "Context": 3
-    },
-    {
-        "Question": "how's it going?",
-        "Answers": "i'm doing well. how about you?",
-        "Friendly": 0.9,
-        "Hateful": 0.0,
-        "Positive": 0.7,
-        "Negative": 0.0,
-        "Sentiment": 0.7,
-        "Context": 0
-    },
-    {
-        "Question": "i'm doing well. how about you?",
-        "Answers": "never better, thanks.",
-        "Friendly": 0.9,
-        "Hateful": 0.0,
-        "Positive": 0.9,
-        "Negative": 0.0,
-        "Sentiment": 0.8,
-        "Context": 0
-    },
-    {
-        "Question": "never better, thanks.",
-        "Answers": "so how have you been lately?",
-        "Friendly": 0.9,
-        "Hateful": 0.0,
-        "Positive": 0.9,
-        "Negative": 0.0,
-        "Sentiment": 0.8,
-        "Context": 0
-    },
-    {
-        "Question": "so how have you been lately?",
-        "Answers": "i've actually been pretty good. you?",
-        "Friendly": 0.9,
-        "Hateful": 0.0,
-        "Positive": 1.0,
-        "Negative": 0.0,
-        "Sentiment": 0.8,
-        "Context": 0
-    },
-    {
-        "Question": "i've actually been pretty good. you?",
-        "Answers": "i'm actually in school right now.",
-        "Friendly": 0.8,
-        "Hateful": 0.0,
-        "Positive": 0.6,
-        "Negative": 0.2,
-        "Sentiment": 0.7,
-        "Context": 0
-    },
-    {
-        "Question": "i'm actually in school right now.",
-        "Answers": "which school do you attend?",
-        "Friendly": 0.9,
-        "Hateful": 0.0,
-        "Positive": 0.7,
-        "Negative": 0.0,
-        "Sentiment": 0.3,
-        "Context": 3
-    },
-    {
-        "Question": "which school do you attend?",
-        "Answers": "i'm attending pcc right now.",
-        "Friendly": 0.8,
-        "Hateful": 0.0,
-        "Positive": 0.6,
-        "Negative": 0.2,
-        "Sentiment": 0.4,
-        "Context": 3
-    },
-    {
-        "Question": "i'm attending pcc right now.",
-        "Answers": "are you enjoying it there?",
-        "Friendly": 0.8,
-        "Hateful": 0.0,
-        "Positive": 0.7,
-        "Negative": 0.0,
-        "Sentiment": 0.5,
-        "Context": 3
-    },
-    {
-        "Question": "are you enjoying it there?",
-        "Answers": "it's not bad. there are a lot of people there.",
-        "Friendly": 0.7,
-        "Hateful": 0.0,
-        "Positive": 0.6,
-        "Negative": 0.0,
-        "Sentiment": 0.5,
-        "Context": 3
-    },
-    {
-        "Question": "it's not bad. there are a lot of people there.",
-        "Answers": "good luck with that.",
-        "Friendly": 0.7,
-        "Hateful": 0.0,
-        "Positive": 0.5,
-        "Negative": 0.0,
-        "Sentiment": 0.4,
-        "Context": 3
-    },
-    {
-        "Question": "good luck with that.",
-        "Answers": "thanks.",
-        "Friendly": 0.9,
-        "Hateful": 0.0,
-        "Positive": 0.7,
-        "Negative": 0.0,
-        "Sentiment": 0.6,
-        "Context": 0
-    },
-    {
-        "Question": "i am so tired",
-        "Answers": {
-            "Answer0": "why is that",
-            "Answer1": "are you okay",
-            "Answer2": "everthing fine"
+        {
+            "Question": "About the weather , how is it ?",
+            "Answers": {
+                "Answer0": "It's pretty good.",
+                "Answer1": "Kinda hot but nothing too bad."
+            },
+            "Friendly": 0.9,
+            "Hateful": 0,
+            "Positive": 0.7,
+            "Negative": 0.0,
+            "Sentiment": 0.6,
+            "Context": 10
         },
-        "Friendly": 0.4,
-        "Hateful": 0.0,
-        "Positive": 0.0,
-        "Negative": 0.4,
-        "Sentiment": -0.3,
-        "Context": 20
-    },
-    {
-        "Question": "are you okay",
-        "Answers": {
-            "Answer0": "yeah, just dealing with stress i guess"
+        {
+            "Question": "Is the weather nice ?",
+            "Answers": {
+                "Answer0": "It's pretty good, keeps changing but oh well.",
+                "Answer1": "Kinda hot but nothing I can't handle."
+            },
+            "Friendly": 0.8,
+            "Hateful": 0,
+            "Positive": 0.7,
+            "Negative": 0.1,
+            "Sentiment": 0.7,
+            "Context": 10
         },
-        "Friendly": 0.0,
-        "Hateful": 0.0,
-        "Positive": 0.0,
-        "Negative": 0.4,
-        "Sentiment": -0.3,
-        "Context": 20
-    },
-    {
-        "Question": "everything fine",
-        "Answers": {
-            "Answer0": "yeah don't worry"
+        {
+            "Question": "Is the weather looking good ?",
+            "Answers": {
+                "Answer0": "It's getting more tolerable thankfully.",
+                "Answer1": "Kinda hot but nothing too bad."
+            },
+            "Friendly": 0.7,
+            "Hateful": 0,
+            "Positive": 0.8,
+            "Negative": 0.0,
+            "Sentiment": 0.5,
+            "Context": 10
         },
-        "Friendly": 0.0,
-        "Hateful": 0.0,
-        "Positive": 0.3,
-        "Negative": 0.2,
-        "Sentiment": 0.0,
-        "Context": 20
-    },
-    {
-        "Question": "hi, how are you doing?",
-        "Answers": "i'm fine. how about yourself?",
-        "Friendly": 0.9,
-        "Hateful": 0.0,
-        "Positive": 0.8558823529411765,
-        "Negative": 0.0,
-        "Sentiment": 0.6823529411764706,
-        "Context": 0
-    }
-]
+        {
+            "Question": "hi, how are you doing?",
+            "Answers": {
+                "Answer0": "i'm fine. how about yourself?",
+                "Answer1": "i'm fine. how about yourself?",
+                "Answer2": "i'm fine. how about yourself?"
+            },
+            "Friendly": 0.9,
+            "Hateful": 0,
+            "Positive": 0.8,
+            "Negative": 0,
+            "Sentiment": 0.6,
+            "Context": 0
+        },
+        {
+            "Question": "i'm fine. how about yourself?",
+            "Answers": {
+                "Answer0": "i'm pretty good. thanks for asking.",
+                "Answer1": "i'm pretty good. thanks for asking."
+            },
+            "Friendly": 0.9,
+            "Hateful": 0,
+            "Positive": 0.8,
+            "Negative": 0,
+            "Sentiment": 0.6,
+            "Context": 0
+        },
+        {
+            "Question": "i'm pretty good. thanks for asking.",
+            "Answers": {
+                "Answer0": "no problem. so how have you been?",
+                "Answer1": "no problem. so how have you been?"
+            },
+            "Friendly": 0.8,
+            "Hateful": 0,
+            "Positive": 0.9,
+            "Negative": 0,
+            "Sentiment": 0.7,
+            "Context": 0
+        },
+        {
+            "Question": "no problem. so how have you been?",
+            "Answers": {
+                "Answer0": "i've been great. what about you?",
+                "Answer1": "i've been great. what about you?"
+            },
+            "Friendly": 0.9,
+            "Hateful": 0,
+            "Positive": 0.6,
+            "Negative": 0,
+            "Sentiment": 0.7,
+            "Context": 0
+        },
+        {
+            "Question": "i've been great. what about you?",
+            "Answers": {
+                "Answer0": "i've been good. i'm in school right now.",
+                "Answer1": "i've been good. i'm in school right now."
+            },
+            "Friendly": 0.8,
+            "Hateful": 0.0,
+            "Positive": 0.7,
+            "Negative": 0.0,
+            "Sentiment": 0.6,
+            "Context": 0
+        },
+        {
+            "Question": "i've been good. i'm in school right now.",
+            "Answers": {
+                "Answer0": "what school do you go to?",
+                "Answer1": "what school do you go to?"
+            },
+            "Friendly": 0.7,
+            "Hateful": 0.0,
+            "Positive": 0.7,
+            "Negative": 0.0,
+            "Sentiment": 0.4,
+            "Context": 3
+        },
+        {
+            "Question": "what school do you go to?",
+            "Answers": {
+                "Answer0": "i go to pcc.",
+                "Answer1": "i go to pcc."
+            },
+            "Friendly": 0.7,
+            "Hateful": 0.0,
+            "Positive": 0.6,
+            "Negative": 0.0,
+            "Sentiment": 0.5,
+            "Context": 3
+        },
+        {
+            "Question": "i go to pcc.",
+            "Answers": {
+                "Answer0": "do you like it there?",
+                "Answer1": "do you like it there?"
+            },
+            "Friendly": 0.7,
+            "Hateful": 0.0,
+            "Positive": 0.6,
+            "Negative": 0.2,
+            "Sentiment": 0.6,
+            "Context": 3
+        },
+        {
+            "Question": "do you like it there?",
+            "Answers": {
+                "Answer0": "it's okay. it's a really big campus.",
+                "Answer1": "it's okay. it's a really big campus."
+            },
+            "Friendly": 0.7,
+            "Hateful": 0.0,
+            "Positive": 0.7,
+            "Negative": 0.1,
+            "Sentiment": 0.5,
+            "Context": 3
+        },
+        {
+            "Question": "it's okay. it's a really big campus.",
+            "Answers": {
+                "Answer0": "good luck with school.",
+                "Answer1": "good luck with school."
+            },
+            "Friendly": 0.7,
+            "Hateful": 0.0,
+            "Positive": 0.8,
+            "Negative": 0.2,
+            "Sentiment": 0.5,
+            "Context": 3
+        },
+        {
+            "Question": "good luck with school.",
+            "Answers": {
+                "Answer0": "thank you very much.",
+                "Answer1": "thank you very much."
+            },
+            "Friendly": 0.9,
+            "Hateful": 0.0,
+            "Positive": 0.8,
+            "Negative": 0.0,
+            "Sentiment": 0.5,
+            "Context": 3
+        },
+        {
+            "Question": "how's it going?",
+            "Answers": {
+                "Answer0": "i'm doing well. how about you?",
+                "Answer1": "i'm doing well. how about you?"
+            },
+            "Friendly": 0.9,
+            "Hateful": 0.0,
+            "Positive": 0.7,
+            "Negative": 0.0,
+            "Sentiment": 0.7,
+            "Context": 0
+        },
+        {
+            "Question": "i'm doing well. how about you?",
+            "Answers": {
+                "Answer0": "never better, thanks.",
+                "Answer1": "never better, thanks."
+            },
+            "Friendly": 0.9,
+            "Hateful": 0.0,
+            "Positive": 0.9,
+            "Negative": 0.0,
+            "Sentiment": 0.8,
+            "Context": 0
+        },
+        {
+            "Question": "never better, thanks.",
+            "Answers": {
+                "Answer0": "so how have you been lately?",
+                "Answer1": "so how have you been lately?"
+            },
+            "Friendly": 0.9,
+            "Hateful": 0.0,
+            "Positive": 0.9,
+            "Negative": 0.0,
+            "Sentiment": 0.8,
+            "Context": 0
+        },
+        {
+            "Question": "so how have you been lately?",
+            "Answers": {
+                "Answer0": "i've actually been pretty good. you?",
+                "Answer1": "i've actually been pretty good. you?"
+            },
+            "Friendly": 0.9,
+            "Hateful": 0.0,
+            "Positive": 1.0,
+            "Negative": 0.0,
+            "Sentiment": 0.8,
+            "Context": 0
+        },
+        {
+            "Question": "i've actually been pretty good. you?",
+            "Answers": {
+                "Answer0": "i'm actually in school right now.",
+                "Answer1": "i'm actually in school right now."
+            },
+            "Friendly": 0.8,
+            "Hateful": 0.0,
+            "Positive": 0.6,
+            "Negative": 0.2,
+            "Sentiment": 0.7,
+            "Context": 0
+        },
+        {
+            "Question": "i'm actually in school right now.",
+            "Answers": {
+                "Answer0": "which school do you attend?",
+                "Answer1": "which school do you attend?"
+            },
+            "Friendly": 0.9,
+            "Hateful": 0.0,
+            "Positive": 0.7,
+            "Negative": 0.0,
+            "Sentiment": 0.3,
+            "Context": 3
+        },
+        {
+            "Question": "which school do you attend?",
+            "Answers": {
+                "Answer0": "i'm attending pcc right now.",
+                "Answer1": "i'm attending pcc right now."
+            },
+            "Friendly": 0.8,
+            "Hateful": 0.0,
+            "Positive": 0.6,
+            "Negative": 0.2,
+            "Sentiment": 0.4,
+            "Context": 3
+        },
+        {
+            "Question": "i'm attending pcc right now.",
+            "Answers": {
+                "Answer0": "are you enjoying it there?",
+                "Answer1": "are you enjoying it there?"
+            },
+            "Friendly": 0.8,
+            "Hateful": 0.0,
+            "Positive": 0.7,
+            "Negative": 0.0,
+            "Sentiment": 0.5,
+            "Context": 3
+        },
+        {
+            "Question": "are you enjoying it there?",
+            "Answers": {
+                "Answer0": "it's not bad. there are a lot of people there.",
+                "Answer1": "it's not bad. there are a lot of people there."
+            },
+            "Friendly": 0.7,
+            "Hateful": 0.0,
+            "Positive": 0.6,
+            "Negative": 0.0,
+            "Sentiment": 0.5,
+            "Context": 3
+        },
+        {
+            "Question": "it's not bad. there are a lot of people there.",
+            "Answers": {
+                "Answer0": "good luck with that.",
+                "Answer1": "good luck with that."
+            },
+            "Friendly": 0.7,
+            "Hateful": 0.0,
+            "Positive": 0.5,
+            "Negative": 0.0,
+            "Sentiment": 0.4,
+            "Context": 3
+        },
+        {
+            "Question": "good luck with that.",
+            "Answers": {
+                "Answer0": "thanks.",
+                "Answer1": "thanks."
+            },
+            "Friendly": 0.9,
+            "Hateful": 0.0,
+            "Positive": 0.7,
+            "Negative": 0.0,
+            "Sentiment": 0.6,
+            "Context": 0
+        },
+        {
+            "Question": "i am so tired",
+            "Answers": {
+                "Answer0": "why is that",
+                "Answer1": "are you okay",
+                "Answer2": "everthing fine"
+            },
+            "Friendly": 0.4,
+            "Hateful": 0.0,
+            "Positive": 0.0,
+            "Negative": 0.4,
+            "Sentiment": -0.3,
+            "Context": 20
+        },
+        {
+            "Question": "are you okay",
+            "Answers": {
+                "Answer0": "yeah, just dealing with stress i guess"
+            },
+            "Friendly": 0.0,
+            "Hateful": 0.0,
+            "Positive": 0.0,
+            "Negative": 0.4,
+            "Sentiment": -0.3,
+            "Context": 20
+        },
+        {
+            "Question": "everything fine",
+            "Answers": {
+                "Answer0": "yeah don't worry"
+            },
+            "Friendly": 0.0,
+            "Hateful": 0.0,
+            "Positive": 0.3,
+            "Negative": 0.2,
+            "Sentiment": 0.0,
+            "Context": 20
+        },
+        {
+            "Question": "how are you doing today?",
+            "Answers": {
+                "Answer0": "i'm doing great. what about you?"
+            },
+            "Friendly": 0.9,
+            "Hateful": 0.0,
+            "Positive": 0.9,
+            "Negative": 0.0,
+            "Sentiment": 0.7,
+            "Context": 0
+        },
+        {
+            "Question": "i'm doing great. what about you?",
+            "Answers": {
+                "Answer0": "i'm absolutely lovely, thank you."
+            },
+            "Friendly": 0.7999999999999999,
+            "Hateful": 0.0,
+            "Positive": 0.7,
+            "Negative": 0.0,
+            "Sentiment": 0.6,
+            "Context": 0
+        },
+        {
+            "Question": "i'm absolutely lovely, thank you.",
+            "Answers": {
+                "Answer0": "everything's been good with you?"
+            },
+            "Friendly": 0.9,
+            "Hateful": 0.0,
+            "Positive": 0.9,
+            "Negative": 0.0,
+            "Sentiment": 0.6,
+            "Context": 0
+        },
+        {
+            "Question": "everything's been good with you?",
+            "Answers": {
+                "Answer0": "i haven't been better. how about yourself?"
+            },
+            "Friendly": 0.8,
+            "Hateful": 0.0,
+            "Positive": 0.8,
+            "Negative": 0.0,
+            "Sentiment": 0.6,
+            "Context": 0
+        },
+        {
+            "Question": "i haven't been better. how about yourself?",
+            "Answers": {
+                "Answer0": "i started school recently."
+            },
+            "Friendly": 0.9,
+            "Hateful": 0.0,
+            "Positive": 0.8,
+            "Negative": 0.0,
+            "Sentiment": 0.6,
+            "Context": 0
+        },
+        {
+            "Question": "i started school recently.",
+            "Answers": {
+                "Answer0": "where are you going to school?"
+            },
+            "Friendly": 0.8,
+            "Hateful": 0.0,
+            "Positive": 0.7,
+            "Negative": 0.2,
+            "Sentiment": 0.5,
+            "Context": 3
+        },
+        {
+            "Question": "where are you going to school?",
+            "Answers": {
+                "Answer0": "i'm going to pcc."
+            },
+            "Friendly": 0.8,
+            "Hateful": 0.0,
+            "Positive": 0.7,
+            "Negative": 0.0,
+            "Sentiment": 0.5,
+            "Context": 3
+        },
+        {
+            "Question": "i'm going to pcc.",
+            "Answers": {
+                "Answer0": "how do you like it so far?"
+            },
+            "Friendly": 0.9,
+            "Hateful": 0.0,
+            "Positive": 0.7,
+            "Negative": 0.0,
+            "Sentiment": 0.7,
+            "Context": 3
+        }
+    ]
 }

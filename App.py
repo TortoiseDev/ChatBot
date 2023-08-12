@@ -114,6 +114,69 @@ def selfAction(verb : str,object: str ) -> str:
 def subjectAction(subject : str, verb : str, object :str) -> str:
     pass
 
+def getAttributesForTraining(message : str) -> dict:
+    with open("Data/Data.json" ,"r") as f:
+        data : list = json.load(f)["messages"]
+        prompts : dict = {}
+        for promptData in data:
+            prompt : str = promptData["Question"].lower()
+            promptDict : dict = {
+                "Friendly":promptData['Friendly'],
+                "Hateful":promptData['Hateful'],
+                "Positive":promptData['Positive'],
+                "Negative":promptData['Negative'],
+                "Sentiment":promptData['Sentiment'],
+                "Context" : promptData['Context']
+            }
+            prompts.update({prompt:promptDict})
+    matches = getMatches(message,prompts.keys(),5,0.6)
+    if len(matches) == 0:
+        print(message)
+        val_FRIENDLY = int(input("Friendly: "))
+        val_VULGAR = int(input("Vulgar: "))
+        val_POSITIVE = int(input("Positive: "))
+        val_NEGATIVE = int(input("Negative: "))
+        val_SENTIMENT = int(input("Sentiment: "))
+        val_CONTEXT = int(input("Context: "))
+        messRate: dict= {
+            "Friendly":val_FRIENDLY/10,
+            "Hateful":val_VULGAR/10,
+            "Positive":val_POSITIVE/10,
+            "Negative":val_NEGATIVE/10,
+            "Sentiment":val_SENTIMENT/10,
+            "Context" : val_CONTEXT
+        }
+        return messRate
+    matchesSim : dict = {}
+    for match in matches:
+        similarity = match[0]
+        matchesSim.update({match[1]:similarity})
+    def getValues(prompts:dict,matchesSim : dict) -> dict:
+        totalDenum : float = 0
+        friendlyTotal : float = 0
+        hatefulTotal : float = 0
+        positiveTotal : float = 0
+        negativeTotal : float = 0
+        sentimentTotal : float = 0
+        contextTotal : float = 0
+        for message,sim in matchesSim.items():
+            friendlyTotal += prompts[message]["Friendly"]*sim
+            hatefulTotal += prompts[message]["Hateful"]*sim
+            positiveTotal += prompts[message]["Positive"]*sim
+            sentimentTotal += prompts[message]["Sentiment"]*sim
+            negativeTotal += prompts[message]["Negative"]*sim
+            contextTotal += (prompts[message]["Context"]*sim)
+            totalDenum += sim
+        return{
+            "Friendly":friendlyTotal/totalDenum,
+            "Hateful":hatefulTotal/totalDenum,
+            "Positive":positiveTotal/totalDenum,
+            "Negative":negativeTotal/totalDenum,
+            "Sentiment":sentimentTotal/totalDenum,
+            "Context": round(contextTotal/totalDenum) 
+        }
+    values : dict = getValues(prompts,matchesSim)
+    return values
 
 def getAttributes(message : str) -> dict:
     with open("Data/Data.json" ,"r") as f:
@@ -130,7 +193,7 @@ def getAttributes(message : str) -> dict:
                 "Context" : promptData['Context']
             }
             prompts.update({prompt:promptDict})
-    matches = getMatches(message,prompts.keys(),5,0.6)
+    matches = getMatches(message,prompts.keys(),5,0.5)
     if len(matches) == 0:
         return starterData
     matchesSim : dict = {}
@@ -169,6 +232,32 @@ def removeCommonWords(message : str) -> str:
     filteredList : list = [word for word in allWords if word.lower() not in commonWords] 
     return ' '.join(filteredList)
 
+def merge_messages():
+    with open("Data/Data.json", 'r') as f:
+        data = json.load(f)
+
+    messages = data.get('messages', [])
+    merged_messages = {}
+
+    for message in messages:
+        question = message.get('Question')
+        answer = message.get('Answers')
+
+        if question in merged_messages:
+            if isinstance(answer, str):
+                answer_keys = sorted(merged_messages[question]['Answers'].keys())
+                new_answer_key = f"Answer{len(answer_keys)}"
+                merged_messages[question]['Answers'][new_answer_key] = answer
+            elif isinstance(answer, dict):
+                merged_messages[question]['Answers'] = answer
+        else:
+            if isinstance(answer, str):
+                message['Answers'] = {"Answer0": answer}
+            merged_messages[question] = message
+
+    merged_data = {'messages': list(merged_messages.values())}
+    with open("Data/Data.json", 'w') as f:
+        json.dump(merged_data,f,indent=4)
 def getMatches(text: str, possibilities: list, n:float = float("inf"), cutoff : float= 0.6 ):
     text = removeCommonWords(text)
     ngram3 = NGram(n=2)
@@ -289,7 +378,7 @@ def selfTrain()-> None:
         Data : list = json.load(f)
     for message in trainingData:
         messData : dict = {}
-        variables = getAttributes(message["Question"])
+        variables = getAttributesForTraining(message["Question"])
         messData.update({"Question" : message["Question"]})
         messData.update({"Answers" : message["Answer"]})
         messData.update(variables)
@@ -302,11 +391,12 @@ MODE : str = input("'Train' the chat or Have a 'fun' chat? \n")
 if MODE.lower() == "train":
     print("Training Mode on")
     # selfTrain()
-    trainMode = input("(Train) or Train from (Dataset)")
-    if trainMode.lower() == "dataset":
-        TrainFromDataSet()
-    else:
-        Train()
+    merge_messages()
+    # trainMode = input("(Train) or Train from (Dataset)")
+    # if trainMode.lower() == "dataset":
+    #     TrainFromDataSet()
+    # else:
+    #     Train()
 elif MODE == "fun":
     while True:
         print(getBestAnswer(input("Enter message: ")))
