@@ -217,13 +217,13 @@ MODE : str = input("'Train' the chat or Have a 'fun' chat? \n")
 if MODE.lower() == "train":
     print(membership("Hi how are you"))
     # print("Training Mode on")
-    selfTrain()
+    # selfTrain()
     # merge_messages()
-    # trainMode = input("(Train) or Train from (Dataset)")
-    # if trainMode.lower() == "dataset":
-    #     TrainFromDataSet()
-    # else:
-    #     Train()
+    trainMode = input("(Train) or Train from (Dataset)")
+    if trainMode.lower() == "dataset":
+        TrainFromDataSet()
+    else:
+        Train()
 elif MODE == "fun":
     while True:
         print(getBestAnswer(input("Enter message: ")))

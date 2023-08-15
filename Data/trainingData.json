@@ -14899,7 +14899,8 @@
         {
             "Question": "but i do all my writing with my right hand.",
             "Answer": "start typing instead. that way your left hand will do half the work."
-        },{
+        },
+        {
             "Question": "How are you doing today?",
             "Answer": {
                 "Answer0": "Doing great!!",

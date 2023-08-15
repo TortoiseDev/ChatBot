@@ -1,6 +1,179 @@
 {
     "messages": [
         {
+            "Question": "Hello!",
+            "Answers": {
+              "Answer0": "Hi there!",
+              "Answer1": "Hello!",
+              "Answer2": "Hey!",
+              "Answer3": "Greetings!",
+              "Answer4": "Good day!",
+              "Answer5": "Nice to meet you!",
+              "Answer6": "Howdy!",
+              "Answer7": "Salutations!",
+              "Answer8": "Yo!",
+              "Answer9": "Hey there!",
+              "Answer10": "Hello, how can I assist you?",
+              "Answer11": "Hello, nice to see you!",
+              "Answer12": "Hey, what's up?",
+              "Answer13": "Hello, how are you doing?",
+              "Answer14": "Hi, how can I help you today?",
+              "Answer15": "Hello, how's it going?",
+              "Answer16": "Hey, nice to meet you!",
+              "Answer17": "Hello, what brings you here?",
+              "Answer18": "Hi, how are you?",
+              "Answer19": "Hello, nice to meet you!"
+            },
+            "Context": 0,
+            "Confidence": 1
+          },
+          {
+            "Question": "Good morning.",
+            "Answers": {
+              "Answer0": "Good morning!",
+              "Answer1": "Morning!",
+              "Answer2": "Hello!",
+              "Answer3": "Hey!",
+              "Answer4": "Greetings!",
+              "Answer5": "Rise and shine!",
+              "Answer6": "Top of the morning to you!",
+              "Answer7": "Good day!",
+              "Answer8": "Hello, how are you today?",
+              "Answer9": "Hi there, ready to start the day?",
+              "Answer10": "Morning, how can I assist you?",
+              "Answer11": "Good morning, nice to see you!",
+              "Answer12": "Hey, what's up this fine morning?",
+              "Answer13": "Hello, how's your day going so far?",
+              "Answer14": "Hi, how can I help you this morning?",
+              "Answer15": "Good morning, how are you doing today?",
+              "Answer16": "Hey, nice to meet you this morning!",
+              "Answer17": "Good morning, what brings you here today?",
+              "Answer18": "Hi, how are you feeling this morning?",
+              "Answer19": "Good morning, nice to meet you!"
+            },
+            "Context": 0,
+            "Confidence": 1
+          },
+          {
+            "Question": "How are you doing today?",
+            "Answers": {
+              "Answer0": "Doing great!!",
+              "Answer1": "I am swell, thanks for asking.",
+              "Answer2": "Amazing now that you are talking to me.",
+              "Answer3": "Wonderful!! it's a great day to be alive!",
+              "Answer4": "Feeling fantastic, thank you!",
+              "Answer5": "Pretty good, how about you?",
+              "Answer6": "I'm doing well, thank you!",
+              "Answer7": "Couldn't be better!",
+              "Answer8": "Just awesome, thanks!",
+              "Answer9": "Great! How about yourself?",
+              "Answer10": "Having a wonderful day so far!",
+              "Answer11": "I'm feeling really good today!",
+              "Answer12": "Everything is going well, thank you!",
+              "Answer13": "I'm doing fantastic, thanks for asking!",
+              "Answer14": "I'm having a splendid day, how about you?",
+              "Answer15": "I'm doing great, thanks for checking!",
+              "Answer16": "Absolutely fantastic!",
+              "Answer17": "I'm feeling amazing today!",
+              "Answer18": "I'm doing excellent, thank you!",
+              "Answer19": "I'm having a terrific day!"
+            },
+            "Context": 0,
+            "Confidence": 1
+          },
+          {
+            "Question": "Tell me about college.",
+            "Answers": {
+              "Answer0": "College is a higher education institution.",
+              "Answer1": "It offers academic and vocational training.",
+              "Answer2": "You can specialize in various fields of study.",
+              "Answer3": "College campuses foster a vibrant community.",
+              "Answer4": "It promotes personal growth and independence.",
+              "Answer5": "College equips you with critical thinking skills.",
+              "Answer6": "It prepares you for your career.",
+              "Answer7": "College facilitates lifelong learning.",
+              "Answer8": "You can pursue a degree in your chosen field.",
+              "Answer9": "Colleges offer diverse academic programs."
+            },
+            "Context": 3,
+            "Confidence": 1
+          },
+          {
+            "Question": "What are the admission requirements for college?",
+            "Answers": {
+              "Answer0": "Admission requirements vary by college.",
+              "Answer1": "They typically include high school transcripts.",
+              "Answer2": "Some colleges require standardized test scores.",
+              "Answer3": "Letters of recommendation may be necessary.",
+              "Answer4": "Certain programs have additional requirements.",
+              "Answer5": "Each college sets its own admission criteria.",
+              "Answer6": "Check the college's website for specific requirements.",
+              "Answer7": "Admissions offices can provide detailed information."
+            },
+            "Context": 3,
+            "Confidence": 1
+          },
+          {
+            "Question": "What types of degrees are offered in college?",
+            "Answers": {
+              "Answer0": "Colleges offer bachelor's degrees.",
+              "Answer1": "Master's and doctoral degrees are available too.",
+              "Answer2": "Associate degrees are offered by some colleges.",
+              "Answer3": "Professional degrees are available in certain fields.",
+              "Answer4": "Each degree level requires different coursework.",
+              "Answer5": "Colleges provide degrees in various disciplines.",
+              "Answer6": "Degrees can be earned in arts, sciences, and more.",
+              "Answer7": "Research the college's program offerings for details."
+            },
+            "Context": 3,
+            "Confidence": 1
+          },
+          {
+            "Question": "How long does it take to complete a college degree?",
+            "Answers": {
+              "Answer0": "Bachelor's degrees typically take 4 years.",
+              "Answer1": "Some programs offer accelerated options.",
+              "Answer2": "Master's degrees can take 1-2 years.",
+              "Answer3": "Doctoral programs vary but can take several years.",
+              "Answer4": "Associate degrees generally take 2 years.",
+              "Answer5": "The duration depends on the program and workload.",
+              "Answer6": "Part-time study may extend the completion time.",
+              "Answer7": "Consult the college's academic calendar for specifics."
+            },
+            "Context": 3,
+            "Confidence": 1
+          },
+          {
+            "Question": "What financial aid options are available for college?",
+            "Answers": {
+              "Answer0": "There are scholarships and grants.",
+              "Answer1": "Federal student loans are available.",
+              "Answer2": "Some colleges provide need-based aid.",
+              "Answer3": "Work-study programs offer part-time employment.",
+              "Answer4": "Private loans are an option for some students.",
+              "Answer5": "Financial aid packages may include a combination.",
+              "Answer6": "Complete the FAFSA to determine eligibility.",
+              "Answer7": "Contact the college's financial aid office for guidance."
+            },
+            "Context": 3,
+            "Confidence": 1
+          },
+          {
+            "Question": "Can I work while attending college?",
+            "Answers": {
+              "Answer0": "Many students work part-time jobs.",
+              "Answer1": "Flexible schedules can accommodate work.",
+              "Answer2": "Some colleges offer on-campus job opportunities.",
+              "Answer3": "Work-study programs provide employment options.",
+              "Answer4": "Balancing work and studies requires time management.",
+              "Answer5": "Consider your course load before committing to work.",
+              "Answer6": "Some programs incorporate internships for experience.",
+              "Answer7": "Consult with academic advisors regarding workload."
+            },
+            "Context": 3,
+            "Confidence": 1
+          },
+        {
             "Question": "How are you doing today?",
             "Answers": {
                 "Answer0": "Doing great!!",
@@ -1024,6 +1197,570 @@
             "Question": "that's okay.",
             "Answers": "i hope you feel better.",
             "Context": 12,
+            "Confidence": 1
+        },
+        {
+            "Question": "did you hear the good news?",
+            "Answers": "no, i haven't.",
+            "Context": 19,
+            "Confidence": 1
+        },
+        {
+            "Question": "no, i haven't.",
+            "Answers": "i got a promotion at my job.",
+            "Context": 19,
+            "Confidence": 1
+        },
+        {
+            "Question": "i got a promotion at my job.",
+            "Answers": "did you really?",
+            "Context": 19,
+            "Confidence": 1
+        },
+        {
+            "Question": "did you really?",
+            "Answers": "seriously, i am so excited.",
+            "Context": 19,
+            "Confidence": 1
+        },
+        {
+            "Question": "seriously, i am so excited.",
+            "Answers": "well, congratulations.",
+            "Context": 19,
+            "Confidence": 1
+        },
+        {
+            "Question": "well, congratulations.",
+            "Answers": "thank you.",
+            "Context": 19,
+            "Confidence": 1
+        },
+        {
+            "Question": "thank you.",
+            "Answers": "i'm so happy for you.",
+            "Context": 19,
+            "Confidence": 1
+        },
+        {
+            "Question": "i'm so happy for you.",
+            "Answers": "really?",
+            "Context": 19,
+            "Confidence": 1
+        },
+        {
+            "Question": "really?",
+            "Answers": "yes. you really deserved this.",
+            "Context": 19,
+            "Confidence": 1
+        },
+        {
+            "Question": "yes. you really deserved this.",
+            "Answers": "you think so?",
+            "Context": 19,
+            "Confidence": 1
+        },
+        {
+            "Question": "you think so?",
+            "Answers": "yes. good for you.",
+            "Context": 19,
+            "Confidence": 1
+        },
+        {
+            "Question": "have you heard my good news?",
+            "Answers": "you haven't told me anything yet.",
+            "Context": 19,
+            "Confidence": 1
+        },
+        {
+            "Question": "you haven't told me anything yet.",
+            "Answers": "i got a promotion at work earlier this week.",
+            "Context": 19,
+            "Confidence": 1
+        },
+        {
+            "Question": "i got a promotion at work earlier this week.",
+            "Answers": "is that right?",
+            "Context": 19,
+            "Confidence": 1
+        },
+        {
+            "Question": "is that right?",
+            "Answers": "it's the truth. i am really happy.",
+            "Context": 19,
+            "Confidence": 1
+        },
+        {
+            "Question": "it's the truth. i am really happy.",
+            "Answers": "congratulations on your promotion.",
+            "Context": 19,
+            "Confidence": 1
+        },
+        {
+            "Question": "congratulations on your promotion.",
+            "Answers": "thank you very much.",
+            "Context": 19,
+            "Confidence": 1
+        },
+        {
+            "Question": "thank you very much.",
+            "Answers": "i am really excited for you.",
+            "Context": 19,
+            "Confidence": 1
+        },
+        {
+            "Question": "i am really excited for you.",
+            "Answers": "are you really?",
+            "Context": 19,
+            "Confidence": 1
+        },
+        {
+            "Question": "are you really?",
+            "Answers": "i'm serious. you deserved this promotion.",
+            "Context": 19,
+            "Confidence": 1
+        },
+        {
+            "Question": "i'm serious. you deserved this promotion.",
+            "Answers": "is that what you really think?",
+            "Context": 19,
+            "Confidence": 1
+        },
+        {
+            "Question": "is that what you really think?",
+            "Answers": "yes, i do.",
+            "Context": 19,
+            "Confidence": 1
+        },
+        {
+            "Question": "i haven't told you what happened yet, have i?",
+            "Answers": "i haven't heard anything.",
+            "Context": 19,
+            "Confidence": 1
+        },
+        {
+            "Question": "i haven't heard anything.",
+            "Answers": "my boss offered me a promotion, and i took it.",
+            "Context": 19,
+            "Confidence": 1
+        },
+        {
+            "Question": "my boss offered me a promotion, and i took it.",
+            "Answers": "are you serious?",
+            "Context": 19,
+            "Confidence": 1
+        },
+        {
+            "Question": "are you serious?",
+            "Answers": "yes, i am really excited.",
+            "Context": 19,
+            "Confidence": 1
+        },
+        {
+            "Question": "yes, i am really excited.",
+            "Answers": "that's great. congratulations.",
+            "Context": 19,
+            "Confidence": 1
+        },
+        {
+            "Question": "that's great. congratulations.",
+            "Answers": "i appreciate that.",
+            "Context": 19,
+            "Confidence": 1
+        },
+        {
+            "Question": "i appreciate that.",
+            "Answers": "you have no idea how happy i am for you.",
+            "Context": 19,
+            "Confidence": 1
+        },
+        {
+            "Question": "you have no idea how happy i am for you.",
+            "Answers": "for real?",
+            "Context": 19,
+            "Confidence": 1
+        },
+        {
+            "Question": "you look really nice today. ",
+            "Answers": "thank you. i just got this outfit the other day.",
+            "Context": 92,
+            "Confidence": 1
+        },
+        {
+            "Question": "thank you. i just got this outfit the other day.",
+            "Answers": "really, where did you get it?",
+            "Context": 92,
+            "Confidence": 1
+        },
+        {
+            "Question": "really, where did you get it?",
+            "Answers": "i got it from macy's.",
+            "Context": 92,
+            "Confidence": 1
+        },
+        {
+            "Question": "i got it from macy's.",
+            "Answers": "it's really nice.",
+            "Context": 92,
+            "Confidence": 1
+        },
+        {
+            "Question": "it's really nice.",
+            "Answers": "thanks again. you look nice today, too.",
+            "Context": 92,
+            "Confidence": 1
+        },
+        {
+            "Question": "thanks again. you look nice today, too.",
+            "Answers": "thank you. i just got these shoes today.",
+            "Context": 92,
+            "Confidence": 1
+        },
+        {
+            "Question": "thank you. i just got these shoes today.",
+            "Answers": "really? what kind of shoes are they?",
+            "Context": 92,
+            "Confidence": 1
+        },
+        {
+            "Question": "really? what kind of shoes are they?",
+            "Answers": "these are called all star chuck taylors.",
+            "Context": 92,
+            "Confidence": 1
+        },
+        {
+            "Question": "these are called all star chuck taylors.",
+            "Answers": "i really like those. how much did they cost?",
+            "Context": 92,
+            "Confidence": 1
+        },
+        {
+            "Question": "i really like those. how much did they cost?",
+            "Answers": "they were about forty dollars.",
+            "Context": 92,
+            "Confidence": 1
+        },
+        {
+            "Question": "they were about forty dollars.",
+            "Answers": "i think i'm going to go buy myself a pair.",
+            "Context": 92,
+            "Confidence": 1
+        },
+        {
+            "Question": "i absolutely love what you're wearing today.",
+            "Answers": "you do? i just bought this outfit a couple days ago.",
+            "Context": 92,
+            "Confidence": 1
+        },
+        {
+            "Question": "you do? i just bought this outfit a couple days ago.",
+            "Answers": "seriously, it looks really nice on you. where did you buy it from?",
+            "Context": 92,
+            "Confidence": 1
+        },
+        {
+            "Question": "seriously, it looks really nice on you. where did you buy it from?",
+            "Answers": "i bought it from the macy's at the santa anita mall.",
+            "Context": 92,
+            "Confidence": 1
+        },
+        {
+            "Question": "i bought it from the macy's at the santa anita mall.",
+            "Answers": "i really like that outfit.",
+            "Context": 92,
+            "Confidence": 1
+        },
+        {
+            "Question": "i really like that outfit.",
+            "Answers": "thanks. i think you look nice today, too.",
+            "Context": 92,
+            "Confidence": 1
+        },
+        {
+            "Question": "thanks. i think you look nice today, too.",
+            "Answers": "thank you. i just bought these new shoes earlier today.",
+            "Context": 92,
+            "Confidence": 1
+        },
+        {
+            "Question": "thank you. i just bought these new shoes earlier today.",
+            "Answers": "those are nice. what are they?",
+            "Context": 92,
+            "Confidence": 1
+        },
+        {
+            "Question": "those are nice. what are they?",
+            "Answers": "these are some chucks.",
+            "Context": 92,
+            "Confidence": 1
+        },
+        {
+            "Question": "these are some chucks.",
+            "Answers": "those are great. how much were they?",
+            "Context": 92,
+            "Confidence": 1
+        },
+        {
+            "Question": "those are great. how much were they?",
+            "Answers": "i got them for forty.",
+            "Context": 92,
+            "Confidence": 1
+        },
+        {
+            "Question": "i got them for forty.",
+            "Answers": "i think i might go and find me my own pair of chucks.",
+            "Context": 92,
+            "Confidence": 1
+        },
+        {
+            "Question": "i think that you look very cute today.",
+            "Answers": "is that right? this is a brand new outfit.",
+            "Context": 92,
+            "Confidence": 1
+        },
+        {
+            "Question": "is that right? this is a brand new outfit.",
+            "Answers": "what store did you get it from?",
+            "Context": 92,
+            "Confidence": 1
+        },
+        {
+            "Question": "what store did you get it from?",
+            "Answers": "i went to macy's and picked it out.",
+            "Context": 92,
+            "Confidence": 1
+        },
+        {
+            "Question": "i went to macy's and picked it out.",
+            "Answers": "i love your outfit right now.",
+            "Context": 92,
+            "Confidence": 1
+        },
+        {
+            "Question": "i love your outfit right now.",
+            "Answers": "well, i think you look nice today too.",
+            "Context": 92,
+            "Confidence": 1
+        },
+        {
+            "Question": "well, i think you look nice today too.",
+            "Answers": "thanks. i found these new shoes earlier at the store.",
+            "Context": 92,
+            "Confidence": 1
+        },
+        {
+            "Question": "thanks. i found these new shoes earlier at the store.",
+            "Answers": "i think that those are some really nice shoes. what kind are they?",
+            "Context": 92,
+            "Confidence": 1
+        },
+        {
+            "Question": "i think that those are some really nice shoes. what kind are they?",
+            "Answers": "these are chucks.",
+            "Context": 92,
+            "Confidence": 1
+        },
+        {
+            "Question": "these are chucks.",
+            "Answers": "your shoes look really nice. how much did you get them for?",
+            "Context": 92,
+            "Confidence": 1
+        },
+        {
+            "Question": "your shoes look really nice. how much did you get them for?",
+            "Answers": "they only cost me about forty dollars.",
+            "Context": 92,
+            "Confidence": 1
+        },
+        {
+            "Question": "tell me, what do you enjoy doing in your spare time?",
+            "Answers": "i enjoy drawing and painting.",
+            "Context": 100,
+            "Confidence": 1
+        },
+        {
+            "Question": "i enjoy drawing and painting.",
+            "Answers": "you know how to draw and paint?",
+            "Context": 100,
+            "Confidence": 1
+        },
+        {
+            "Question": "you know how to draw and paint?",
+            "Answers": "yes, i do.",
+            "Context": 100,
+            "Confidence": 1
+        },
+        {
+            "Question": "yes, i do.",
+            "Answers": "when did you learn how to do that?",
+            "Context": 100,
+            "Confidence": 1
+        },
+        {
+            "Question": "when did you learn how to do that?",
+            "Answers": "i learned back in high school.",
+            "Context": 100,
+            "Confidence": 1
+        },
+        {
+            "Question": "i learned back in high school.",
+            "Answers": "oh, so you took an art class?",
+            "Context": 100,
+            "Confidence": 1
+        },
+        {
+            "Question": "oh, so you took an art class?",
+            "Answers": "yeah, i loved that class.",
+            "Context": 100,
+            "Confidence": 1
+        },
+        {
+            "Question": "yeah, i loved that class.",
+            "Answers": "i see that you're pretty talented.",
+            "Context": 100,
+            "Confidence": 1
+        },
+        {
+            "Question": "i see that you're pretty talented.",
+            "Answers": "thank you very much.",
+            "Context": 100,
+            "Confidence": 1
+        },
+        {
+            "Question": "thank you very much.",
+            "Answers": "i wish i had a talent like that.",
+            "Context": 100,
+            "Confidence": 1
+        },
+        {
+            "Question": "i wish i had a talent like that.",
+            "Answers": "i'm sure you have a talent. it's just hidden.",
+            "Context": 100,
+            "Confidence": 1
+        },
+        {
+            "Question": "what kinds of things do you like to do?",
+            "Answers": "i've always liked to draw and paint.",
+            "Context": 100,
+            "Confidence": 1
+        },
+        {
+            "Question": "i've always liked to draw and paint.",
+            "Answers": "i didn't know you knew how to draw and paint.",
+            "Context": 100,
+            "Confidence": 1
+        },
+        {
+            "Question": "i didn't know you knew how to draw and paint.",
+            "Answers": "i do it every once in a while.",
+            "Context": 100,
+            "Confidence": 1
+        },
+        {
+            "Question": "i do it every once in a while.",
+            "Answers": "how long have you known how to do that?",
+            "Context": 100,
+            "Confidence": 1
+        },
+        {
+            "Question": "how long have you known how to do that?",
+            "Answers": "i first learned how to do it in high school.",
+            "Context": 100,
+            "Confidence": 1
+        },
+        {
+            "Question": "i first learned how to do it in high school.",
+            "Answers": "did you take some sort of art class or something?",
+            "Context": 100,
+            "Confidence": 1
+        },
+        {
+            "Question": "did you take some sort of art class or something?",
+            "Answers": "that was my favorite class.",
+            "Context": 100,
+            "Confidence": 1
+        },
+        {
+            "Question": "that was my favorite class.",
+            "Answers": "you have got to be talented.",
+            "Context": 100,
+            "Confidence": 1
+        },
+        {
+            "Question": "you have got to be talented.",
+            "Answers": "thanks.",
+            "Context": 100,
+            "Confidence": 1
+        },
+        {
+            "Question": "thanks.",
+            "Answers": "if only i was talented.",
+            "Context": 100,
+            "Confidence": 1
+        },
+        {
+            "Question": "if only i was talented.",
+            "Answers": "you have a talent. you just don't know what it is yet.",
+            "Context": 100,
+            "Confidence": 1
+        },
+        {
+            "Question": "are there any hobbies you do?",
+            "Answers": "when i have time, i sometimes draw and paint.",
+            "Context": 100,
+            "Confidence": 1
+        },
+        {
+            "Question": "when i have time, i sometimes draw and paint.",
+            "Answers": "oh, you actually do that?",
+            "Context": 100,
+            "Confidence": 1
+        },
+        {
+            "Question": "oh, you actually do that?",
+            "Answers": "every so often, i do.",
+            "Context": 100,
+            "Confidence": 1
+        },
+        {
+            "Question": "every so often, i do.",
+            "Answers": "did you always know how to draw and paint?",
+            "Context": 100,
+            "Confidence": 1
+        },
+        {
+            "Question": "did you always know how to draw and paint?",
+            "Answers": "i was taught in high school how to draw and paint.",
+            "Context": 100,
+            "Confidence": 1
+        },
+        {
+            "Question": "i was taught in high school how to draw and paint.",
+            "Answers": "you had an art class?",
+            "Context": 100,
+            "Confidence": 1
+        },
+        {
+            "Question": "you had an art class?",
+            "Answers": "exactly, it was my favorite class.",
+            "Context": 100,
+            "Confidence": 1
+        },
+        {
+            "Question": "exactly, it was my favorite class.",
+            "Answers": "well, it's good that you're so talented.",
+            "Context": 100,
+            "Confidence": 1
+        },
+        {
+            "Question": "well, it's good that you're so talented.",
+            "Answers": "i appreciate that.",
+            "Context": 100,
+            "Confidence": 1
+        },
+        {
+            "Question": "i appreciate that.",
+            "Answers": "talent is a great thing, i wish i had one.",
+            "Context": 100,
             "Confidence": 1
         }
     ]

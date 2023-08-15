@@ -27,38 +27,134 @@ def replace() -> None:
             data = json.dump({"messages":finalData},f,indent=4)
 
 data: list =  [
-         {
-            "Question": "why didn't you go to school yesterday?",
-            "Answer": "i stayed home because i wasn't feeling well."
+{
+            "Question": "tell me, what do you enjoy doing in your spare time?",
+            "Answer": "i enjoy drawing and painting."
         },
         {
-            "Question": "i stayed home because i wasn't feeling well.",
-            "Answer": "what was your problem?"
+            "Question": "i enjoy drawing and painting.",
+            "Answer": "you know how to draw and paint?"
         },
         {
-            "Question": "what was your problem?",
-            "Answer": "my stomach was bothering me."
+            "Question": "you know how to draw and paint?",
+            "Answer": "yes, i do."
         },
         {
-            "Question": "my stomach was bothering me.",
-            "Answer": "are you feeling any better?"
+            "Question": "yes, i do.",
+            "Answer": "when did you learn how to do that?"
         },
         {
-            "Question": "are you feeling any better?",
-            "Answer": "i'm still feeling a little sick."
+            "Question": "when did you learn how to do that?",
+            "Answer": "i learned back in high school."
         },
         {
-            "Question": "i'm still feeling a little sick.",
-            "Answer": "i'm going to the store, would you like any pepto bismol?"
+            "Question": "i learned back in high school.",
+            "Answer": "oh, so you took an art class?"
         },
         {
-            "Question": "i'm going to the store, would you like any pepto bismol?",
-            "Answer": "that's okay."
+            "Question": "oh, so you took an art class?",
+            "Answer": "yeah, i loved that class."
         },
         {
-            "Question": "that's okay.",
-            "Answer": "i hope you feel better."
+            "Question": "yeah, i loved that class.",
+            "Answer": "i see that you're pretty talented."
         },
+        {
+            "Question": "i see that you're pretty talented.",
+            "Answer": "thank you very much."
+        },
+        {
+            "Question": "thank you very much.",
+            "Answer": "i wish i had a talent like that."
+        },
+        {
+            "Question": "i wish i had a talent like that.",
+            "Answer": "i'm sure you have a talent. it's just hidden."
+        },
+        {
+            "Question": "what kinds of things do you like to do?",
+            "Answer": "i've always liked to draw and paint."
+        },
+        {
+            "Question": "i've always liked to draw and paint.",
+            "Answer": "i didn't know you knew how to draw and paint."
+        },
+        {
+            "Question": "i didn't know you knew how to draw and paint.",
+            "Answer": "i do it every once in a while."
+        },
+        {
+            "Question": "i do it every once in a while.",
+            "Answer": "how long have you known how to do that?"
+        },
+        {
+            "Question": "how long have you known how to do that?",
+            "Answer": "i first learned how to do it in high school."
+        },
+        {
+            "Question": "i first learned how to do it in high school.",
+            "Answer": "did you take some sort of art class or something?"
+        },
+        {
+            "Question": "did you take some sort of art class or something?",
+            "Answer": "that was my favorite class."
+        },
+        {
+            "Question": "that was my favorite class.",
+            "Answer": "you have got to be talented."
+        },
+        {
+            "Question": "you have got to be talented.",
+            "Answer": "thanks."
+        },
+        {
+            "Question": "thanks.",
+            "Answer": "if only i was talented."
+        },
+        {
+            "Question": "if only i was talented.",
+            "Answer": "you have a talent. you just don't know what it is yet."
+        },
+        {
+            "Question": "are there any hobbies you do?",
+            "Answer": "when i have time, i sometimes draw and paint."
+        },
+        {
+            "Question": "when i have time, i sometimes draw and paint.",
+            "Answer": "oh, you actually do that?"
+        },
+        {
+            "Question": "oh, you actually do that?",
+            "Answer": "every so often, i do."
+        },
+        {
+            "Question": "every so often, i do.",
+            "Answer": "did you always know how to draw and paint?"
+        },
+        {
+            "Question": "did you always know how to draw and paint?",
+            "Answer": "i was taught in high school how to draw and paint."
+        },
+        {
+            "Question": "i was taught in high school how to draw and paint.",
+            "Answer": "you had an art class?"
+        },
+        {
+            "Question": "you had an art class?",
+            "Answer": "exactly, it was my favorite class."
+        },
+        {
+            "Question": "exactly, it was my favorite class.",
+            "Answer": "well, it's good that you're so talented."
+        },
+        {
+            "Question": "well, it's good that you're so talented.",
+            "Answer": "i appreciate that."
+        },
+        {
+            "Question": "i appreciate that.",
+            "Answer": "talent is a great thing, i wish i had one."
+        }
 ]
 
 def makeSomeData() -> None:
@@ -68,7 +164,7 @@ def makeSomeData() -> None:
         thisData : dict = {}
         que = di["Question"]
         an = di["Answer"]
-        context = 12
+        context = 100
         confidence = 1
         thisData.update({"Question":que})
         thisData.update({"Answers":an})
