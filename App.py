@@ -13,7 +13,6 @@ def Train() -> None:
         val_CONFIDENCE = int(input("Confidence: "))
         val_CONTEXT = int(input("Context: "))
 
-
         done = False
         file_path = "datao.txt"
         all_sections = []
@@ -26,13 +25,12 @@ def Train() -> None:
                 msg_USER_INPUT: str = all_sections[0]
                 all_sections.remove(msg_USER_INPUT)
                 msg_USER_INPUT = msg_USER_INPUT.replace(".", "")
+                msg_USER_INPUT = msg_USER_INPUT.replace("?", "")
                 for line in all_sections[0:9]:
                     msg_BOT_ANSWER = line
                     answers.update({f"Answer{i}": msg_BOT_ANSWER})
                     all_sections.remove(line)
-                    print(i)
                     i += 1
-                print(i)
                 messRate: dict = {
                     "Question": msg_USER_INPUT,
                     "Answers": answers,
@@ -44,6 +42,7 @@ def Train() -> None:
         with open("Data/Data.json", "w") as f:
             json.dump(data, f, indent=4)
         print("Message Written!")
+        break
 
 
 def TrainFromDataSet() -> None:
@@ -128,6 +127,14 @@ def merge_messages():
         json.dump(merged_data, f, indent=4)
 
 
+def format_question(message: str) -> str:
+    formatted_message = message.replace(".", "")
+    formatted_message = message.replace("?", "")
+    formatted_message = message.replace("!", "")
+
+    return formatted_message
+
+
 def getMatches(text: str, possibilities: list, n: float = float("inf"), cutoff: float = 0.6):
     text = removeCommonWords(text)
     ngram3 = NGram(n=2)
@@ -138,6 +145,7 @@ def getMatches(text: str, possibilities: list, n: float = float("inf"), cutoff: 
     textGram4 = set(ngram4.split(text))
     similarText: dict = {}
     for possiblity in possibilities:
+        possiblity = format_question(possiblity)
         possibleNgram = set(ngram3.split(possiblity))
         possibleNgram4 = set(ngram4.split(possiblity))
         intersection = textGram.intersection(possibleNgram)
@@ -227,29 +235,27 @@ def selfTrain() -> None:
         for messagef in Data["messages"]:
             if messagef["Context"] == context:
                 messagesInthisContext.update({messagef['Question'].lower(): messagef})
-        closestInThisContext: list = getMatches(message["Question"], messagesInthisContext.keys(), cutoff=0.0)
-        messData.update({"Question": message["Question"]})
-        messData.update({"Answers": message["Answer"]})
-        messData.update({"Context": context})
-        confidence = closestInThisContext[0][0] * messagesInthisContext[closestInThisContext[0][1]]["Confidence"]
-        messData.update({"Confidence": confidence})
-        Data["messages"].append(messData.copy())
-        with open('Data/Data.json', "w") as f:
-            json.dump(Data, f, indent=4)
+        closestInThisContext: list = getMatches(message["Question"], messagesInthisContext.keys(), cutoff=0.5)
+        if len(closestInThisContext) != 0:
+            messData.update({"Question": message["Question"]})
+            messData.update({"Answers": message["Answer"]})
+            messData.update({"Context": context})
+            confidence = closestInThisContext[0][0] * messagesInthisContext[closestInThisContext[0][1]]["Confidence"]
+            messData.update({"Confidence": confidence})
+            Data["messages"].append(messData.copy())
+            with open('Data/Data.json', "w") as f:
+                json.dump(Data, f, indent=4)
 
 
-MODE: str = input("'Train' the chat or Have a 'fun' chat? \n")
+if __name__ == "__main__":
+    MODE: str = input("[Train] the chat or Have a [Fun] chat? \n //>: ")
 
-if MODE.lower() == "train":
-    print(membership("Hi how are you"))
-    # print("Training Mode on")
-    # selfTrain()
-    # merge_messages()
-    trainMode = input("(Train) or Train from (Dataset)")
-    if trainMode.lower() == "dataset":
-        TrainFromDataSet()
-    else:
-        Train()
-elif MODE == "fun":
-    while True:
-        print(getBestAnswer(input("Enter message: ")))
+    if MODE.lower() == "train":
+        trainMode = input("Train :: [Train] , [Dataset] : ")
+        if trainMode.lower() == "dataset":
+            selfTrain()
+        else:
+            Train()
+    elif MODE == "fun":
+        while True:
+            print(getBestAnswer(input("D.N.C AI: ")))

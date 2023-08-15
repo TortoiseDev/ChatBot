@@ -17,7 +17,7 @@ while not done:
             break
         pyautogui.typewrite(f"'{prompt}' write 10 answer each in one line and write the question as number one")
         pyautogui.hotkey('enter')
-        time.sleep(11)
+        time.sleep(14)
 
         pyautogui.moveTo(706, 365)
 
