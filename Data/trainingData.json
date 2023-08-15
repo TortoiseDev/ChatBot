@@ -14899,6 +14899,359 @@
         {
             "Question": "but i do all my writing with my right hand.",
             "Answer": "start typing instead. that way your left hand will do half the work."
+        },{
+            "Question": "How are you doing today?",
+            "Answer": {
+                "Answer0": "Doing great!!",
+                "Answer1": "I am swell, thanks for asking.",
+                "Answer2": "Amazing now that you are talking to me.",
+                "Answer3": "Wonderful!! it's a great day to be alive!"
+            },
+            "Context": 0,
+            "Confidence": 1
+        },
+        {
+            "Question": "How is the weather?",
+            "Answer": {
+                "Answer0": "It's pretty good.",
+                "Answer1": "Kinda hot but nothing too bad."
+            },
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "How is the weather like these days?",
+            "Answer": {
+                "Answer0": "It's pretty good, keeps changing but oh well.",
+                "Answer1": "Kinda hot but nothing I can't handle."
+            },
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "How is the weather looking like today?",
+            "Answer": {
+                "Answer0": "It's getting more tolerable thankfully.",
+                "Answer1": "Kinda hot but nothing too bad."
+            },
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "About the weather, how is it?",
+            "Answer": {
+                "Answer0": "It's pretty good.",
+                "Answer1": "Kinda hot but nothing too bad."
+            },
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "Is the weather nice?",
+            "Answer": {
+                "Answer0": "It's pretty good, keeps changing but oh well.",
+                "Answer1": "Kinda hot but nothing I can't handle."
+            },
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "Is the weather looking good?",
+            "Answer": {
+                "Answer0": "It's getting more tolerable thankfully.",
+                "Answer1": "Kinda hot but nothing too bad."
+            },
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "hi, how are you doing?",
+            "Answer": {
+                "Answer0": "i'm fine. how about yourself?",
+                "Answer1": "i'm fine. how about yourself?",
+                "Answer2": "i'm fine. how about yourself?"
+            },
+            "Context": 0,
+            "Confidence": 1
+        },
+        {
+            "Question": "i'm fine. how about yourself?",
+            "Answer": {
+                "Answer0": "i'm pretty good. thanks for asking.",
+                "Answer1": "i'm pretty good. thanks for asking."
+            },
+            "Context": 0,
+            "Confidence": 1
+        },
+        {
+            "Question": "i'm pretty good. thanks for asking.",
+            "Answer": {
+                "Answer0": "no problem. so how have you been?",
+                "Answer1": "no problem. so how have you been?"
+            },
+            "Context": 0,
+            "Confidence": 1
+        },
+        {
+            "Question": "no problem. so how have you been?",
+            "Answer": {
+                "Answer0": "i've been great. what about you?",
+                "Answer1": "i've been great. what about you?"
+            },
+            "Context": 0,
+            "Confidence": 1
+        },
+        {
+            "Question": "i've been great. what about you?",
+            "Answer": {
+                "Answer0": "i've been good. i'm in school right now.",
+                "Answer1": "i've been good. i'm in school right now."
+            },
+            "Context": 0,
+            "Confidence": 1
+        },
+        {
+            "Question": "i've been good. i'm in school right now.",
+            "Answer": {
+                "Answer0": "what school do you go to?",
+                "Answer1": "what school do you go to?"
+            },
+            "Context": 3,
+            "Confidence": 1
+        },
+        {
+            "Question": "what school do you go to?",
+            "Answer": {
+                "Answer0": "i go to pcc.",
+                "Answer1": "i go to pcc."
+            },
+            "Context": 3,
+            "Confidence": 1
+        },
+        {
+            "Question": "i go to pcc.",
+            "Answer": {
+                "Answer0": "do you like it there?",
+                "Answer1": "do you like it there?"
+            },
+            "Context": 3,
+            "Confidence": 1
+        },
+        {
+            "Question": "do you like it there?",
+            "Answer": {
+                "Answer0": "it's okay. it's a really big campus.",
+                "Answer1": "it's okay. it's a really big campus."
+            },
+            "Context": 3,
+            "Confidence": 1
+        },
+        {
+            "Question": "it's okay. it's a really big campus.",
+            "Answer": {
+                "Answer0": "good luck with school.",
+                "Answer1": "good luck with school."
+            },
+            "Context": 3,
+            "Confidence": 1
+        },
+        {
+            "Question": "good luck with school.",
+            "Answer": {
+                "Answer0": "thank you very much.",
+                "Answer1": "thank you very much."
+            },
+            "Context": 3,
+            "Confidence": 1
+        },
+        {
+            "Question": "how's it going?",
+            "Answer": {
+                "Answer0": "i'm doing well. how about you?",
+                "Answer1": "i'm doing well. how about you?"
+            },
+            "Context": 0,
+            "Confidence": 1
+        },
+        {
+            "Question": "i'm doing well. how about you?",
+            "Answer": {
+                "Answer0": "never better, thanks.",
+                "Answer1": "never better, thanks."
+            },
+            "Context": 0,
+            "Confidence": 1
+        },
+        {
+            "Question": "never better, thanks.",
+            "Answer": {
+                "Answer0": "so how have you been lately?",
+                "Answer1": "so how have you been lately?"
+            },
+            "Context": 0,
+            "Confidence": 1
+        },
+        {
+            "Question": "so how have you been lately?",
+            "Answer": {
+                "Answer0": "i've actually been pretty good. you?",
+                "Answer1": "i've actually been pretty good. you?"
+            },
+            "Context": 0,
+            "Confidence": 1
+        },
+        {
+            "Question": "i've actually been pretty good. you?",
+            "Answer": {
+                "Answer0": "i'm actually in school right now.",
+                "Answer1": "i'm actually in school right now."
+            },
+            "Context": 0,
+            "Confidence": 1
+        },
+        {
+            "Question": "i'm actually in school right now.",
+            "Answer": {
+                "Answer0": "which school do you attend?",
+                "Answer1": "which school do you attend?"
+            },
+            "Context": 3,
+            "Confidence": 1
+        },
+        {
+            "Question": "which school do you attend?",
+            "Answer": {
+                "Answer0": "i'm attending pcc right now.",
+                "Answer1": "i'm attending pcc right now."
+            },
+            "Context": 3,
+            "Confidence": 1
+        },
+        {
+            "Question": "i'm attending pcc right now.",
+            "Answer": {
+                "Answer0": "are you enjoying it there?",
+                "Answer1": "are you enjoying it there?"
+            },
+            "Context": 3,
+            "Confidence": 1
+        },
+        {
+            "Question": "are you enjoying it there?",
+            "Answer": {
+                "Answer0": "it's not bad. there are a lot of people there.",
+                "Answer1": "it's not bad. there are a lot of people there."
+            },
+            "Context": 3,
+            "Confidence": 1
+        },
+        {
+            "Question": "it's not bad. there are a lot of people there.",
+            "Answer": {
+                "Answer0": "good luck with that.",
+                "Answer1": "good luck with that."
+            },
+            "Context": 3,
+            "Confidence": 1
+        },
+        {
+            "Question": "good luck with that.",
+            "Answer": {
+                "Answer0": "thanks.",
+                "Answer1": "thanks."
+            },
+            "Context": 0,
+            "Confidence": 1
+        },
+        {
+            "Question": "i am so tired",
+            "Answer": {
+                "Answer0": "why is that",
+                "Answer1": "are you okay",
+                "Answer2": "everthing fine"
+            },
+            "Context": 20,
+            "Confidence": 1
+        },
+        {
+            "Question": "are you okay",
+            "Answer": {
+                "Answer0": "yeah, just dealing with stress i guess"
+            },
+            "Context": 20,
+            "Confidence": 1
+        },
+        {
+            "Question": "everything fine",
+            "Answer": {
+                "Answer0": "yeah don't worry"
+            },
+            "Context": 20,
+            "Confidence": 1
+        },
+        {
+            "Question": "how are you doing today?",
+            "Answer": {
+                "Answer0": "i'm doing great. what about you?"
+            },
+            "Context": 0,
+            "Confidence": 1
+        },
+        {
+            "Question": "i'm doing great. what about you?",
+            "Answer": {
+                "Answer0": "i'm absolutely lovely, thank you."
+            },
+            "Context": 0,
+            "Confidence": 1
+        },
+        {
+            "Question": "i'm absolutely lovely, thank you.",
+            "Answer": {
+                "Answer0": "everything's been good with you?"
+            },
+            "Context": 0,
+            "Confidence": 1
+        },
+        {
+            "Question": "everything's been good with you?",
+            "Answer": {
+                "Answer0": "i haven't been better. how about yourself?"
+            },
+            "Context": 0,
+            "Confidence": 1
+        },
+        {
+            "Question": "i haven't been better. how about yourself?",
+            "Answer": {
+                "Answer0": "i started school recently."
+            },
+            "Context": 0,
+            "Confidence": 1
+        },
+        {
+            "Question": "i started school recently.",
+            "Answer": {
+                "Answer0": "where are you going to school?"
+            },
+            "Context": 3,
+            "Confidence": 1
+        },
+        {
+            "Question": "where are you going to school?",
+            "Answer": {
+                "Answer0": "i'm going to pcc."
+            },
+            "Context": 3,
+            "Confidence": 1
+        },
+        {
+            "Question": "i'm going to pcc.",
+            "Answer": {
+                "Answer0": "how do you like it so far?"
+            },
+            "Context": 3,
+            "Confidence": 1
         }
     ]
 }

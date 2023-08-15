@@ -353,6 +353,678 @@
             },
             "Context": 3,
             "Confidence": 1
+        },
+        {
+            "Question": "it's an ugly day today.",
+            "Answers": "i know. i think it may rain.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "i know. i think it may rain.",
+            "Answers": "it's the middle of summer, it shouldn't rain today.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "it's the middle of summer, it shouldn't rain today.",
+            "Answers": "that would be weird.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "that would be weird.",
+            "Answers": "yeah, especially since it's ninety degrees outside.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "yeah, especially since it's ninety degrees outside.",
+            "Answers": "i know, it would be horrible if it rained and it was hot outside.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "i know, it would be horrible if it rained and it was hot outside.",
+            "Answers": "yes, it would be. ",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "yes, it would be. ",
+            "Answers": "i really wish it wasn't so hot every day. ",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "i really wish it wasn't so hot every day. ",
+            "Answers": "me too. i can't wait until winter.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "me too. i can't wait until winter.",
+            "Answers": "i like winter too, but sometimes it gets too cold.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "i like winter too, but sometimes it gets too cold.",
+            "Answers": "i'd rather be cold than hot.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "i'd rather be cold than hot.",
+            "Answers": "me too.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "it doesn't look very nice outside today.",
+            "Answers": "you're right. i think it's going to rain later.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "you're right. i think it's going to rain later.",
+            "Answers": "in the middle of the summer, it shouldn't be raining.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "in the middle of the summer, it shouldn't be raining.",
+            "Answers": "that wouldn't seem right.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "that wouldn't seem right.",
+            "Answers": "considering that it's over ninety degrees outside, that would be weird.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "considering that it's over ninety degrees outside, that would be weird.",
+            "Answers": "exactly, it wouldn't be nice if it started raining. it's too hot.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "exactly, it wouldn't be nice if it started raining. it's too hot.",
+            "Answers": "i know, you're absolutely right.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "i know, you're absolutely right.",
+            "Answers": "i wish it would cool off one day.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "i wish it would cool off one day.",
+            "Answers": "that's how i feel, i want winter to come soon.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "that's how i feel, i want winter to come soon.",
+            "Answers": "i enjoy the winter, but it gets really cold sometimes.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "i enjoy the winter, but it gets really cold sometimes.",
+            "Answers": "i know what you mean, but i'd rather be cold than hot.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "i know what you mean, but i'd rather be cold than hot.",
+            "Answers": "that's exactly how i feel.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "i wish it was a nicer day today.",
+            "Answers": "that is true. i hope it doesn't rain.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "that is true. i hope it doesn't rain.",
+            "Answers": "it wouldn't rain in the middle of the summer.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "it wouldn't rain in the middle of the summer.",
+            "Answers": "it wouldn't seem right if it started raining right now.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "it wouldn't seem right if it started raining right now.",
+            "Answers": "it would be weird if it started raining in ninety degree weather.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "it would be weird if it started raining in ninety degree weather.",
+            "Answers": "any rain right now would be pointless.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "any rain right now would be pointless.",
+            "Answers": "that's right, it really would be.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "that's right, it really would be.",
+            "Answers": "i want it to cool down some.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "i want it to cool down some.",
+            "Answers": "i know what you mean, i can't wait until it's winter.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "i know what you mean, i can't wait until it's winter.",
+            "Answers": "winter is great. i wish it didn't get so cold sometimes though.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "winter is great. i wish it didn't get so cold sometimes though.",
+            "Answers": "i would rather deal with the winter than the summer.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "it's such a nice day.",
+            "Answers": "yes, it is.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "yes, it is.",
+            "Answers": "it looks like it may rain soon.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "it looks like it may rain soon.",
+            "Answers": "yes, and i hope that it does.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "yes, and i hope that it does.",
+            "Answers": "why is that?",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "why is that?",
+            "Answers": "i really love how rain clears the air.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "i really love how rain clears the air.",
+            "Answers": "me too. it always smells so fresh after it rains.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "me too. it always smells so fresh after it rains.",
+            "Answers": "yes, but i love the night air after it rains.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "yes, but i love the night air after it rains.",
+            "Answers": "really? why is it?",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "really? why is it?",
+            "Answers": "because you can see the stars perfectly.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "because you can see the stars perfectly.",
+            "Answers": "i really hope it rains today.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "i really hope it rains today.",
+            "Answers": "yeah, me too.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "isn't it a nice day?",
+            "Answers": "it really is.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "it really is.",
+            "Answers": "it seems that it may rain today.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "it seems that it may rain today.",
+            "Answers": "hopefully it will.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "hopefully it will.",
+            "Answers": "how come?",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "how come?",
+            "Answers": "i like how clear the sky gets after it rains.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "i like how clear the sky gets after it rains.",
+            "Answers": "i feel the same way. it smells so good after it rains.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "i feel the same way. it smells so good after it rains.",
+            "Answers": "i especially love the night air when it rains.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "i especially love the night air when it rains.",
+            "Answers": "really? why?",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "really? why?",
+            "Answers": "the stars look so much closer after it rains.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "the stars look so much closer after it rains.",
+            "Answers": "i really want it to rain today.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "i really want it to rain today.",
+            "Answers": "yeah, so do i.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "don't you think it's nice out?",
+            "Answers": "yes, i think so too.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "yes, i think so too.",
+            "Answers": "i think that it's going to rain.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "i think that it's going to rain.",
+            "Answers": "i hope that it does rain.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "i hope that it does rain.",
+            "Answers": "you like the rain?",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "you like the rain?",
+            "Answers": "the sky looks so clean after it rains. i love it.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "the sky looks so clean after it rains. i love it.",
+            "Answers": "i understand. rain does make it smell cleaner.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "i understand. rain does make it smell cleaner.",
+            "Answers": "i love most how it is at night after it rains.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "i love most how it is at night after it rains.",
+            "Answers": "how come?",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "how come?",
+            "Answers": "you can see the stars so much more clearly after it rains.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "you can see the stars so much more clearly after it rains.",
+            "Answers": "i would love for it to rain today.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "i really want to go to the beach this weekend.",
+            "Answers": "that sounds like fun. what's the weather going to be like?",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "that sounds like fun. what's the weather going to be like?",
+            "Answers": "i heard that it's going to be warm this weekend.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "i heard that it's going to be warm this weekend.",
+            "Answers": "is it going to be perfect beach weather?",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "is it going to be perfect beach weather?",
+            "Answers": "i believe so.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "i believe so.",
+            "Answers": "good. i hope it doesn't cool off this weekend.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "good. i hope it doesn't cool off this weekend.",
+            "Answers": "i know. i really want to go to the beach.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "i know. i really want to go to the beach.",
+            "Answers": "but you know that california weather is really unpredictable.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "but you know that california weather is really unpredictable.",
+            "Answers": "you're right. one minute it's hot, and then the next minute it's cold.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "you're right. one minute it's hot, and then the next minute it's cold.",
+            "Answers": "i really wish the weather would just stay the same.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "i really wish the weather would just stay the same.",
+            "Answers": "i do too. that way we can have our activities planned ahead of time.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "i do too. that way we can have our activities planned ahead of time.",
+            "Answers": "yeah, that would make things a lot easier.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "i would like to take a trip to the beach this weekend.",
+            "Answers": "a trip to the beach would be fun. how is the weather going to be?",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "a trip to the beach would be fun. how is the weather going to be?",
+            "Answers": "the forecast says that it will be warm on the weekend.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "the forecast says that it will be warm on the weekend.",
+            "Answers": "so do you think it'll be perfect weather for the beach?",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "so do you think it'll be perfect weather for the beach?",
+            "Answers": "it sounds like it will be.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "it sounds like it will be.",
+            "Answers": "i really hope it doesn't get cold.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "i really hope it doesn't get cold.",
+            "Answers": "that would ruin things, i want to go so badly.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "that would ruin things, i want to go so badly.",
+            "Answers": "the weather in california is unpredictable, so you never know.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "the weather in california is unpredictable, so you never know.",
+            "Answers": "that is true. the weather is constantly changing.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "that is true. the weather is constantly changing.",
+            "Answers": "it would be nice if the weather would never change.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "it would be nice if the weather would never change.",
+            "Answers": "that would be great, then we could plan things sooner.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "that would be great, then we could plan things sooner.",
+            "Answers": "true. predictable weather would make life easier.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "it would be nice to go to the beach sometime this weekend.",
+            "Answers": "what's the weather going to be like? i may want to go too.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "what's the weather going to be like? i may want to go too.",
+            "Answers": "the weather this weekend is supposed to be warm.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "the weather this weekend is supposed to be warm.",
+            "Answers": "will it be good beach weather?",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "will it be good beach weather?",
+            "Answers": "i think it will be.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "i think it will be.",
+            "Answers": "it wouldn't be good if it got cold this weekend.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "it wouldn't be good if it got cold this weekend.",
+            "Answers": "i want this trip to be perfect, i hope it stays warm.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "i want this trip to be perfect, i hope it stays warm.",
+            "Answers": "this california weather is so uncertain, it's impossible to know what'll happen.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "this california weather is so uncertain, it's impossible to know what'll happen.",
+            "Answers": "i know. every day the weather seems different.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "i know. every day the weather seems different.",
+            "Answers": "i would love it if it wasn't always so unpredictable.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "i would love it if it wasn't always so unpredictable.",
+            "Answers": "that would make it easier for us to make plans.",
+            "Context": 10,
+            "Confidence": 1
+        },
+        {
+            "Question": "why didn't you go to school yesterday?",
+            "Answers": "i stayed home because i wasn't feeling well.",
+            "Context": 12,
+            "Confidence": 1
+        },
+        {
+            "Question": "i stayed home because i wasn't feeling well.",
+            "Answers": "what was your problem?",
+            "Context": 12,
+            "Confidence": 1
+        },
+        {
+            "Question": "what was your problem?",
+            "Answers": "my stomach was bothering me.",
+            "Context": 12,
+            "Confidence": 1
+        },
+        {
+            "Question": "my stomach was bothering me.",
+            "Answers": "are you feeling any better?",
+            "Context": 12,
+            "Confidence": 1
+        },
+        {
+            "Question": "are you feeling any better?",
+            "Answers": "i'm still feeling a little sick.",
+            "Context": 12,
+            "Confidence": 1
+        },
+        {
+            "Question": "i'm still feeling a little sick.",
+            "Answers": "i'm going to the store, would you like any pepto bismol?",
+            "Context": 12,
+            "Confidence": 1
+        },
+        {
+            "Question": "i'm going to the store, would you like any pepto bismol?",
+            "Answers": "that's okay.",
+            "Context": 12,
+            "Confidence": 1
+        },
+        {
+            "Question": "that's okay.",
+            "Answers": "i hope you feel better.",
+            "Context": 12,
+            "Confidence": 1
+        },
+        {
+            "Question": "why didn't you go to school yesterday?",
+            "Answers": "i stayed home because i wasn't feeling well.",
+            "Context": 12,
+            "Confidence": 1
+        },
+        {
+            "Question": "i stayed home because i wasn't feeling well.",
+            "Answers": "what was your problem?",
+            "Context": 12,
+            "Confidence": 1
+        },
+        {
+            "Question": "what was your problem?",
+            "Answers": "my stomach was bothering me.",
+            "Context": 12,
+            "Confidence": 1
+        },
+        {
+            "Question": "my stomach was bothering me.",
+            "Answers": "are you feeling any better?",
+            "Context": 12,
+            "Confidence": 1
+        },
+        {
+            "Question": "are you feeling any better?",
+            "Answers": "i'm still feeling a little sick.",
+            "Context": 12,
+            "Confidence": 1
+        },
+        {
+            "Question": "i'm still feeling a little sick.",
+            "Answers": "i'm going to the store, would you like any pepto bismol?",
+            "Context": 12,
+            "Confidence": 1
+        },
+        {
+            "Question": "i'm going to the store, would you like any pepto bismol?",
+            "Answers": "that's okay.",
+            "Context": 12,
+            "Confidence": 1
+        },
+        {
+            "Question": "that's okay.",
+            "Answers": "i hope you feel better.",
+            "Context": 12,
+            "Confidence": 1
         }
     ]
 }
