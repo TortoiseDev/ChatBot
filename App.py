@@ -145,9 +145,9 @@ def getMatches(text: str, possibilities: list, n: float = float("inf"), cutoff: 
     textGram4 = set(ngram4.split(text))
     similarText: dict = {}
     for possiblity in possibilities:
-        possiblity = format_question(possiblity)
-        possibleNgram = set(ngram3.split(possiblity))
-        possibleNgram4 = set(ngram4.split(possiblity))
+        possiblityN = format_question(possiblity)
+        possibleNgram = set(ngram3.split(possiblityN))
+        possibleNgram4 = set(ngram4.split(possiblityN))
         intersection = textGram.intersection(possibleNgram)
         intersection4 = textGram4.intersection(possibleNgram4)
         similarity = len(intersection) / len(textGram)
