@@ -28,133 +28,125 @@ def replace() -> None:
 
 data: list =  [
 {
-            "Question": "tell me, what do you enjoy doing in your spare time?",
-            "Answer": "i enjoy drawing and painting."
+            "Question": "it was nice talking to you.",
+            "Answer": "why are you trying to rush me off the phone?"
         },
         {
-            "Question": "i enjoy drawing and painting.",
-            "Answer": "you know how to draw and paint?"
+            "Question": "why are you trying to rush me off the phone?",
+            "Answer": "i really have to go."
         },
         {
-            "Question": "you know how to draw and paint?",
-            "Answer": "yes, i do."
+            "Question": "i really have to go.",
+            "Answer": "why? i still wanted to talk to you."
         },
         {
-            "Question": "yes, i do.",
-            "Answer": "when did you learn how to do that?"
+            "Question": "why? i still wanted to talk to you.",
+            "Answer": "i have things to do."
         },
         {
-            "Question": "when did you learn how to do that?",
-            "Answer": "i learned back in high school."
+            "Question": "i have things to do.",
+            "Answer": "like what?"
         },
         {
-            "Question": "i learned back in high school.",
-            "Answer": "oh, so you took an art class?"
+            "Question": "like what?",
+            "Answer": "don't be nosey."
         },
         {
-            "Question": "oh, so you took an art class?",
-            "Answer": "yeah, i loved that class."
+            "Question": "don't be nosey.",
+            "Answer": "i'm not. i just want to know."
         },
         {
-            "Question": "yeah, i loved that class.",
-            "Answer": "i see that you're pretty talented."
+            "Question": "i'm not. i just want to know.",
+            "Answer": "well, it's really none of your business."
         },
         {
-            "Question": "i see that you're pretty talented.",
-            "Answer": "thank you very much."
+            "Question": "well, it's really none of your business.",
+            "Answer": "that's harsh."
         },
         {
-            "Question": "thank you very much.",
-            "Answer": "i wish i had a talent like that."
+            "Question": "that's harsh.",
+            "Answer": "i'm sorry, but i have to go."
         },
         {
-            "Question": "i wish i had a talent like that.",
-            "Answer": "i'm sure you have a talent. it's just hidden."
+            "Question": "i'm sorry, but i have to go.",
+            "Answer": "fine."
         },
         {
-            "Question": "what kinds of things do you like to do?",
-            "Answer": "i've always liked to draw and paint."
+            "Question": "i've enjoyed conversing with you.",
+            "Answer": "is there a reason why you're trying to get off the phone so fast?"
         },
         {
-            "Question": "i've always liked to draw and paint.",
-            "Answer": "i didn't know you knew how to draw and paint."
+            "Question": "is there a reason why you're trying to get off the phone so fast?",
+            "Answer": "i've got to go."
         },
         {
-            "Question": "i didn't know you knew how to draw and paint.",
-            "Answer": "i do it every once in a while."
+            "Question": "i've got to go.",
+            "Answer": "i wasn't done talking to you."
         },
         {
-            "Question": "i do it every once in a while.",
-            "Answer": "how long have you known how to do that?"
+            "Question": "i wasn't done talking to you.",
+            "Answer": "i have to do some things, and besides, it's not polite to be nosey."
         },
         {
-            "Question": "how long have you known how to do that?",
-            "Answer": "i first learned how to do it in high school."
+            "Question": "i have to do some things, and besides, it's not polite to be nosey.",
+            "Answer": "i'm not being nosey. i'm just asking."
         },
         {
-            "Question": "i first learned how to do it in high school.",
-            "Answer": "did you take some sort of art class or something?"
+            "Question": "i'm not being nosey. i'm just asking.",
+            "Answer": "i really don't think it's any of your business."
         },
         {
-            "Question": "did you take some sort of art class or something?",
-            "Answer": "that was my favorite class."
+            "Question": "i really don't think it's any of your business.",
+            "Answer": "that's not nice."
         },
         {
-            "Question": "that was my favorite class.",
-            "Answer": "you have got to be talented."
+            "Question": "that's not nice.",
+            "Answer": "i apologize, but i'm getting off the phone now."
         },
         {
-            "Question": "you have got to be talented.",
-            "Answer": "thanks."
+            "Question": "i apologize, but i'm getting off the phone now.",
+            "Answer": "okay."
         },
         {
-            "Question": "thanks.",
-            "Answer": "if only i was talented."
+            "Question": "i'll talk to you later.",
+            "Answer": "what's the rush?"
         },
         {
-            "Question": "if only i was talented.",
-            "Answer": "you have a talent. you just don't know what it is yet."
+            "Question": "what's the rush?",
+            "Answer": "i have to get off the phone now."
         },
         {
-            "Question": "are there any hobbies you do?",
-            "Answer": "when i have time, i sometimes draw and paint."
+            "Question": "i have to get off the phone now.",
+            "Answer": "i'm not ready to get off the phone with you."
         },
         {
-            "Question": "when i have time, i sometimes draw and paint.",
-            "Answer": "oh, you actually do that?"
+            "Question": "i'm not ready to get off the phone with you.",
+            "Answer": "there are other things i need to take care of."
         },
         {
-            "Question": "oh, you actually do that?",
-            "Answer": "every so often, i do."
+            "Question": "there are other things i need to take care of.",
+            "Answer": "what is it that you need to do? "
         },
         {
-            "Question": "every so often, i do.",
-            "Answer": "did you always know how to draw and paint?"
+            "Question": "what is it that you need to do? ",
+            "Answer": "please don't be nosey."
         },
         {
-            "Question": "did you always know how to draw and paint?",
-            "Answer": "i was taught in high school how to draw and paint."
+            "Question": "please don't be nosey.",
+            "Answer": "i'm not being nosey, it's just a question."
         },
         {
-            "Question": "i was taught in high school how to draw and paint.",
-            "Answer": "you had an art class?"
+            "Question": "i'm not being nosey, it's just a question.",
+            "Answer": "you don't need to worry about that."
         },
         {
-            "Question": "you had an art class?",
-            "Answer": "exactly, it was my favorite class."
+            "Question": "you don't need to worry about that.",
+            "Answer": "that was mean to say."
         },
         {
-            "Question": "exactly, it was my favorite class.",
-            "Answer": "well, it's good that you're so talented."
+            "Question": "that was mean to say.",
+            "Answer": "i am very sorry, but i must go."
         },
-        {
-            "Question": "well, it's good that you're so talented.",
-            "Answer": "i appreciate that."
-        },
-        {
-            "Question": "i appreciate that.",
-            "Answer": "talent is a great thing, i wish i had one."
-        }
 ]
 
 def makeSomeData() -> None:
@@ -164,7 +156,7 @@ def makeSomeData() -> None:
         thisData : dict = {}
         que = di["Question"]
         an = di["Answer"]
-        context = 100
+        context = 34
         confidence = 1
         thisData.update({"Question":que})
         thisData.update({"Answers":an})

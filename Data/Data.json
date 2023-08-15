@@ -791,7 +791,9 @@
         {
             "Question": "why is that?",
             "Answers": {
-                "Answer0": "i really love how rain clears the air."
+                "Answer0": "i really love how rain clears the air.",
+                "Answer1": "i like the different instruments that they use.",
+                "Answer2": "i don't feel like going."
             },
             "Context": 10,
             "Confidence": 1
@@ -880,7 +882,8 @@
             "Question": "how come?",
             "Answers": {
                 "Answer0": "i like how clear the sky gets after it rains.",
-                "Answer1": "you can see the stars so much more clearly after it rains."
+                "Answer1": "you can see the stars so much more clearly after it rains.",
+                "Answer2": "i don't really like parties."
             },
             "Context": 10,
             "Confidence": 1
@@ -1448,7 +1451,9 @@
         {
             "Question": "is that right?",
             "Answers": {
-                "Answer0": "it's the truth. i am really happy."
+                "Answer0": "it's the truth. i am really happy.",
+                "Answer1": "i didn't hear anything about it.",
+                "Answer2": "yeah, are you going to come?"
             },
             "Context": 19,
             "Confidence": 1
@@ -1537,7 +1542,8 @@
         {
             "Question": "are you serious?",
             "Answers": {
-                "Answer0": "yes, i am really excited."
+                "Answer0": "yes, i am really excited.",
+                "Answer1": "i haven't heard anything about it."
             },
             "Context": 19,
             "Confidence": 1
@@ -2069,6 +2075,1077 @@
                 "Answer0": "i appreciate that."
             },
             "Context": 100,
+            "Confidence": 1
+        },
+        {
+            "Question": "what type of music do you like to listen to?",
+            "Answers": {
+                "Answer0": "i like listening to different kinds of music."
+            },
+            "Context": 17,
+            "Confidence": 1
+        },
+        {
+            "Question": "i like listening to different kinds of music.",
+            "Answers": {
+                "Answer0": "like what, for instance?"
+            },
+            "Context": 17,
+            "Confidence": 1
+        },
+        {
+            "Question": "like what, for instance?",
+            "Answers": {
+                "Answer0": "i enjoy rock and r&b."
+            },
+            "Context": 17,
+            "Confidence": 1
+        },
+        {
+            "Question": "i enjoy rock and r&b.",
+            "Answers": {
+                "Answer0": "why is that?"
+            },
+            "Context": 17,
+            "Confidence": 1
+        },
+        {
+            "Question": "i like the different instruments that they use.",
+            "Answers": {
+                "Answer0": "that's a good reason to like something."
+            },
+            "Context": 17,
+            "Confidence": 1
+        },
+        {
+            "Question": "that's a good reason to like something.",
+            "Answers": {
+                "Answer0": "yeah, i think so too."
+            },
+            "Context": 17,
+            "Confidence": 1
+        },
+        {
+            "Question": "what kind of music do you enjoy listening to?",
+            "Answers": {
+                "Answer0": "i enjoy listening to all kinds of music."
+            },
+            "Context": 17,
+            "Confidence": 1
+        },
+        {
+            "Question": "i enjoy listening to all kinds of music.",
+            "Answers": {
+                "Answer0": "what kind?"
+            },
+            "Context": 17,
+            "Confidence": 1
+        },
+        {
+            "Question": "what kind?",
+            "Answers": {
+                "Answer0": "i like to listen to rock and r&b."
+            },
+            "Context": 17,
+            "Confidence": 1
+        },
+        {
+            "Question": "i like to listen to rock and r&b.",
+            "Answers": {
+                "Answer0": "why do you like that type of music?"
+            },
+            "Context": 17,
+            "Confidence": 1
+        },
+        {
+            "Question": "why do you like that type of music?",
+            "Answers": {
+                "Answer0": "i like the kinds of instruments that they use."
+            },
+            "Context": 17,
+            "Confidence": 1
+        },
+        {
+            "Question": "i like the kinds of instruments that they use.",
+            "Answers": {
+                "Answer0": "i think that's an excellent reason to like something."
+            },
+            "Context": 17,
+            "Confidence": 1
+        },
+        {
+            "Question": "i think that's an excellent reason to like something.",
+            "Answers": {
+                "Answer0": "thanks, i feel the same way."
+            },
+            "Context": 17,
+            "Confidence": 1
+        },
+        {
+            "Question": "what is your favorite kind of music?",
+            "Answers": {
+                "Answer0": "i listen to various types of music."
+            },
+            "Context": 17,
+            "Confidence": 1
+        },
+        {
+            "Question": "i listen to various types of music.",
+            "Answers": {
+                "Answer0": "what genres?"
+            },
+            "Context": 17,
+            "Confidence": 1
+        },
+        {
+            "Question": "what genres?",
+            "Answers": {
+                "Answer0": "i enjoy listening to both rock and r&b."
+            },
+            "Context": 17,
+            "Confidence": 1
+        },
+        {
+            "Question": "i enjoy listening to both rock and r&b.",
+            "Answers": {
+                "Answer0": "what interests you in that type of music?"
+            },
+            "Context": 17,
+            "Confidence": 1
+        },
+        {
+            "Question": "what interests you in that type of music?",
+            "Answers": {
+                "Answer0": "i enjoy the different types of instruments that they use."
+            },
+            "Context": 17,
+            "Confidence": 1
+        },
+        {
+            "Question": "i enjoy the different types of instruments that they use.",
+            "Answers": {
+                "Answer0": "that is a perfect reason to like a certain kind of music."
+            },
+            "Context": 17,
+            "Confidence": 1
+        },
+        {
+            "Question": "hey, what's up?",
+            "Answers": {
+                "Answer0": "nothing really."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "nothing really.",
+            "Answers": {
+                "Answer0": "i'm throwing a party on friday."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "i'm throwing a party on friday.",
+            "Answers": {
+                "Answer0": "i didn't realize that.",
+                "Answer1": "that sounds like fun."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "i didn't realize that.",
+            "Answers": {
+                "Answer0": "you didn't?"
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "you didn't?",
+            "Answers": {
+                "Answer0": "nobody has told me anything about your party."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "nobody has told me anything about your party.",
+            "Answers": {
+                "Answer0": "did you want to go?"
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "did you want to go?",
+            "Answers": {
+                "Answer0": "when does it start?"
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "when does it start?",
+            "Answers": {
+                "Answer0": "at 8:00 p.m."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "at 8:00 p.m.",
+            "Answers": {
+                "Answer0": "i'll be there."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "i'll be there.",
+            "Answers": {
+                "Answer0": "i'd better see you there."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "i'd better see you there.",
+            "Answers": {
+                "Answer0": "of course.",
+                "Answer1": "all right. i'll see you next time."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "what's going on with you?",
+            "Answers": {
+                "Answer0": "fine. what's going on with you?"
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "fine. what's going on with you?",
+            "Answers": {
+                "Answer0": "i'm having a party this friday."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "i'm having a party this friday.",
+            "Answers": {
+                "Answer0": "i had no idea.",
+                "Answer1": "oh, really? that's nice."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "i had no idea.",
+            "Answers": {
+                "Answer0": "is that right?"
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "i didn't hear anything about it.",
+            "Answers": {
+                "Answer0": "can you go?"
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "can you go?",
+            "Answers": {
+                "Answer0": "what time?"
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "what time?",
+            "Answers": {
+                "Answer0": "it starts at 8 o'clock."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "it starts at 8 o'clock.",
+            "Answers": {
+                "Answer0": "i'll go."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "i'll go.",
+            "Answers": {
+                "Answer0": "i hope that i'll see you there."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "i hope that i'll see you there.",
+            "Answers": {
+                "Answer0": "no doubt."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "what's going on?",
+            "Answers": {
+                "Answer0": "not much.",
+                "Answer1": "nothing really, you?",
+                "Answer2": "nothing really. how about you?"
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "not much.",
+            "Answers": {
+                "Answer0": "this friday, i'm throwing a party."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "this friday, i'm throwing a party.",
+            "Answers": {
+                "Answer0": "oh really? i didn't know that."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "oh really? i didn't know that.",
+            "Answers": {
+                "Answer0": "are you serious?"
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "i haven't heard anything about it.",
+            "Answers": {
+                "Answer0": "can you make it?"
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "can you make it?",
+            "Answers": {
+                "Answer0": "what time does it start?"
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "what time does it start?",
+            "Answers": {
+                "Answer0": "the party starts at 8."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "the party starts at 8.",
+            "Answers": {
+                "Answer0": "yeah, i think i'll go."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "yeah, i think i'll go.",
+            "Answers": {
+                "Answer0": "am i going to see you there?"
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "nothing really, you?",
+            "Answers": {
+                "Answer0": "i'm throwing a party next saturday."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "i'm throwing a party next saturday.",
+            "Answers": {
+                "Answer0": "is that right?"
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "yeah, are you going to come?",
+            "Answers": {
+                "Answer0": "i'm sorry, i can't."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "i'm sorry, i can't.",
+            "Answers": {
+                "Answer0": "why not?"
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "why not?",
+            "Answers": {
+                "Answer0": "i don't really want to.",
+                "Answer1": "i really can't stand going to parties."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "i don't really want to.",
+            "Answers": {
+                "Answer0": "well, why don't you?"
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "well, why don't you?",
+            "Answers": {
+                "Answer0": "i hate going to parties."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "i hate going to parties.",
+            "Answers": {
+                "Answer0": "well, that's okay."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "well, that's okay.",
+            "Answers": {
+                "Answer0": "yeah, sorry."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "what's up?",
+            "Answers": {
+                "Answer0": "nothing, how about you?",
+                "Answer1": "nothing much, what's going on?"
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "nothing, how about you?",
+            "Answers": {
+                "Answer0": "next saturday, i'm going to have a party."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "next saturday, i'm going to have a party.",
+            "Answers": {
+                "Answer0": "oh, really?"
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "oh, really?",
+            "Answers": {
+                "Answer0": "you are coming?"
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "you are coming?",
+            "Answers": {
+                "Answer0": "probably not."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "probably not.",
+            "Answers": {
+                "Answer0": "why is that?"
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "i don't feel like going.",
+            "Answers": {
+                "Answer0": "why not?"
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "i really can't stand going to parties.",
+            "Answers": {
+                "Answer0": "i understand, i guess."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "i understand, i guess.",
+            "Answers": {
+                "Answer0": "sorry about that."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "what's happening?",
+            "Answers": {
+                "Answer0": "not a lot, what about you?"
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "not a lot, what about you?",
+            "Answers": {
+                "Answer0": "i'm having a party next saturday."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "i'm having a party next saturday.",
+            "Answers": {
+                "Answer0": "that's nice."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "that's nice.",
+            "Answers": {
+                "Answer0": "are you going to be there?"
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "are you going to be there?",
+            "Answers": {
+                "Answer0": "i don't think so."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "i don't think so.",
+            "Answers": {
+                "Answer0": "is there a reason why?"
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "is there a reason why?",
+            "Answers": {
+                "Answer0": "i just really don't want to go."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "i just really don't want to go.",
+            "Answers": {
+                "Answer0": "how come?"
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "i don't really like parties.",
+            "Answers": {
+                "Answer0": "i wish you would go, but that's okay."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "nothing much, what's going on?",
+            "Answers": {
+                "Answer0": "i'm having a party this friday."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "oh, really? that's nice.",
+            "Answers": {
+                "Answer0": "i wanted to see if you wanted to come."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "i wanted to see if you wanted to come.",
+            "Answers": {
+                "Answer0": "this friday? sorry, i already have plans."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "this friday? sorry, i already have plans.",
+            "Answers": {
+                "Answer0": "doing what?"
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "doing what?",
+            "Answers": {
+                "Answer0": "i'm going to dinner with my family."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "i'm going to dinner with my family.",
+            "Answers": {
+                "Answer0": "i really wanted you to come, but i understand."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "i really wanted you to come, but i understand.",
+            "Answers": {
+                "Answer0": "yeah, maybe next time."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "yeah, maybe next time.",
+            "Answers": {
+                "Answer0": "i'll hold you to that."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "i'll hold you to that.",
+            "Answers": {
+                "Answer0": "sounds like a plan."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "hey, what's good with you?",
+            "Answers": {
+                "Answer0": "not a lot. what about you?"
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "not a lot. what about you?",
+            "Answers": {
+                "Answer0": "i'm throwing a party on friday."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "that sounds like fun.",
+            "Answers": {
+                "Answer0": "do you think you can come?"
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "do you think you can come?",
+            "Answers": {
+                "Answer0": "i'm sorry. i'm already doing something this friday."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "i'm sorry. i'm already doing something this friday.",
+            "Answers": {
+                "Answer0": "what are you going to be doing?"
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "what are you going to be doing?",
+            "Answers": {
+                "Answer0": "my family and i are going to dinner."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "my family and i are going to dinner.",
+            "Answers": {
+                "Answer0": "i was hoping you would come."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "i was hoping you would come.",
+            "Answers": {
+                "Answer0": "i'll definitely try to make it the next time."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "i'll definitely try to make it the next time.",
+            "Answers": {
+                "Answer0": "i'd better see you there."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "nothing really. how about you?",
+            "Answers": {
+                "Answer0": "a lot, like the party i'm having on friday."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "a lot, like the party i'm having on friday.",
+            "Answers": {
+                "Answer0": "well, that's cool."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "well, that's cool.",
+            "Answers": {
+                "Answer0": "will you be able to make it?"
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "will you be able to make it?",
+            "Answers": {
+                "Answer0": "i'm busy this friday. i'm sorry."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "i'm busy this friday. i'm sorry.",
+            "Answers": {
+                "Answer0": "what do you have to do?"
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "what do you have to do?",
+            "Answers": {
+                "Answer0": "i'm having dinner with my family"
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "i'm having dinner with my family",
+            "Answers": {
+                "Answer0": "maybe you can come next time."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "maybe you can come next time.",
+            "Answers": {
+                "Answer0": "i'll make sure and come to your next party."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "i'll make sure and come to your next party.",
+            "Answers": {
+                "Answer0": "i'll look for you at my next party."
+            },
+            "Context": 78,
+            "Confidence": 1
+        },
+        {
+            "Question": "it was nice talking to you.",
+            "Answers": {
+                "Answer0": "why are you trying to rush me off the phone?"
+            },
+            "Context": 34,
+            "Confidence": 1
+        },
+        {
+            "Question": "why are you trying to rush me off the phone?",
+            "Answers": {
+                "Answer0": "i really have to go."
+            },
+            "Context": 34,
+            "Confidence": 1
+        },
+        {
+            "Question": "i really have to go.",
+            "Answers": {
+                "Answer0": "why? i still wanted to talk to you."
+            },
+            "Context": 34,
+            "Confidence": 1
+        },
+        {
+            "Question": "why? i still wanted to talk to you.",
+            "Answers": {
+                "Answer0": "i have things to do."
+            },
+            "Context": 34,
+            "Confidence": 1
+        },
+        {
+            "Question": "i have things to do.",
+            "Answers": {
+                "Answer0": "like what?"
+            },
+            "Context": 34,
+            "Confidence": 1
+        },
+        {
+            "Question": "like what?",
+            "Answers": {
+                "Answer0": "don't be nosey."
+            },
+            "Context": 34,
+            "Confidence": 1
+        },
+        {
+            "Question": "don't be nosey.",
+            "Answers": {
+                "Answer0": "i'm not. i just want to know."
+            },
+            "Context": 34,
+            "Confidence": 1
+        },
+        {
+            "Question": "i'm not. i just want to know.",
+            "Answers": {
+                "Answer0": "well, it's really none of your business."
+            },
+            "Context": 34,
+            "Confidence": 1
+        },
+        {
+            "Question": "well, it's really none of your business.",
+            "Answers": {
+                "Answer0": "that's harsh."
+            },
+            "Context": 34,
+            "Confidence": 1
+        },
+        {
+            "Question": "that's harsh.",
+            "Answers": {
+                "Answer0": "i'm sorry, but i have to go."
+            },
+            "Context": 34,
+            "Confidence": 1
+        },
+        {
+            "Question": "i'm sorry, but i have to go.",
+            "Answers": {
+                "Answer0": "fine."
+            },
+            "Context": 34,
+            "Confidence": 1
+        },
+        {
+            "Question": "i've enjoyed conversing with you.",
+            "Answers": {
+                "Answer0": "is there a reason why you're trying to get off the phone so fast?"
+            },
+            "Context": 34,
+            "Confidence": 1
+        },
+        {
+            "Question": "is there a reason why you're trying to get off the phone so fast?",
+            "Answers": {
+                "Answer0": "i've got to go."
+            },
+            "Context": 34,
+            "Confidence": 1
+        },
+        {
+            "Question": "i've got to go.",
+            "Answers": {
+                "Answer0": "i wasn't done talking to you."
+            },
+            "Context": 34,
+            "Confidence": 1
+        },
+        {
+            "Question": "i wasn't done talking to you.",
+            "Answers": {
+                "Answer0": "i have to do some things, and besides, it's not polite to be nosey."
+            },
+            "Context": 34,
+            "Confidence": 1
+        },
+        {
+            "Question": "i have to do some things, and besides, it's not polite to be nosey.",
+            "Answers": {
+                "Answer0": "i'm not being nosey. i'm just asking."
+            },
+            "Context": 34,
+            "Confidence": 1
+        },
+        {
+            "Question": "i'm not being nosey. i'm just asking.",
+            "Answers": {
+                "Answer0": "i really don't think it's any of your business."
+            },
+            "Context": 34,
+            "Confidence": 1
+        },
+        {
+            "Question": "i really don't think it's any of your business.",
+            "Answers": {
+                "Answer0": "that's not nice."
+            },
+            "Context": 34,
+            "Confidence": 1
+        },
+        {
+            "Question": "that's not nice.",
+            "Answers": {
+                "Answer0": "i apologize, but i'm getting off the phone now."
+            },
+            "Context": 34,
+            "Confidence": 1
+        },
+        {
+            "Question": "i apologize, but i'm getting off the phone now.",
+            "Answers": {
+                "Answer0": "okay."
+            },
+            "Context": 34,
+            "Confidence": 1
+        },
+        {
+            "Question": "i'll talk to you later.",
+            "Answers": {
+                "Answer0": "what's the rush?"
+            },
+            "Context": 34,
+            "Confidence": 1
+        },
+        {
+            "Question": "what's the rush?",
+            "Answers": {
+                "Answer0": "i have to get off the phone now."
+            },
+            "Context": 34,
+            "Confidence": 1
+        },
+        {
+            "Question": "i have to get off the phone now.",
+            "Answers": {
+                "Answer0": "i'm not ready to get off the phone with you."
+            },
+            "Context": 34,
+            "Confidence": 1
+        },
+        {
+            "Question": "i'm not ready to get off the phone with you.",
+            "Answers": {
+                "Answer0": "there are other things i need to take care of."
+            },
+            "Context": 34,
+            "Confidence": 1
+        },
+        {
+            "Question": "there are other things i need to take care of.",
+            "Answers": {
+                "Answer0": "what is it that you need to do? "
+            },
+            "Context": 34,
+            "Confidence": 1
+        },
+        {
+            "Question": "what is it that you need to do? ",
+            "Answers": {
+                "Answer0": "please don't be nosey."
+            },
+            "Context": 34,
+            "Confidence": 1
+        },
+        {
+            "Question": "please don't be nosey.",
+            "Answers": {
+                "Answer0": "i'm not being nosey, it's just a question."
+            },
+            "Context": 34,
+            "Confidence": 1
+        },
+        {
+            "Question": "i'm not being nosey, it's just a question.",
+            "Answers": {
+                "Answer0": "you don't need to worry about that."
+            },
+            "Context": 34,
+            "Confidence": 1
+        },
+        {
+            "Question": "you don't need to worry about that.",
+            "Answers": {
+                "Answer0": "that was mean to say."
+            },
+            "Context": 34,
+            "Confidence": 1
+        },
+        {
+            "Question": "that was mean to say.",
+            "Answers": {
+                "Answer0": "i am very sorry, but i must go."
+            },
+            "Context": 34,
             "Confidence": 1
         }
     ]

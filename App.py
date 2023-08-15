@@ -113,8 +113,8 @@ def getMatches(text: str, possibilities: list, n:float = float("inf"), cutoff : 
     text = removeCommonWords(text)
     ngram3 = NGram(n=2)
     ngram4 = NGram(n=4)
-    weightOf2 : float = 0.5
-    weightOf4 : float = 0.5
+    weightOf2 : float = 0.6
+    weightOf4 : float = 0.4
     textGram = set(ngram3.split(text))
     textGram4 = set(ngram4.split(text))
     similarText : dict = {}
@@ -222,12 +222,12 @@ if __name__ == "__main__":
         print(membership("Hi how are you"))
         # print("Training Mode on")
         # selfTrain()
-        # merge_messages()
-        trainMode = input("(Train) or Train from (Dataset)")
-        if trainMode.lower() == "dataset":
-            TrainFromDataSet()
-        else:
-            Train()
+        merge_messages()
+        # trainMode = input("(Train) or Train from (Dataset)")
+        # if trainMode.lower() == "dataset":
+        #     TrainFromDataSet()
+        # else:
+        #     Train()
     elif MODE == "fun":
         while True:
             print(getBestAnswer(input("Enter message: ")))
