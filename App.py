@@ -44,6 +44,7 @@ def TrainFromDataSet()->None:
     val_CONTEXT : int = 0
     index = int(open("Data/dataIndex.txt","r").read())
     for i in range(index,len(trainingData)):
+        i = random.randint(i,len(trainingData)-1)
         print(trainingData[i]["Question"])
         print(trainingData[i]["Answer"])
         print("Enter context and confidence:")
@@ -72,7 +73,7 @@ def subjectAction(subject : str, verb : str, object :str) -> str:
     pass
 
 def removeCommonWords(message : str) -> str:
-    commonWords : set = {"an","a","i","he","she","they","it","them","his","her","them","its",'hers','and','but','were','am','is','are','must','can','in','was','were',"i'm","i've","it's","he's","she's"}
+    commonWords : set = {"an","a","i","he","she","they","it","them","his","her","them","its",'hers','and','but','were','am','is','are','must','can','in','was','were',"i'm","i've","it's","he's","she's","you","your","yours","you've"}
     allWords : list = message.split(' ')
     filteredList : list = [word for word in allWords if word.lower() not in commonWords] 
     joinedText =  ' '.join(filteredList)
@@ -107,18 +108,18 @@ def merge_messages():
     merged_data = {'messages': list(merged_messages.values())}
     with open("Data/Data.json", 'w') as f:
         json.dump(merged_data,f,indent=4)
-def getMatches(text: str, possibilities: list, n:float = float("inf"), cutoff : float= 0.6 ):
+def getMatches(text: str, possibilities: list, n:float = float("inf"), cutoff : float= 0.6):
     text = removeCommonWords(text)
     ngram3 = NGram(n=2)
     ngram4 = NGram(n=4)
-    weightOf2 : float = 0.6
-    weightOf4 : float = 0.4
-    textGram = set(ngram3.ngrams(text))
-    textGram4 = set(ngram4.ngrams(text))
+    weightOf2 : float = 0.5
+    weightOf4 : float = 0.5
+    textGram = set(ngram3.split(text))
+    textGram4 = set(ngram4.split(text))
     similarText : dict = {}
     for possiblity in possibilities:
-        possibleNgram = set(ngram3.ngrams(possiblity))
-        possibleNgram4 = set(ngram4.ngrams(possiblity))
+        possibleNgram = set(ngram3.split(possiblity))
+        possibleNgram4 = set(ngram4.split(possiblity))
         intersection = textGram.intersection(possibleNgram)
         intersection4 = textGram4.intersection(possibleNgram4)
         similarity = len(intersection) / len(textGram)
@@ -198,16 +199,16 @@ def selfTrain()-> None:
         messData : dict = {}
         context = membership(message["Question"])
         messagesInthisContext : dict = {}
-        for message in  Data["messages"]:
-            if message["Context"] == context:
-                messagesInthisContext.update({message['Question'].lower():message})
+        for messagef in  Data["messages"]:
+            if messagef["Context"] == context:
+                messagesInthisContext.update({messagef['Question'].lower():messagef})
         closestInThisContext : list = getMatches(message["Question"],messagesInthisContext.keys(),cutoff=0.0)
         messData.update({"Question" : message["Question"]})
-        messData.update({"Answers" : message["Answers"]})
+        messData.update({"Answers" : message["Answer"]})
         messData.update({"Context":context})
         confidence = closestInThisContext[0][0]*messagesInthisContext[closestInThisContext[0][1]]["Confidence"]
         messData.update({"Confidence":confidence})
-        Data["messages"].append(messData)
+        Data["messages"].append(messData.copy())
         with open('Data/Data.json',"w") as f:
             json.dump(Data,f,indent=4)
         
@@ -216,8 +217,8 @@ MODE : str = input("'Train' the chat or Have a 'fun' chat? \n")
 if MODE.lower() == "train":
     print(membership("Hi how are you"))
     # print("Training Mode on")
-    # selfTrain()
-    merge_messages()
+    selfTrain()
+    # merge_messages()
     # trainMode = input("(Train) or Train from (Dataset)")
     # if trainMode.lower() == "dataset":
     #     TrainFromDataSet()
