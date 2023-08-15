@@ -3,176 +3,57 @@
         {
             "Question": "Hello!",
             "Answers": {
-              "Answer0": "Hi there!",
-              "Answer1": "Hello!",
-              "Answer2": "Hey!",
-              "Answer3": "Greetings!",
-              "Answer4": "Good day!",
-              "Answer5": "Nice to meet you!",
-              "Answer6": "Howdy!",
-              "Answer7": "Salutations!",
-              "Answer8": "Yo!",
-              "Answer9": "Hey there!",
-              "Answer10": "Hello, how can I assist you?",
-              "Answer11": "Hello, nice to see you!",
-              "Answer12": "Hey, what's up?",
-              "Answer13": "Hello, how are you doing?",
-              "Answer14": "Hi, how can I help you today?",
-              "Answer15": "Hello, how's it going?",
-              "Answer16": "Hey, nice to meet you!",
-              "Answer17": "Hello, what brings you here?",
-              "Answer18": "Hi, how are you?",
-              "Answer19": "Hello, nice to meet you!"
+                "Answer0": "Hi there!",
+                "Answer1": "Hello!",
+                "Answer2": "Hey!",
+                "Answer3": "Greetings!",
+                "Answer4": "Good day!",
+                "Answer5": "Nice to meet you!",
+                "Answer6": "Howdy!",
+                "Answer7": "Salutations!",
+                "Answer8": "Yo!",
+                "Answer9": "Hey there!",
+                "Answer10": "Hello, how can I assist you?",
+                "Answer11": "Hello, nice to see you!",
+                "Answer12": "Hey, what's up?",
+                "Answer13": "Hello, how are you doing?",
+                "Answer14": "Hi, how can I help you today?",
+                "Answer15": "Hello, how's it going?",
+                "Answer16": "Hey, nice to meet you!",
+                "Answer17": "Hello, what brings you here?",
+                "Answer18": "Hi, how are you?",
+                "Answer19": "Hello, nice to meet you!"
             },
             "Context": 0,
             "Confidence": 1
-          },
-          {
+        },
+        {
             "Question": "Good morning.",
             "Answers": {
-              "Answer0": "Good morning!",
-              "Answer1": "Morning!",
-              "Answer2": "Hello!",
-              "Answer3": "Hey!",
-              "Answer4": "Greetings!",
-              "Answer5": "Rise and shine!",
-              "Answer6": "Top of the morning to you!",
-              "Answer7": "Good day!",
-              "Answer8": "Hello, how are you today?",
-              "Answer9": "Hi there, ready to start the day?",
-              "Answer10": "Morning, how can I assist you?",
-              "Answer11": "Good morning, nice to see you!",
-              "Answer12": "Hey, what's up this fine morning?",
-              "Answer13": "Hello, how's your day going so far?",
-              "Answer14": "Hi, how can I help you this morning?",
-              "Answer15": "Good morning, how are you doing today?",
-              "Answer16": "Hey, nice to meet you this morning!",
-              "Answer17": "Good morning, what brings you here today?",
-              "Answer18": "Hi, how are you feeling this morning?",
-              "Answer19": "Good morning, nice to meet you!"
+                "Answer0": "Good morning!",
+                "Answer1": "Morning!",
+                "Answer2": "Hello!",
+                "Answer3": "Hey!",
+                "Answer4": "Greetings!",
+                "Answer5": "Rise and shine!",
+                "Answer6": "Top of the morning to you!",
+                "Answer7": "Good day!",
+                "Answer8": "Hello, how are you today?",
+                "Answer9": "Hi there, ready to start the day?",
+                "Answer10": "Morning, how can I assist you?",
+                "Answer11": "Good morning, nice to see you!",
+                "Answer12": "Hey, what's up this fine morning?",
+                "Answer13": "Hello, how's your day going so far?",
+                "Answer14": "Hi, how can I help you this morning?",
+                "Answer15": "Good morning, how are you doing today?",
+                "Answer16": "Hey, nice to meet you this morning!",
+                "Answer17": "Good morning, what brings you here today?",
+                "Answer18": "Hi, how are you feeling this morning?",
+                "Answer19": "Good morning, nice to meet you!"
             },
             "Context": 0,
             "Confidence": 1
-          },
-          {
-            "Question": "How are you doing today?",
-            "Answers": {
-              "Answer0": "Doing great!!",
-              "Answer1": "I am swell, thanks for asking.",
-              "Answer2": "Amazing now that you are talking to me.",
-              "Answer3": "Wonderful!! it's a great day to be alive!",
-              "Answer4": "Feeling fantastic, thank you!",
-              "Answer5": "Pretty good, how about you?",
-              "Answer6": "I'm doing well, thank you!",
-              "Answer7": "Couldn't be better!",
-              "Answer8": "Just awesome, thanks!",
-              "Answer9": "Great! How about yourself?",
-              "Answer10": "Having a wonderful day so far!",
-              "Answer11": "I'm feeling really good today!",
-              "Answer12": "Everything is going well, thank you!",
-              "Answer13": "I'm doing fantastic, thanks for asking!",
-              "Answer14": "I'm having a splendid day, how about you?",
-              "Answer15": "I'm doing great, thanks for checking!",
-              "Answer16": "Absolutely fantastic!",
-              "Answer17": "I'm feeling amazing today!",
-              "Answer18": "I'm doing excellent, thank you!",
-              "Answer19": "I'm having a terrific day!"
-            },
-            "Context": 0,
-            "Confidence": 1
-          },
-          {
-            "Question": "Tell me about college.",
-            "Answers": {
-              "Answer0": "College is a higher education institution.",
-              "Answer1": "It offers academic and vocational training.",
-              "Answer2": "You can specialize in various fields of study.",
-              "Answer3": "College campuses foster a vibrant community.",
-              "Answer4": "It promotes personal growth and independence.",
-              "Answer5": "College equips you with critical thinking skills.",
-              "Answer6": "It prepares you for your career.",
-              "Answer7": "College facilitates lifelong learning.",
-              "Answer8": "You can pursue a degree in your chosen field.",
-              "Answer9": "Colleges offer diverse academic programs."
-            },
-            "Context": 3,
-            "Confidence": 1
-          },
-          {
-            "Question": "What are the admission requirements for college?",
-            "Answers": {
-              "Answer0": "Admission requirements vary by college.",
-              "Answer1": "They typically include high school transcripts.",
-              "Answer2": "Some colleges require standardized test scores.",
-              "Answer3": "Letters of recommendation may be necessary.",
-              "Answer4": "Certain programs have additional requirements.",
-              "Answer5": "Each college sets its own admission criteria.",
-              "Answer6": "Check the college's website for specific requirements.",
-              "Answer7": "Admissions offices can provide detailed information."
-            },
-            "Context": 3,
-            "Confidence": 1
-          },
-          {
-            "Question": "What types of degrees are offered in college?",
-            "Answers": {
-              "Answer0": "Colleges offer bachelor's degrees.",
-              "Answer1": "Master's and doctoral degrees are available too.",
-              "Answer2": "Associate degrees are offered by some colleges.",
-              "Answer3": "Professional degrees are available in certain fields.",
-              "Answer4": "Each degree level requires different coursework.",
-              "Answer5": "Colleges provide degrees in various disciplines.",
-              "Answer6": "Degrees can be earned in arts, sciences, and more.",
-              "Answer7": "Research the college's program offerings for details."
-            },
-            "Context": 3,
-            "Confidence": 1
-          },
-          {
-            "Question": "How long does it take to complete a college degree?",
-            "Answers": {
-              "Answer0": "Bachelor's degrees typically take 4 years.",
-              "Answer1": "Some programs offer accelerated options.",
-              "Answer2": "Master's degrees can take 1-2 years.",
-              "Answer3": "Doctoral programs vary but can take several years.",
-              "Answer4": "Associate degrees generally take 2 years.",
-              "Answer5": "The duration depends on the program and workload.",
-              "Answer6": "Part-time study may extend the completion time.",
-              "Answer7": "Consult the college's academic calendar for specifics."
-            },
-            "Context": 3,
-            "Confidence": 1
-          },
-          {
-            "Question": "What financial aid options are available for college?",
-            "Answers": {
-              "Answer0": "There are scholarships and grants.",
-              "Answer1": "Federal student loans are available.",
-              "Answer2": "Some colleges provide need-based aid.",
-              "Answer3": "Work-study programs offer part-time employment.",
-              "Answer4": "Private loans are an option for some students.",
-              "Answer5": "Financial aid packages may include a combination.",
-              "Answer6": "Complete the FAFSA to determine eligibility.",
-              "Answer7": "Contact the college's financial aid office for guidance."
-            },
-            "Context": 3,
-            "Confidence": 1
-          },
-          {
-            "Question": "Can I work while attending college?",
-            "Answers": {
-              "Answer0": "Many students work part-time jobs.",
-              "Answer1": "Flexible schedules can accommodate work.",
-              "Answer2": "Some colleges offer on-campus job opportunities.",
-              "Answer3": "Work-study programs provide employment options.",
-              "Answer4": "Balancing work and studies requires time management.",
-              "Answer5": "Consider your course load before committing to work.",
-              "Answer6": "Some programs incorporate internships for experience.",
-              "Answer7": "Consult with academic advisors regarding workload."
-            },
-            "Context": 3,
-            "Confidence": 1
-          },
+        },
         {
             "Question": "How are you doing today?",
             "Answers": {
@@ -182,6 +63,98 @@
                 "Answer3": "Wonderful!! it's a great day to be alive!"
             },
             "Context": 0,
+            "Confidence": 1
+        },
+        {
+            "Question": "Tell me about college.",
+            "Answers": {
+                "Answer0": "College is a higher education institution.",
+                "Answer1": "It offers academic and vocational training.",
+                "Answer2": "You can specialize in various fields of study.",
+                "Answer3": "College campuses foster a vibrant community.",
+                "Answer4": "It promotes personal growth and independence.",
+                "Answer5": "College equips you with critical thinking skills.",
+                "Answer6": "It prepares you for your career.",
+                "Answer7": "College facilitates lifelong learning.",
+                "Answer8": "You can pursue a degree in your chosen field.",
+                "Answer9": "Colleges offer diverse academic programs."
+            },
+            "Context": 3,
+            "Confidence": 1
+        },
+        {
+            "Question": "What are the admission requirements for college?",
+            "Answers": {
+                "Answer0": "Admission requirements vary by college.",
+                "Answer1": "They typically include high school transcripts.",
+                "Answer2": "Some colleges require standardized test scores.",
+                "Answer3": "Letters of recommendation may be necessary.",
+                "Answer4": "Certain programs have additional requirements.",
+                "Answer5": "Each college sets its own admission criteria.",
+                "Answer6": "Check the college's website for specific requirements.",
+                "Answer7": "Admissions offices can provide detailed information."
+            },
+            "Context": 3,
+            "Confidence": 1
+        },
+        {
+            "Question": "What types of degrees are offered in college?",
+            "Answers": {
+                "Answer0": "Colleges offer bachelor's degrees.",
+                "Answer1": "Master's and doctoral degrees are available too.",
+                "Answer2": "Associate degrees are offered by some colleges.",
+                "Answer3": "Professional degrees are available in certain fields.",
+                "Answer4": "Each degree level requires different coursework.",
+                "Answer5": "Colleges provide degrees in various disciplines.",
+                "Answer6": "Degrees can be earned in arts, sciences, and more.",
+                "Answer7": "Research the college's program offerings for details."
+            },
+            "Context": 3,
+            "Confidence": 1
+        },
+        {
+            "Question": "How long does it take to complete a college degree?",
+            "Answers": {
+                "Answer0": "Bachelor's degrees typically take 4 years.",
+                "Answer1": "Some programs offer accelerated options.",
+                "Answer2": "Master's degrees can take 1-2 years.",
+                "Answer3": "Doctoral programs vary but can take several years.",
+                "Answer4": "Associate degrees generally take 2 years.",
+                "Answer5": "The duration depends on the program and workload.",
+                "Answer6": "Part-time study may extend the completion time.",
+                "Answer7": "Consult the college's academic calendar for specifics."
+            },
+            "Context": 3,
+            "Confidence": 1
+        },
+        {
+            "Question": "What financial aid options are available for college?",
+            "Answers": {
+                "Answer0": "There are scholarships and grants.",
+                "Answer1": "Federal student loans are available.",
+                "Answer2": "Some colleges provide need-based aid.",
+                "Answer3": "Work-study programs offer part-time employment.",
+                "Answer4": "Private loans are an option for some students.",
+                "Answer5": "Financial aid packages may include a combination.",
+                "Answer6": "Complete the FAFSA to determine eligibility.",
+                "Answer7": "Contact the college's financial aid office for guidance."
+            },
+            "Context": 3,
+            "Confidence": 1
+        },
+        {
+            "Question": "Can I work while attending college?",
+            "Answers": {
+                "Answer0": "Many students work part-time jobs.",
+                "Answer1": "Flexible schedules can accommodate work.",
+                "Answer2": "Some colleges offer on-campus job opportunities.",
+                "Answer3": "Work-study programs provide employment options.",
+                "Answer4": "Balancing work and studies requires time management.",
+                "Answer5": "Consider your course load before committing to work.",
+                "Answer6": "Some programs incorporate internships for experience.",
+                "Answer7": "Consult with academic advisors regarding workload."
+            },
+            "Context": 3,
             "Confidence": 1
         },
         {
@@ -529,1237 +502,1572 @@
         },
         {
             "Question": "it's an ugly day today.",
-            "Answers": "i know. i think it may rain.",
+            "Answers": {
+                "Answer0": "i know. i think it may rain."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "i know. i think it may rain.",
-            "Answers": "it's the middle of summer, it shouldn't rain today.",
+            "Answers": {
+                "Answer0": "it's the middle of summer, it shouldn't rain today."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "it's the middle of summer, it shouldn't rain today.",
-            "Answers": "that would be weird.",
+            "Answers": {
+                "Answer0": "that would be weird."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "that would be weird.",
-            "Answers": "yeah, especially since it's ninety degrees outside.",
+            "Answers": {
+                "Answer0": "yeah, especially since it's ninety degrees outside."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "yeah, especially since it's ninety degrees outside.",
-            "Answers": "i know, it would be horrible if it rained and it was hot outside.",
+            "Answers": {
+                "Answer0": "i know, it would be horrible if it rained and it was hot outside."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "i know, it would be horrible if it rained and it was hot outside.",
-            "Answers": "yes, it would be. ",
+            "Answers": {
+                "Answer0": "yes, it would be. "
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "yes, it would be. ",
-            "Answers": "i really wish it wasn't so hot every day. ",
+            "Answers": {
+                "Answer0": "i really wish it wasn't so hot every day. "
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "i really wish it wasn't so hot every day. ",
-            "Answers": "me too. i can't wait until winter.",
+            "Answers": {
+                "Answer0": "me too. i can't wait until winter."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "me too. i can't wait until winter.",
-            "Answers": "i like winter too, but sometimes it gets too cold.",
+            "Answers": {
+                "Answer0": "i like winter too, but sometimes it gets too cold."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "i like winter too, but sometimes it gets too cold.",
-            "Answers": "i'd rather be cold than hot.",
+            "Answers": {
+                "Answer0": "i'd rather be cold than hot."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "i'd rather be cold than hot.",
-            "Answers": "me too.",
+            "Answers": {
+                "Answer0": "me too."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "it doesn't look very nice outside today.",
-            "Answers": "you're right. i think it's going to rain later.",
+            "Answers": {
+                "Answer0": "you're right. i think it's going to rain later."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "you're right. i think it's going to rain later.",
-            "Answers": "in the middle of the summer, it shouldn't be raining.",
+            "Answers": {
+                "Answer0": "in the middle of the summer, it shouldn't be raining."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "in the middle of the summer, it shouldn't be raining.",
-            "Answers": "that wouldn't seem right.",
+            "Answers": {
+                "Answer0": "that wouldn't seem right."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "that wouldn't seem right.",
-            "Answers": "considering that it's over ninety degrees outside, that would be weird.",
+            "Answers": {
+                "Answer0": "considering that it's over ninety degrees outside, that would be weird."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "considering that it's over ninety degrees outside, that would be weird.",
-            "Answers": "exactly, it wouldn't be nice if it started raining. it's too hot.",
+            "Answers": {
+                "Answer0": "exactly, it wouldn't be nice if it started raining. it's too hot."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "exactly, it wouldn't be nice if it started raining. it's too hot.",
-            "Answers": "i know, you're absolutely right.",
+            "Answers": {
+                "Answer0": "i know, you're absolutely right."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "i know, you're absolutely right.",
-            "Answers": "i wish it would cool off one day.",
+            "Answers": {
+                "Answer0": "i wish it would cool off one day."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "i wish it would cool off one day.",
-            "Answers": "that's how i feel, i want winter to come soon.",
+            "Answers": {
+                "Answer0": "that's how i feel, i want winter to come soon."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "that's how i feel, i want winter to come soon.",
-            "Answers": "i enjoy the winter, but it gets really cold sometimes.",
+            "Answers": {
+                "Answer0": "i enjoy the winter, but it gets really cold sometimes."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "i enjoy the winter, but it gets really cold sometimes.",
-            "Answers": "i know what you mean, but i'd rather be cold than hot.",
+            "Answers": {
+                "Answer0": "i know what you mean, but i'd rather be cold than hot."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "i know what you mean, but i'd rather be cold than hot.",
-            "Answers": "that's exactly how i feel.",
+            "Answers": {
+                "Answer0": "that's exactly how i feel."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "i wish it was a nicer day today.",
-            "Answers": "that is true. i hope it doesn't rain.",
+            "Answers": {
+                "Answer0": "that is true. i hope it doesn't rain."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "that is true. i hope it doesn't rain.",
-            "Answers": "it wouldn't rain in the middle of the summer.",
+            "Answers": {
+                "Answer0": "it wouldn't rain in the middle of the summer."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "it wouldn't rain in the middle of the summer.",
-            "Answers": "it wouldn't seem right if it started raining right now.",
+            "Answers": {
+                "Answer0": "it wouldn't seem right if it started raining right now."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "it wouldn't seem right if it started raining right now.",
-            "Answers": "it would be weird if it started raining in ninety degree weather.",
+            "Answers": {
+                "Answer0": "it would be weird if it started raining in ninety degree weather."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "it would be weird if it started raining in ninety degree weather.",
-            "Answers": "any rain right now would be pointless.",
+            "Answers": {
+                "Answer0": "any rain right now would be pointless."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "any rain right now would be pointless.",
-            "Answers": "that's right, it really would be.",
+            "Answers": {
+                "Answer0": "that's right, it really would be."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "that's right, it really would be.",
-            "Answers": "i want it to cool down some.",
+            "Answers": {
+                "Answer0": "i want it to cool down some."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "i want it to cool down some.",
-            "Answers": "i know what you mean, i can't wait until it's winter.",
+            "Answers": {
+                "Answer0": "i know what you mean, i can't wait until it's winter."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "i know what you mean, i can't wait until it's winter.",
-            "Answers": "winter is great. i wish it didn't get so cold sometimes though.",
+            "Answers": {
+                "Answer0": "winter is great. i wish it didn't get so cold sometimes though."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "winter is great. i wish it didn't get so cold sometimes though.",
-            "Answers": "i would rather deal with the winter than the summer.",
+            "Answers": {
+                "Answer0": "i would rather deal with the winter than the summer."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "it's such a nice day.",
-            "Answers": "yes, it is.",
+            "Answers": {
+                "Answer0": "yes, it is."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "yes, it is.",
-            "Answers": "it looks like it may rain soon.",
+            "Answers": {
+                "Answer0": "it looks like it may rain soon."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "it looks like it may rain soon.",
-            "Answers": "yes, and i hope that it does.",
+            "Answers": {
+                "Answer0": "yes, and i hope that it does."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "yes, and i hope that it does.",
-            "Answers": "why is that?",
+            "Answers": {
+                "Answer0": "why is that?"
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "why is that?",
-            "Answers": "i really love how rain clears the air.",
+            "Answers": {
+                "Answer0": "i really love how rain clears the air."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "i really love how rain clears the air.",
-            "Answers": "me too. it always smells so fresh after it rains.",
+            "Answers": {
+                "Answer0": "me too. it always smells so fresh after it rains."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "me too. it always smells so fresh after it rains.",
-            "Answers": "yes, but i love the night air after it rains.",
+            "Answers": {
+                "Answer0": "yes, but i love the night air after it rains."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "yes, but i love the night air after it rains.",
-            "Answers": "really? why is it?",
+            "Answers": {
+                "Answer0": "really? why is it?"
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "really? why is it?",
-            "Answers": "because you can see the stars perfectly.",
+            "Answers": {
+                "Answer0": "because you can see the stars perfectly."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "because you can see the stars perfectly.",
-            "Answers": "i really hope it rains today.",
+            "Answers": {
+                "Answer0": "i really hope it rains today."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "i really hope it rains today.",
-            "Answers": "yeah, me too.",
+            "Answers": {
+                "Answer0": "yeah, me too."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "isn't it a nice day?",
-            "Answers": "it really is.",
+            "Answers": {
+                "Answer0": "it really is."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "it really is.",
-            "Answers": "it seems that it may rain today.",
+            "Answers": {
+                "Answer0": "it seems that it may rain today."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "it seems that it may rain today.",
-            "Answers": "hopefully it will.",
+            "Answers": {
+                "Answer0": "hopefully it will."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "hopefully it will.",
-            "Answers": "how come?",
+            "Answers": {
+                "Answer0": "how come?"
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "how come?",
-            "Answers": "i like how clear the sky gets after it rains.",
+            "Answers": {
+                "Answer0": "i like how clear the sky gets after it rains.",
+                "Answer1": "you can see the stars so much more clearly after it rains."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "i like how clear the sky gets after it rains.",
-            "Answers": "i feel the same way. it smells so good after it rains.",
+            "Answers": {
+                "Answer0": "i feel the same way. it smells so good after it rains."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "i feel the same way. it smells so good after it rains.",
-            "Answers": "i especially love the night air when it rains.",
+            "Answers": {
+                "Answer0": "i especially love the night air when it rains."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "i especially love the night air when it rains.",
-            "Answers": "really? why?",
+            "Answers": {
+                "Answer0": "really? why?"
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "really? why?",
-            "Answers": "the stars look so much closer after it rains.",
+            "Answers": {
+                "Answer0": "the stars look so much closer after it rains."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "the stars look so much closer after it rains.",
-            "Answers": "i really want it to rain today.",
+            "Answers": {
+                "Answer0": "i really want it to rain today."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "i really want it to rain today.",
-            "Answers": "yeah, so do i.",
+            "Answers": {
+                "Answer0": "yeah, so do i."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "don't you think it's nice out?",
-            "Answers": "yes, i think so too.",
+            "Answers": {
+                "Answer0": "yes, i think so too."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "yes, i think so too.",
-            "Answers": "i think that it's going to rain.",
+            "Answers": {
+                "Answer0": "i think that it's going to rain."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "i think that it's going to rain.",
-            "Answers": "i hope that it does rain.",
+            "Answers": {
+                "Answer0": "i hope that it does rain."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "i hope that it does rain.",
-            "Answers": "you like the rain?",
+            "Answers": {
+                "Answer0": "you like the rain?"
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "you like the rain?",
-            "Answers": "the sky looks so clean after it rains. i love it.",
+            "Answers": {
+                "Answer0": "the sky looks so clean after it rains. i love it."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "the sky looks so clean after it rains. i love it.",
-            "Answers": "i understand. rain does make it smell cleaner.",
+            "Answers": {
+                "Answer0": "i understand. rain does make it smell cleaner."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "i understand. rain does make it smell cleaner.",
-            "Answers": "i love most how it is at night after it rains.",
+            "Answers": {
+                "Answer0": "i love most how it is at night after it rains."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "i love most how it is at night after it rains.",
-            "Answers": "how come?",
-            "Context": 10,
-            "Confidence": 1
-        },
-        {
-            "Question": "how come?",
-            "Answers": "you can see the stars so much more clearly after it rains.",
+            "Answers": {
+                "Answer0": "how come?"
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "you can see the stars so much more clearly after it rains.",
-            "Answers": "i would love for it to rain today.",
+            "Answers": {
+                "Answer0": "i would love for it to rain today."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "i really want to go to the beach this weekend.",
-            "Answers": "that sounds like fun. what's the weather going to be like?",
+            "Answers": {
+                "Answer0": "that sounds like fun. what's the weather going to be like?"
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "that sounds like fun. what's the weather going to be like?",
-            "Answers": "i heard that it's going to be warm this weekend.",
+            "Answers": {
+                "Answer0": "i heard that it's going to be warm this weekend."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "i heard that it's going to be warm this weekend.",
-            "Answers": "is it going to be perfect beach weather?",
+            "Answers": {
+                "Answer0": "is it going to be perfect beach weather?"
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "is it going to be perfect beach weather?",
-            "Answers": "i believe so.",
+            "Answers": {
+                "Answer0": "i believe so."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "i believe so.",
-            "Answers": "good. i hope it doesn't cool off this weekend.",
+            "Answers": {
+                "Answer0": "good. i hope it doesn't cool off this weekend."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "good. i hope it doesn't cool off this weekend.",
-            "Answers": "i know. i really want to go to the beach.",
+            "Answers": {
+                "Answer0": "i know. i really want to go to the beach."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "i know. i really want to go to the beach.",
-            "Answers": "but you know that california weather is really unpredictable.",
+            "Answers": {
+                "Answer0": "but you know that california weather is really unpredictable."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "but you know that california weather is really unpredictable.",
-            "Answers": "you're right. one minute it's hot, and then the next minute it's cold.",
+            "Answers": {
+                "Answer0": "you're right. one minute it's hot, and then the next minute it's cold."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "you're right. one minute it's hot, and then the next minute it's cold.",
-            "Answers": "i really wish the weather would just stay the same.",
+            "Answers": {
+                "Answer0": "i really wish the weather would just stay the same."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "i really wish the weather would just stay the same.",
-            "Answers": "i do too. that way we can have our activities planned ahead of time.",
+            "Answers": {
+                "Answer0": "i do too. that way we can have our activities planned ahead of time."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "i do too. that way we can have our activities planned ahead of time.",
-            "Answers": "yeah, that would make things a lot easier.",
+            "Answers": {
+                "Answer0": "yeah, that would make things a lot easier."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "i would like to take a trip to the beach this weekend.",
-            "Answers": "a trip to the beach would be fun. how is the weather going to be?",
+            "Answers": {
+                "Answer0": "a trip to the beach would be fun. how is the weather going to be?"
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "a trip to the beach would be fun. how is the weather going to be?",
-            "Answers": "the forecast says that it will be warm on the weekend.",
+            "Answers": {
+                "Answer0": "the forecast says that it will be warm on the weekend."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "the forecast says that it will be warm on the weekend.",
-            "Answers": "so do you think it'll be perfect weather for the beach?",
+            "Answers": {
+                "Answer0": "so do you think it'll be perfect weather for the beach?"
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "so do you think it'll be perfect weather for the beach?",
-            "Answers": "it sounds like it will be.",
+            "Answers": {
+                "Answer0": "it sounds like it will be."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "it sounds like it will be.",
-            "Answers": "i really hope it doesn't get cold.",
+            "Answers": {
+                "Answer0": "i really hope it doesn't get cold."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "i really hope it doesn't get cold.",
-            "Answers": "that would ruin things, i want to go so badly.",
+            "Answers": {
+                "Answer0": "that would ruin things, i want to go so badly."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "that would ruin things, i want to go so badly.",
-            "Answers": "the weather in california is unpredictable, so you never know.",
+            "Answers": {
+                "Answer0": "the weather in california is unpredictable, so you never know."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "the weather in california is unpredictable, so you never know.",
-            "Answers": "that is true. the weather is constantly changing.",
+            "Answers": {
+                "Answer0": "that is true. the weather is constantly changing."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "that is true. the weather is constantly changing.",
-            "Answers": "it would be nice if the weather would never change.",
+            "Answers": {
+                "Answer0": "it would be nice if the weather would never change."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "it would be nice if the weather would never change.",
-            "Answers": "that would be great, then we could plan things sooner.",
+            "Answers": {
+                "Answer0": "that would be great, then we could plan things sooner."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "that would be great, then we could plan things sooner.",
-            "Answers": "true. predictable weather would make life easier.",
+            "Answers": {
+                "Answer0": "true. predictable weather would make life easier."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "it would be nice to go to the beach sometime this weekend.",
-            "Answers": "what's the weather going to be like? i may want to go too.",
+            "Answers": {
+                "Answer0": "what's the weather going to be like? i may want to go too."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "what's the weather going to be like? i may want to go too.",
-            "Answers": "the weather this weekend is supposed to be warm.",
+            "Answers": {
+                "Answer0": "the weather this weekend is supposed to be warm."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "the weather this weekend is supposed to be warm.",
-            "Answers": "will it be good beach weather?",
+            "Answers": {
+                "Answer0": "will it be good beach weather?"
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "will it be good beach weather?",
-            "Answers": "i think it will be.",
+            "Answers": {
+                "Answer0": "i think it will be."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "i think it will be.",
-            "Answers": "it wouldn't be good if it got cold this weekend.",
+            "Answers": {
+                "Answer0": "it wouldn't be good if it got cold this weekend."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "it wouldn't be good if it got cold this weekend.",
-            "Answers": "i want this trip to be perfect, i hope it stays warm.",
+            "Answers": {
+                "Answer0": "i want this trip to be perfect, i hope it stays warm."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "i want this trip to be perfect, i hope it stays warm.",
-            "Answers": "this california weather is so uncertain, it's impossible to know what'll happen.",
+            "Answers": {
+                "Answer0": "this california weather is so uncertain, it's impossible to know what'll happen."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "this california weather is so uncertain, it's impossible to know what'll happen.",
-            "Answers": "i know. every day the weather seems different.",
+            "Answers": {
+                "Answer0": "i know. every day the weather seems different."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "i know. every day the weather seems different.",
-            "Answers": "i would love it if it wasn't always so unpredictable.",
+            "Answers": {
+                "Answer0": "i would love it if it wasn't always so unpredictable."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "i would love it if it wasn't always so unpredictable.",
-            "Answers": "that would make it easier for us to make plans.",
+            "Answers": {
+                "Answer0": "that would make it easier for us to make plans."
+            },
             "Context": 10,
             "Confidence": 1
         },
         {
             "Question": "why didn't you go to school yesterday?",
-            "Answers": "i stayed home because i wasn't feeling well.",
+            "Answers": {
+                "Answer0": "i stayed home because i wasn't feeling well.",
+                "Answer1": "i stayed home because i wasn't feeling well."
+            },
             "Context": 12,
             "Confidence": 1
         },
         {
             "Question": "i stayed home because i wasn't feeling well.",
-            "Answers": "what was your problem?",
+            "Answers": {
+                "Answer0": "what was your problem?",
+                "Answer1": "what was your problem?"
+            },
             "Context": 12,
             "Confidence": 1
         },
         {
             "Question": "what was your problem?",
-            "Answers": "my stomach was bothering me.",
+            "Answers": {
+                "Answer0": "my stomach was bothering me.",
+                "Answer1": "my stomach was bothering me."
+            },
             "Context": 12,
             "Confidence": 1
         },
         {
             "Question": "my stomach was bothering me.",
-            "Answers": "are you feeling any better?",
+            "Answers": {
+                "Answer0": "are you feeling any better?",
+                "Answer1": "are you feeling any better?"
+            },
             "Context": 12,
             "Confidence": 1
         },
         {
             "Question": "are you feeling any better?",
-            "Answers": "i'm still feeling a little sick.",
+            "Answers": {
+                "Answer0": "i'm still feeling a little sick.",
+                "Answer1": "i'm still feeling a little sick."
+            },
             "Context": 12,
             "Confidence": 1
         },
         {
             "Question": "i'm still feeling a little sick.",
-            "Answers": "i'm going to the store, would you like any pepto bismol?",
+            "Answers": {
+                "Answer0": "i'm going to the store, would you like any pepto bismol?",
+                "Answer1": "i'm going to the store, would you like any pepto bismol?"
+            },
             "Context": 12,
             "Confidence": 1
         },
         {
             "Question": "i'm going to the store, would you like any pepto bismol?",
-            "Answers": "that's okay.",
+            "Answers": {
+                "Answer0": "that's okay.",
+                "Answer1": "that's okay."
+            },
             "Context": 12,
             "Confidence": 1
         },
         {
             "Question": "that's okay.",
-            "Answers": "i hope you feel better.",
-            "Context": 12,
-            "Confidence": 1
-        },
-        {
-            "Question": "why didn't you go to school yesterday?",
-            "Answers": "i stayed home because i wasn't feeling well.",
-            "Context": 12,
-            "Confidence": 1
-        },
-        {
-            "Question": "i stayed home because i wasn't feeling well.",
-            "Answers": "what was your problem?",
-            "Context": 12,
-            "Confidence": 1
-        },
-        {
-            "Question": "what was your problem?",
-            "Answers": "my stomach was bothering me.",
-            "Context": 12,
-            "Confidence": 1
-        },
-        {
-            "Question": "my stomach was bothering me.",
-            "Answers": "are you feeling any better?",
-            "Context": 12,
-            "Confidence": 1
-        },
-        {
-            "Question": "are you feeling any better?",
-            "Answers": "i'm still feeling a little sick.",
-            "Context": 12,
-            "Confidence": 1
-        },
-        {
-            "Question": "i'm still feeling a little sick.",
-            "Answers": "i'm going to the store, would you like any pepto bismol?",
-            "Context": 12,
-            "Confidence": 1
-        },
-        {
-            "Question": "i'm going to the store, would you like any pepto bismol?",
-            "Answers": "that's okay.",
-            "Context": 12,
-            "Confidence": 1
-        },
-        {
-            "Question": "that's okay.",
-            "Answers": "i hope you feel better.",
+            "Answers": {
+                "Answer0": "i hope you feel better.",
+                "Answer1": "i hope you feel better."
+            },
             "Context": 12,
             "Confidence": 1
         },
         {
             "Question": "did you hear the good news?",
-            "Answers": "no, i haven't.",
+            "Answers": {
+                "Answer0": "no, i haven't."
+            },
             "Context": 19,
             "Confidence": 1
         },
         {
             "Question": "no, i haven't.",
-            "Answers": "i got a promotion at my job.",
+            "Answers": {
+                "Answer0": "i got a promotion at my job."
+            },
             "Context": 19,
             "Confidence": 1
         },
         {
             "Question": "i got a promotion at my job.",
-            "Answers": "did you really?",
+            "Answers": {
+                "Answer0": "did you really?"
+            },
             "Context": 19,
             "Confidence": 1
         },
         {
             "Question": "did you really?",
-            "Answers": "seriously, i am so excited.",
+            "Answers": {
+                "Answer0": "seriously, i am so excited."
+            },
             "Context": 19,
             "Confidence": 1
         },
         {
             "Question": "seriously, i am so excited.",
-            "Answers": "well, congratulations.",
+            "Answers": {
+                "Answer0": "well, congratulations."
+            },
             "Context": 19,
             "Confidence": 1
         },
         {
             "Question": "well, congratulations.",
-            "Answers": "thank you.",
+            "Answers": {
+                "Answer0": "thank you."
+            },
             "Context": 19,
             "Confidence": 1
         },
         {
             "Question": "thank you.",
-            "Answers": "i'm so happy for you.",
+            "Answers": {
+                "Answer0": "i'm so happy for you."
+            },
             "Context": 19,
             "Confidence": 1
         },
         {
             "Question": "i'm so happy for you.",
-            "Answers": "really?",
+            "Answers": {
+                "Answer0": "really?"
+            },
             "Context": 19,
             "Confidence": 1
         },
         {
             "Question": "really?",
-            "Answers": "yes. you really deserved this.",
+            "Answers": {
+                "Answer0": "yes. you really deserved this."
+            },
             "Context": 19,
             "Confidence": 1
         },
         {
             "Question": "yes. you really deserved this.",
-            "Answers": "you think so?",
+            "Answers": {
+                "Answer0": "you think so?"
+            },
             "Context": 19,
             "Confidence": 1
         },
         {
             "Question": "you think so?",
-            "Answers": "yes. good for you.",
+            "Answers": {
+                "Answer0": "yes. good for you."
+            },
             "Context": 19,
             "Confidence": 1
         },
         {
             "Question": "have you heard my good news?",
-            "Answers": "you haven't told me anything yet.",
+            "Answers": {
+                "Answer0": "you haven't told me anything yet."
+            },
             "Context": 19,
             "Confidence": 1
         },
         {
             "Question": "you haven't told me anything yet.",
-            "Answers": "i got a promotion at work earlier this week.",
+            "Answers": {
+                "Answer0": "i got a promotion at work earlier this week."
+            },
             "Context": 19,
             "Confidence": 1
         },
         {
             "Question": "i got a promotion at work earlier this week.",
-            "Answers": "is that right?",
+            "Answers": {
+                "Answer0": "is that right?"
+            },
             "Context": 19,
             "Confidence": 1
         },
         {
             "Question": "is that right?",
-            "Answers": "it's the truth. i am really happy.",
+            "Answers": {
+                "Answer0": "it's the truth. i am really happy."
+            },
             "Context": 19,
             "Confidence": 1
         },
         {
             "Question": "it's the truth. i am really happy.",
-            "Answers": "congratulations on your promotion.",
+            "Answers": {
+                "Answer0": "congratulations on your promotion."
+            },
             "Context": 19,
             "Confidence": 1
         },
         {
             "Question": "congratulations on your promotion.",
-            "Answers": "thank you very much.",
+            "Answers": {
+                "Answer0": "thank you very much."
+            },
             "Context": 19,
             "Confidence": 1
         },
         {
             "Question": "thank you very much.",
-            "Answers": "i am really excited for you.",
+            "Answers": {
+                "Answer0": "i am really excited for you.",
+                "Answer1": "i wish i had a talent like that."
+            },
             "Context": 19,
             "Confidence": 1
         },
         {
             "Question": "i am really excited for you.",
-            "Answers": "are you really?",
+            "Answers": {
+                "Answer0": "are you really?"
+            },
             "Context": 19,
             "Confidence": 1
         },
         {
             "Question": "are you really?",
-            "Answers": "i'm serious. you deserved this promotion.",
+            "Answers": {
+                "Answer0": "i'm serious. you deserved this promotion."
+            },
             "Context": 19,
             "Confidence": 1
         },
         {
             "Question": "i'm serious. you deserved this promotion.",
-            "Answers": "is that what you really think?",
+            "Answers": {
+                "Answer0": "is that what you really think?"
+            },
             "Context": 19,
             "Confidence": 1
         },
         {
             "Question": "is that what you really think?",
-            "Answers": "yes, i do.",
+            "Answers": {
+                "Answer0": "yes, i do."
+            },
             "Context": 19,
             "Confidence": 1
         },
         {
             "Question": "i haven't told you what happened yet, have i?",
-            "Answers": "i haven't heard anything.",
+            "Answers": {
+                "Answer0": "i haven't heard anything."
+            },
             "Context": 19,
             "Confidence": 1
         },
         {
             "Question": "i haven't heard anything.",
-            "Answers": "my boss offered me a promotion, and i took it.",
+            "Answers": {
+                "Answer0": "my boss offered me a promotion, and i took it."
+            },
             "Context": 19,
             "Confidence": 1
         },
         {
             "Question": "my boss offered me a promotion, and i took it.",
-            "Answers": "are you serious?",
+            "Answers": {
+                "Answer0": "are you serious?"
+            },
             "Context": 19,
             "Confidence": 1
         },
         {
             "Question": "are you serious?",
-            "Answers": "yes, i am really excited.",
+            "Answers": {
+                "Answer0": "yes, i am really excited."
+            },
             "Context": 19,
             "Confidence": 1
         },
         {
             "Question": "yes, i am really excited.",
-            "Answers": "that's great. congratulations.",
+            "Answers": {
+                "Answer0": "that's great. congratulations."
+            },
             "Context": 19,
             "Confidence": 1
         },
         {
             "Question": "that's great. congratulations.",
-            "Answers": "i appreciate that.",
+            "Answers": {
+                "Answer0": "i appreciate that."
+            },
             "Context": 19,
             "Confidence": 1
         },
         {
             "Question": "i appreciate that.",
-            "Answers": "you have no idea how happy i am for you.",
+            "Answers": {
+                "Answer0": "you have no idea how happy i am for you.",
+                "Answer1": "talent is a great thing, i wish i had one."
+            },
             "Context": 19,
             "Confidence": 1
         },
         {
             "Question": "you have no idea how happy i am for you.",
-            "Answers": "for real?",
+            "Answers": {
+                "Answer0": "for real?"
+            },
             "Context": 19,
             "Confidence": 1
         },
         {
             "Question": "you look really nice today. ",
-            "Answers": "thank you. i just got this outfit the other day.",
+            "Answers": {
+                "Answer0": "thank you. i just got this outfit the other day."
+            },
             "Context": 92,
             "Confidence": 1
         },
         {
             "Question": "thank you. i just got this outfit the other day.",
-            "Answers": "really, where did you get it?",
+            "Answers": {
+                "Answer0": "really, where did you get it?"
+            },
             "Context": 92,
             "Confidence": 1
         },
         {
             "Question": "really, where did you get it?",
-            "Answers": "i got it from macy's.",
+            "Answers": {
+                "Answer0": "i got it from macy's."
+            },
             "Context": 92,
             "Confidence": 1
         },
         {
             "Question": "i got it from macy's.",
-            "Answers": "it's really nice.",
+            "Answers": {
+                "Answer0": "it's really nice."
+            },
             "Context": 92,
             "Confidence": 1
         },
         {
             "Question": "it's really nice.",
-            "Answers": "thanks again. you look nice today, too.",
+            "Answers": {
+                "Answer0": "thanks again. you look nice today, too."
+            },
             "Context": 92,
             "Confidence": 1
         },
         {
             "Question": "thanks again. you look nice today, too.",
-            "Answers": "thank you. i just got these shoes today.",
+            "Answers": {
+                "Answer0": "thank you. i just got these shoes today."
+            },
             "Context": 92,
             "Confidence": 1
         },
         {
             "Question": "thank you. i just got these shoes today.",
-            "Answers": "really? what kind of shoes are they?",
+            "Answers": {
+                "Answer0": "really? what kind of shoes are they?"
+            },
             "Context": 92,
             "Confidence": 1
         },
         {
             "Question": "really? what kind of shoes are they?",
-            "Answers": "these are called all star chuck taylors.",
+            "Answers": {
+                "Answer0": "these are called all star chuck taylors."
+            },
             "Context": 92,
             "Confidence": 1
         },
         {
             "Question": "these are called all star chuck taylors.",
-            "Answers": "i really like those. how much did they cost?",
+            "Answers": {
+                "Answer0": "i really like those. how much did they cost?"
+            },
             "Context": 92,
             "Confidence": 1
         },
         {
             "Question": "i really like those. how much did they cost?",
-            "Answers": "they were about forty dollars.",
+            "Answers": {
+                "Answer0": "they were about forty dollars."
+            },
             "Context": 92,
             "Confidence": 1
         },
         {
             "Question": "they were about forty dollars.",
-            "Answers": "i think i'm going to go buy myself a pair.",
+            "Answers": {
+                "Answer0": "i think i'm going to go buy myself a pair."
+            },
             "Context": 92,
             "Confidence": 1
         },
         {
             "Question": "i absolutely love what you're wearing today.",
-            "Answers": "you do? i just bought this outfit a couple days ago.",
+            "Answers": {
+                "Answer0": "you do? i just bought this outfit a couple days ago."
+            },
             "Context": 92,
             "Confidence": 1
         },
         {
             "Question": "you do? i just bought this outfit a couple days ago.",
-            "Answers": "seriously, it looks really nice on you. where did you buy it from?",
+            "Answers": {
+                "Answer0": "seriously, it looks really nice on you. where did you buy it from?"
+            },
             "Context": 92,
             "Confidence": 1
         },
         {
             "Question": "seriously, it looks really nice on you. where did you buy it from?",
-            "Answers": "i bought it from the macy's at the santa anita mall.",
+            "Answers": {
+                "Answer0": "i bought it from the macy's at the santa anita mall."
+            },
             "Context": 92,
             "Confidence": 1
         },
         {
             "Question": "i bought it from the macy's at the santa anita mall.",
-            "Answers": "i really like that outfit.",
+            "Answers": {
+                "Answer0": "i really like that outfit."
+            },
             "Context": 92,
             "Confidence": 1
         },
         {
             "Question": "i really like that outfit.",
-            "Answers": "thanks. i think you look nice today, too.",
+            "Answers": {
+                "Answer0": "thanks. i think you look nice today, too."
+            },
             "Context": 92,
             "Confidence": 1
         },
         {
             "Question": "thanks. i think you look nice today, too.",
-            "Answers": "thank you. i just bought these new shoes earlier today.",
+            "Answers": {
+                "Answer0": "thank you. i just bought these new shoes earlier today."
+            },
             "Context": 92,
             "Confidence": 1
         },
         {
             "Question": "thank you. i just bought these new shoes earlier today.",
-            "Answers": "those are nice. what are they?",
+            "Answers": {
+                "Answer0": "those are nice. what are they?"
+            },
             "Context": 92,
             "Confidence": 1
         },
         {
             "Question": "those are nice. what are they?",
-            "Answers": "these are some chucks.",
+            "Answers": {
+                "Answer0": "these are some chucks."
+            },
             "Context": 92,
             "Confidence": 1
         },
         {
             "Question": "these are some chucks.",
-            "Answers": "those are great. how much were they?",
+            "Answers": {
+                "Answer0": "those are great. how much were they?"
+            },
             "Context": 92,
             "Confidence": 1
         },
         {
             "Question": "those are great. how much were they?",
-            "Answers": "i got them for forty.",
+            "Answers": {
+                "Answer0": "i got them for forty."
+            },
             "Context": 92,
             "Confidence": 1
         },
         {
             "Question": "i got them for forty.",
-            "Answers": "i think i might go and find me my own pair of chucks.",
+            "Answers": {
+                "Answer0": "i think i might go and find me my own pair of chucks."
+            },
             "Context": 92,
             "Confidence": 1
         },
         {
             "Question": "i think that you look very cute today.",
-            "Answers": "is that right? this is a brand new outfit.",
+            "Answers": {
+                "Answer0": "is that right? this is a brand new outfit."
+            },
             "Context": 92,
             "Confidence": 1
         },
         {
             "Question": "is that right? this is a brand new outfit.",
-            "Answers": "what store did you get it from?",
+            "Answers": {
+                "Answer0": "what store did you get it from?"
+            },
             "Context": 92,
             "Confidence": 1
         },
         {
             "Question": "what store did you get it from?",
-            "Answers": "i went to macy's and picked it out.",
+            "Answers": {
+                "Answer0": "i went to macy's and picked it out."
+            },
             "Context": 92,
             "Confidence": 1
         },
         {
             "Question": "i went to macy's and picked it out.",
-            "Answers": "i love your outfit right now.",
+            "Answers": {
+                "Answer0": "i love your outfit right now."
+            },
             "Context": 92,
             "Confidence": 1
         },
         {
             "Question": "i love your outfit right now.",
-            "Answers": "well, i think you look nice today too.",
+            "Answers": {
+                "Answer0": "well, i think you look nice today too."
+            },
             "Context": 92,
             "Confidence": 1
         },
         {
             "Question": "well, i think you look nice today too.",
-            "Answers": "thanks. i found these new shoes earlier at the store.",
+            "Answers": {
+                "Answer0": "thanks. i found these new shoes earlier at the store."
+            },
             "Context": 92,
             "Confidence": 1
         },
         {
             "Question": "thanks. i found these new shoes earlier at the store.",
-            "Answers": "i think that those are some really nice shoes. what kind are they?",
+            "Answers": {
+                "Answer0": "i think that those are some really nice shoes. what kind are they?"
+            },
             "Context": 92,
             "Confidence": 1
         },
         {
             "Question": "i think that those are some really nice shoes. what kind are they?",
-            "Answers": "these are chucks.",
+            "Answers": {
+                "Answer0": "these are chucks."
+            },
             "Context": 92,
             "Confidence": 1
         },
         {
             "Question": "these are chucks.",
-            "Answers": "your shoes look really nice. how much did you get them for?",
+            "Answers": {
+                "Answer0": "your shoes look really nice. how much did you get them for?"
+            },
             "Context": 92,
             "Confidence": 1
         },
         {
             "Question": "your shoes look really nice. how much did you get them for?",
-            "Answers": "they only cost me about forty dollars.",
+            "Answers": {
+                "Answer0": "they only cost me about forty dollars."
+            },
             "Context": 92,
             "Confidence": 1
         },
         {
             "Question": "tell me, what do you enjoy doing in your spare time?",
-            "Answers": "i enjoy drawing and painting.",
+            "Answers": {
+                "Answer0": "i enjoy drawing and painting."
+            },
             "Context": 100,
             "Confidence": 1
         },
         {
             "Question": "i enjoy drawing and painting.",
-            "Answers": "you know how to draw and paint?",
+            "Answers": {
+                "Answer0": "you know how to draw and paint?"
+            },
             "Context": 100,
             "Confidence": 1
         },
         {
             "Question": "you know how to draw and paint?",
-            "Answers": "yes, i do.",
+            "Answers": {
+                "Answer0": "yes, i do."
+            },
             "Context": 100,
             "Confidence": 1
         },
         {
             "Question": "yes, i do.",
-            "Answers": "when did you learn how to do that?",
+            "Answers": {
+                "Answer0": "when did you learn how to do that?"
+            },
             "Context": 100,
             "Confidence": 1
         },
         {
             "Question": "when did you learn how to do that?",
-            "Answers": "i learned back in high school.",
+            "Answers": {
+                "Answer0": "i learned back in high school."
+            },
             "Context": 100,
             "Confidence": 1
         },
         {
             "Question": "i learned back in high school.",
-            "Answers": "oh, so you took an art class?",
+            "Answers": {
+                "Answer0": "oh, so you took an art class?"
+            },
             "Context": 100,
             "Confidence": 1
         },
         {
             "Question": "oh, so you took an art class?",
-            "Answers": "yeah, i loved that class.",
+            "Answers": {
+                "Answer0": "yeah, i loved that class."
+            },
             "Context": 100,
             "Confidence": 1
         },
         {
             "Question": "yeah, i loved that class.",
-            "Answers": "i see that you're pretty talented.",
+            "Answers": {
+                "Answer0": "i see that you're pretty talented."
+            },
             "Context": 100,
             "Confidence": 1
         },
         {
             "Question": "i see that you're pretty talented.",
-            "Answers": "thank you very much.",
-            "Context": 100,
-            "Confidence": 1
-        },
-        {
-            "Question": "thank you very much.",
-            "Answers": "i wish i had a talent like that.",
+            "Answers": {
+                "Answer0": "thank you very much."
+            },
             "Context": 100,
             "Confidence": 1
         },
         {
             "Question": "i wish i had a talent like that.",
-            "Answers": "i'm sure you have a talent. it's just hidden.",
+            "Answers": {
+                "Answer0": "i'm sure you have a talent. it's just hidden."
+            },
             "Context": 100,
             "Confidence": 1
         },
         {
             "Question": "what kinds of things do you like to do?",
-            "Answers": "i've always liked to draw and paint.",
+            "Answers": {
+                "Answer0": "i've always liked to draw and paint."
+            },
             "Context": 100,
             "Confidence": 1
         },
         {
             "Question": "i've always liked to draw and paint.",
-            "Answers": "i didn't know you knew how to draw and paint.",
+            "Answers": {
+                "Answer0": "i didn't know you knew how to draw and paint."
+            },
             "Context": 100,
             "Confidence": 1
         },
         {
             "Question": "i didn't know you knew how to draw and paint.",
-            "Answers": "i do it every once in a while.",
+            "Answers": {
+                "Answer0": "i do it every once in a while."
+            },
             "Context": 100,
             "Confidence": 1
         },
         {
             "Question": "i do it every once in a while.",
-            "Answers": "how long have you known how to do that?",
+            "Answers": {
+                "Answer0": "how long have you known how to do that?"
+            },
             "Context": 100,
             "Confidence": 1
         },
         {
             "Question": "how long have you known how to do that?",
-            "Answers": "i first learned how to do it in high school.",
+            "Answers": {
+                "Answer0": "i first learned how to do it in high school."
+            },
             "Context": 100,
             "Confidence": 1
         },
         {
             "Question": "i first learned how to do it in high school.",
-            "Answers": "did you take some sort of art class or something?",
+            "Answers": {
+                "Answer0": "did you take some sort of art class or something?"
+            },
             "Context": 100,
             "Confidence": 1
         },
         {
             "Question": "did you take some sort of art class or something?",
-            "Answers": "that was my favorite class.",
+            "Answers": {
+                "Answer0": "that was my favorite class."
+            },
             "Context": 100,
             "Confidence": 1
         },
         {
             "Question": "that was my favorite class.",
-            "Answers": "you have got to be talented.",
+            "Answers": {
+                "Answer0": "you have got to be talented."
+            },
             "Context": 100,
             "Confidence": 1
         },
         {
             "Question": "you have got to be talented.",
-            "Answers": "thanks.",
+            "Answers": {
+                "Answer0": "thanks."
+            },
             "Context": 100,
             "Confidence": 1
         },
         {
             "Question": "thanks.",
-            "Answers": "if only i was talented.",
+            "Answers": {
+                "Answer0": "if only i was talented."
+            },
             "Context": 100,
             "Confidence": 1
         },
         {
             "Question": "if only i was talented.",
-            "Answers": "you have a talent. you just don't know what it is yet.",
+            "Answers": {
+                "Answer0": "you have a talent. you just don't know what it is yet."
+            },
             "Context": 100,
             "Confidence": 1
         },
         {
             "Question": "are there any hobbies you do?",
-            "Answers": "when i have time, i sometimes draw and paint.",
+            "Answers": {
+                "Answer0": "when i have time, i sometimes draw and paint."
+            },
             "Context": 100,
             "Confidence": 1
         },
         {
             "Question": "when i have time, i sometimes draw and paint.",
-            "Answers": "oh, you actually do that?",
+            "Answers": {
+                "Answer0": "oh, you actually do that?"
+            },
             "Context": 100,
             "Confidence": 1
         },
         {
             "Question": "oh, you actually do that?",
-            "Answers": "every so often, i do.",
+            "Answers": {
+                "Answer0": "every so often, i do."
+            },
             "Context": 100,
             "Confidence": 1
         },
         {
             "Question": "every so often, i do.",
-            "Answers": "did you always know how to draw and paint?",
+            "Answers": {
+                "Answer0": "did you always know how to draw and paint?"
+            },
             "Context": 100,
             "Confidence": 1
         },
         {
             "Question": "did you always know how to draw and paint?",
-            "Answers": "i was taught in high school how to draw and paint.",
+            "Answers": {
+                "Answer0": "i was taught in high school how to draw and paint."
+            },
             "Context": 100,
             "Confidence": 1
         },
         {
             "Question": "i was taught in high school how to draw and paint.",
-            "Answers": "you had an art class?",
+            "Answers": {
+                "Answer0": "you had an art class?"
+            },
             "Context": 100,
             "Confidence": 1
         },
         {
             "Question": "you had an art class?",
-            "Answers": "exactly, it was my favorite class.",
+            "Answers": {
+                "Answer0": "exactly, it was my favorite class."
+            },
             "Context": 100,
             "Confidence": 1
         },
         {
             "Question": "exactly, it was my favorite class.",
-            "Answers": "well, it's good that you're so talented.",
+            "Answers": {
+                "Answer0": "well, it's good that you're so talented."
+            },
             "Context": 100,
             "Confidence": 1
         },
         {
             "Question": "well, it's good that you're so talented.",
-            "Answers": "i appreciate that.",
-            "Context": 100,
-            "Confidence": 1
-        },
-        {
-            "Question": "i appreciate that.",
-            "Answers": "talent is a great thing, i wish i had one.",
+            "Answers": {
+                "Answer0": "i appreciate that."
+            },
             "Context": 100,
             "Confidence": 1
         }

@@ -78,6 +78,7 @@ def removeCommonWords(message : str) -> str:
     filteredList : list = [word for word in allWords if word.lower() not in commonWords] 
     joinedText =  ' '.join(filteredList)
     joinedText = joinedText.replace("?","")
+    joinedText = joinedText.replace("!","")
     joinedText = joinedText.replace(",","")
     joinedText = joinedText.replace(".","")
     return joinedText
@@ -173,6 +174,7 @@ def membership(message : str) -> float:
     return cluster
 
 def getBestAnswer(userMessage : str) -> str:
+    userMessage = userMessage.lower()
     messageContext : float = membership(userMessage)
     if messageContext == -1:
         return "Sorry, I didn't quite understand that"
@@ -211,19 +213,21 @@ def selfTrain()-> None:
         Data["messages"].append(messData.copy())
         with open('Data/Data.json',"w") as f:
             json.dump(Data,f,indent=4)
-        
-MODE : str = input("'Train' the chat or Have a 'fun' chat? \n")
 
-if MODE.lower() == "train":
-    print(membership("Hi how are you"))
-    # print("Training Mode on")
-    # selfTrain()
-    # merge_messages()
-    trainMode = input("(Train) or Train from (Dataset)")
-    if trainMode.lower() == "dataset":
-        TrainFromDataSet()
-    else:
-        Train()
-elif MODE == "fun":
-    while True:
-        print(getBestAnswer(input("Enter message: ")))
+if __name__ == "__main__":
+
+    MODE : str = input("'Train' the chat or Have a 'fun' chat? \n")
+
+    if MODE.lower() == "train":
+        print(membership("Hi how are you"))
+        # print("Training Mode on")
+        # selfTrain()
+        # merge_messages()
+        trainMode = input("(Train) or Train from (Dataset)")
+        if trainMode.lower() == "dataset":
+            TrainFromDataSet()
+        else:
+            Train()
+    elif MODE == "fun":
+        while True:
+            print(getBestAnswer(input("Enter message: ")))
