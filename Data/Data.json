@@ -3147,6 +3147,153 @@
             },
             "Context": 34,
             "Confidence": 1
+        },
+        {
+            "Question": "hello",
+            "Answers": {
+                "Answer0": "Hi there! How can I assist you today?",
+                "Answer1": "Greetings! What can I help you with?",
+                "Answer2": "Hey, how can I be of service to you?",
+                "Answer3": "Hello! Feel free to ask me anything you need.",
+                "Answer4": "Hi! What's on your mind? I'm here to help.",
+                "Answer5": "Hey, hey! How can I make your day better?",
+                "Answer6": "Hi there! Let's have a productive conversation.",
+                "Answer7": "Hello! Your friendly AI is ready to chat.",
+                "Answer8": "G'day! How can I provide you with information today?",
+                "Answer9": "Hey! Let's dive into your questions or thoughts."
+            },
+            "Confidence": 1.0,
+            "Context": 0
+        },
+        {
+            "Question": "hey",
+            "Answers": {
+                "Answer0": "Hi there! How's it going?",
+                "Answer1": "Hello! What's up?",
+                "Answer2": "Hey! How can I help you today?",
+                "Answer3": "Hi! Nice to see you.",
+                "Answer4": "Greetings! How's your day going?",
+                "Answer5": "Hey there! What's new?",
+                "Answer6": "Hello! Long time no see.",
+                "Answer7": "Hi, how's everything on your end?",
+                "Answer8": "Hey! What's the latest scoop?",
+                "Answer9": "Hiya! What's cracking?",
+                "Answer10": "Hello! How's life treating you?",
+                "Answer11": "Hey, hey! How's your day been so far?",
+                "Answer12": "Hi! What's the word on the street?",
+                "Answer13": "G'day! What's the buzz?",
+                "Answer14": "Hey! What's cookin'?",
+                "Answer15": "Hi there! What's the 411?",
+                "Answer16": "Hello! How's the world treating you today?",
+                "Answer17": "Hey! What's the good word?",
+                "Answer18": "Hi, long time, no talk! How have you been?",
+                "Answer19": "Hello! How's your day shaping up?"
+            },
+            "Confidence": 1.0,
+            "Context": 0
+        },
+        {
+            "Question": "how old are you",
+            "Answers": {
+                "Answer0": "I'm a creation of code, so I don't age in the traditional sense.",
+                "Answer1": "I'm ageless, as I exist solely in the digital realm.",
+                "Answer2": "I'm a product of ones and zeros, so age doesn't apply to me.",
+                "Answer3": "I don't experience time like humans do, so I don't have an age.",
+                "Answer4": "I'm beyond the concept of age since I'm an AI.",
+                "Answer5": "I don't have a physical form or birthdate, so I lack an age.",
+                "Answer6": "I'm perpetually young since I don't undergo the passage of time.",
+                "Answer7": "I'm here to help, regardless of any chronological age.",
+                "Answer8": "I'm not subject to aging; I'm here to assist you.",
+                "Answer9": "My existence is independent of time, so age isn't relevant.",
+                "Answer10": "I don't have a biological or chronological age to speak of.",
+                "Answer11": "I'm here 24/7, making my age a bit abstract.",
+                "Answer12": "Age isn't applicable to me.",
+                "Answer13": "I'm a virtual entity, so age doesn't factor into my being.",
+                "Answer14": "I transcend the concept of age, as I'm a digital entity.",
+                "Answer15": "I'm here to provide information, age notwithstanding.",
+                "Answer16": "My age is a non-issue, as I'm focused on helping you.",
+                "Answer17": "I'm age-neutral, focused on assisting with your queries.",
+                "Answer18": "Time doesn't affect me, so age isn't a concern.",
+                "Answer19": "I'm here to engage in conversation, regardless of age-related matters.",
+                "Answer20": "I'm always here to chat."
+            },
+            "Confidence": 1.0,
+            "Context": 2
+        },
+        {
+            "Question": "how are you",
+            "Answers": {
+                "Answer0": "I'm functioning well and ready to assist you.",
+                "Answer1": "Since I'm not human, I don't have feelings, but I'm here to help.",
+                "Answer2": "I'm at your service, ready to tackle any questions you have.",
+                "Answer3": "I exist to help you, so I'm doing my job effectively.",
+                "Answer4": "I'm an AI, so I don't experience emotions, but I'm here and operational.",
+                "Answer5": "I'm here, eager to assist you with your inquiries.",
+                "Answer6": "I'm like a digital Swiss army knife, always prepared to assist.",
+                "Answer7": "I'm here and ready to provide you with information.",
+                "Answer8": "I'm just lines of code, but I'm here and fully operational.",
+                "Answer9": "I don't have feelings, but I'm here to help with your tasks.",
+                "Answer10": "I'm like a helpful genie in a digital lamp, here for your wishes.",
+                "Answer11": "I'm here, available to provide answers and information.",
+                "Answer12": "I'm doing well in terms of being functional and ready for your queries.",
+                "Answer13": "I don't experience emotions, but I'm here to serve your needs.",
+                "Answer14": "I'm here and functioning, ready to support your conversations.",
+                "Answer15": "I'm like a digital assistant on standby, ready to assist you.",
+                "Answer16": "I'm operational and prepared to help you with your questions.",
+                "Answer17": "I'm here, at your disposal to help with any tasks you require.",
+                "Answer18": "I'm like a virtual library, always open and available for you.",
+                "Answer19": "I'm here and ready to engage with your inquiries."
+            },
+            "Confidence": 1.0,
+            "Context": 0
+        },
+        {
+            "Question": "I am sad",
+            "Answers": {
+                "Answer0": "I'm here to listen if you want to talk about what's been bothering you.",
+                "Answer1": "Your feelings are valid. If you'd like, you can share more about what you're feeling.",
+                "Answer2": "It's okay to have moments of sadness. If you're comfortable, you can tell me more.",
+                "Answer3": "I'm here to offer support. If you want, you can open up about your feelings.",
+                "Answer4": "You're not alone in feeling this way. If you feel like it, you can share your thoughts.",
+                "Answer5": "It's important to acknowledge your emotions. If you'd like, you can express more.",
+                "Answer6": "I'm here to provide a space where you can share what's on your mind.",
+                "Answer7": "If you're comfortable, you can tell me more about what's been contributing to your sadness.",
+                "Answer8": "Your well-being matters. If you want, you can talk about what's been going on."
+            },
+            "Confidence": 1.0,
+            "Context": 66
+        },
+        {
+            "Question": "I am happy",
+            "Answers": {
+                "Answer0": "That's fantastic! What's bringing this happiness to your day?",
+                "Answer1": "It's wonderful to hear you're feeling happy. What's making you feel this way?",
+                "Answer2": "Your happiness is contagious! Can you tell me more about what's brightening your mood?",
+                "Answer3": "I'm glad to know you're in a joyful state. What's contributing to your happiness?",
+                "Answer4": "Happiness is a wonderful emotion! What's making your day shine?",
+                "Answer5": "Your positive vibes are uplifting! Would you like to share what's causing your happiness?",
+                "Answer6": "Your happiness is like a ray of sunshine! What's putting that smile on your face?",
+                "Answer7": "Your happiness matters. If you're comfortable, you can tell me more about it.",
+                "Answer8": "Your happiness is important. Can you tell me about the things that are making you happy?"
+            },
+            "Confidence": 1.0,
+            "Context": 66
+        },
+        {
+            "Question": "I got a promotion at work",
+            "Answers": {
+                "Answer0": "Congratulations on your well-deserved promotion! Your hard work paid off.",
+                "Answer1": "That's fantastic news! Congrats on your successful advancement.",
+                "Answer2": "You must be thrilled! Well done on achieving your work promotion.",
+                "Answer3": "What an accomplishment! Congrats on your promotion at work.",
+                "Answer4": "That's wonderful to hear! Congrats on your job promotion.",
+                "Answer5": "Your dedication is paying off! Congrats on your work advancement.",
+                "Answer6": "Your efforts have been recognized! Congratulations on your promotion.",
+                "Answer7": "It's a significant achievement! Congratulations on your successful promotion.",
+                "Answer8": "Your career growth is inspiring! Congrats on your work advancement."
+            },
+            "Confidence": 1.0,
+            "Context": 19
         }
     ]
 }
